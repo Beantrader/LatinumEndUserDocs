@@ -1,0 +1,30 @@
+Studies
+=======
+
+In Latinum indicators are located under the Studies menu bar item.
+
+Inserting
+---------
+
+To insert an indicator:
+
+#. Select Studies > Insert Studies from the menu bar. A dialog window displaying the available indicators is displayed.
+#. You can browse available indicators or use the text entry box near the top of the dialog window to filter the indicators by name (e.g. RSI) or description (e.g. Relative Strength Index).
+#. When you find the indicator you want select it using the arrow keys (or mouse), and press Enter (or select the Apply button). Another dialog window will be displayed which allows you to specify indicator specific parameters, and colors.
+#. Select the OK button to attach the indicator to the active chart.
+
+Editing
+-------
+
+To edit the parameters of an indicator already attached to a chart:
+
+#. Select Window > Outliner. A tool window is displayed showing a tree representation of a charts indicators (or Studies) and drawings.
+#. Right-click the indicator in and select Edit Attributes.
+
+Removing
+--------
+
+To remove an indicator from a chart:
+
+#. Select Window > Outliner.
+#. Right-click the indicator in and select Delete

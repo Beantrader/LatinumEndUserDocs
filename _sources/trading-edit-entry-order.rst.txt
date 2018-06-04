@@ -1,0 +1,27 @@
+Edit Entry Order
+================
+
+#. In the Orders table, right-click an entry order, and then select **Edit Entry Order**.
+#. The **Edit Entry Order** dialog box will be shown.
+
+   .. image:: images/edit-entry-order.png
+      :width: 366px
+      :height: 312px
+
+   You can change the order being edited by selecting another Order ID.
+
+#. In the **Amount** box, type the amount (order size, units) of the order.
+
+   *Note that the Amount may be either “Amount” or “Amount (K)”. **The K suffix indicates that the number entered is thousands; The following amounts are equal - “Amount 20000” equals “Amount (K) 20 K”*
+   
+   The **Pip Pip** value shown is the pip value of the order.
+   
+   The **Usd Mr** value shown is the margin required by the order.
+
+#. In the **Rate** box, type the entry price of the order.
+
+#. Select **OK** to submit your modified order, or **Cancel** to close the dialog discarding your changes.
+
+   If no errors occur the dialog box will close automatically, otherwise the error message will be displayed.
+   
+   Tip: If you receive an error message regarding Stop or Limit values, you may need to edit those orders first.

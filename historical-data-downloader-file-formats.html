@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Historical Data Downloader File Formats &mdash; Latinum User 6.5.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Edit Stop Order for an Open Trade" href="trading-edit-stop-order-for-an-open-trade.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Historical Data Downloader File Formats</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#csv-document-latinum">CSV Document (Latinum)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#csv-document-metatrader-4">CSV Document (MetaTrader 4)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plain-text-document-ninjatrader-7">Plain Text Document (NinjaTrader 7)</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Historical Data Downloader File Formats</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/historical-data-downloader-file-formats.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="historical-data-downloader-file-formats">
+<h1>Historical Data Downloader File Formats<a class="headerlink" href="#historical-data-downloader-file-formats" title="Permalink to this headline">¶</a></h1>
+<a class="reference internal image-reference" href="_images/historical-data-downloader.png"><img alt="_images/historical-data-downloader.png" src="_images/historical-data-downloader.png" style="width: 425px; height: 324px;" /></a>
+<p>To open <strong>Historical Data Downloader</strong></p>
+<ul class="simple">
+<li>In the main menu select <strong>File</strong>, then point to <strong>Export</strong> and click <strong>Historical Data</strong>.</li>
+</ul>
+<div class="section" id="csv-document-latinum">
+<h2>CSV Document (Latinum)<a class="headerlink" href="#csv-document-latinum" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Tick Format</dt>
+<dd>Bid and Ask are both saved, ignoring the selection made in the downloader window.
+<code class="docutils literal notranslate"><span class="pre">yyyy.MM.dd</span> <span class="pre">hh:mm:ss,bid,ask,volume</span></code></dd>
+<dt>Minute Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyy.MM.dd</span> <span class="pre">hh:mm:ss,open,high,low,close,volume</span></code></dd>
+<dt>Daily Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyy.MM.dd</span> <span class="pre">hh:mm:ss,open,high,low,close,volume</span></code></dd>
+<dt>Filename Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">symbol_interval_offer-side_start-date_end-date.csv</span></code></dd>
+</dl>
+</div>
+<div class="section" id="csv-document-metatrader-4">
+<h2>CSV Document (MetaTrader 4)<a class="headerlink" href="#csv-document-metatrader-4" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Tick Format</dt>
+<dd>Not supported</dd>
+<dt>Minute Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyy.MM.dd</span> <span class="pre">hh:mm:ss,open,high,low,close,volume</span></code></dd>
+<dt>Daily Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyy.MM.dd</span> <span class="pre">hh:mm:ss,open,high,low,close,volume</span></code></dd>
+<dt>Filename Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">symbol_interval_offer-side_start-date_end-date.csv</span></code></dd>
+</dl>
+</div>
+<div class="section" id="plain-text-document-ninjatrader-7">
+<h2>Plain Text Document (NinjaTrader 7)<a class="headerlink" href="#plain-text-document-ninjatrader-7" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Tick Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyyMMdd</span> <span class="pre">hhmmss;price;volume</span></code></dd>
+<dt>Minute Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyyMMdd</span> <span class="pre">hhmmss;open</span> <span class="pre">price;high</span> <span class="pre">price;low</span> <span class="pre">price;close</span> <span class="pre">price;volume</span></code></dd>
+<dt>Daily Bars Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">yyyyMMdd;open</span> <span class="pre">price;high</span> <span class="pre">price;low</span> <span class="pre">price;close</span> <span class="pre">price;volume</span></code></dd>
+<dt>Filename Format</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">symbol.offer-side.txt</span></code></dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="trading-edit-stop-order-for-an-open-trade.html" class="btn btn-neutral" title="Edit Stop Order for an Open Trade" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.5.2',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

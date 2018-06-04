@@ -1,0 +1,22 @@
+Edit Limit Order for an Open Trade
+----------------------------------
+
+**Not available for FIFO (US) accounts**
+
+#. In the Trades table, right-click a trade, and then select **Edit Limit Order**.
+#. The **Edit Limit Order** dialog box will be shown.
+
+    .. image:: images/edit-limit-order-for-an-open-trade.png
+       :width: 366px
+       :height: 316px
+
+#. Select **Rate** to specify the Limit (Take Profit) order price, or select **Pips** to specify the Limit order in pips offset from the trades entry price.
+
+   If you enter the value in pips, the value is positive for buy/long trades, negative for sell/short trades.
+   
+   If there is no existing Limit order attached to the trade you put a tick into the 
+   **Limit** checkbox. To remove the Limit order uncheck the **Limit** checkbox.
+
+#. Select **OK** to submit your modified order, or **Cancel** to close the dialog discarding your changes.
+
+   If no errors occur the dialog box will close automatically, otherwise the error message will be displayed.

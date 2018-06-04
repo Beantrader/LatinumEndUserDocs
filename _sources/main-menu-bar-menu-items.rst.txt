@@ -1,0 +1,211 @@
+Main Menu Bar Menu Items
+========================
+
+The App Menu
+------------
+
+*The app menu is shown only on macOS.*
+
+About Latinum
+   Opens the About window, which contains the app's copyright information and version number.
+Report a Bug
+   Opens your web browser to the Latinum issue trader. You can submit bug reports, or feature requests.
+Preferences...
+   Opens a preferences window. Changes made in the preferences window affect the whole application. Some changes require the application to be restarted.
+Quit Latinum
+   Exits the application.
+
+The File Menu
+-------------
+New Window
+   Creates a new main window, where you can open a separate workspace.
+New Chart
+   Creates a new chart in the current workspace.
+New Chart
+   Creates a new chart in the current workspace.
+Workspaces
+   See `The File > Workspaces Menu <file_menu_workspace_>`_
+Close Pane
+   Closes the active pane in the workspace, this will also schedule the pane for deletion. All charts displayed in the workspace are contained in panes.
+Close All Panes
+   Closes all panes the the current workspace, they will all be scheduled for deletion.
+Close Other Panes
+   Closes all panes except the active pane in the workspace, closed panes will be schedule for deletion.
+Import
+   See `The File > Import Menu <file_menu_import_>`_
+Export
+   See `The File > Export Menu <file_menu_export_>`_
+Page Setup
+   Opens the page setup dialog, to change the page settings used when printing.
+Print Preview
+   Opens the print preview dialog, to preview how a print will look.
+Print...
+   Prints an image of the current workspace.
+Broker
+   See `The File > Broker Menu <file_menu_broker_>`_
+Sign in to Beantrader
+   Opens a signin dialog to signin to you Beantrader account.
+Sign in as "username"
+   Displays options for the currently logged in Beantrader user.
+Opens
+   Opens a options window. Changes made in the options window affect the whole application. Some changes require the application to be restarted. Not displayed on macOS.
+Exit
+   Exits the application. Not displayed on macOS.
+
+
+.. _file_menu_workspace:
+
+The File > Workspaces Menu
+--------------------------------------------------------------
+
+Contains menu items to switch to other workspaces and save workspaces.
+
+Select Previous Workspace
+   Opens the previous (alphabetically) workspace, closes the current workspace.
+Select Next Workspace
+   Opens the next (alphabetically) workspace, closes the current workspace.
+"Workspace Name"
+   Opens the workspace with "Workspace Name", closes the current workspace.
+Revert "Workspace Name"
+   Re-opens the workspace with "Workspace Name". If you accidently closed a chart pane and want it back you can revert the workspace to its last save state. Reverting a workspace will cause you to lose all changes made since the last save. Auto saving workspaces every 10 minutes is set by default.
+New Workspace...
+   Opens the workspace save dialog. If you give the same workspace name as the current workspace if will be overwritten, equivalent to "Save this workspace". If you give it another name the current workspace won't be saved, any changes since its last save will be applied to the new workspace, equivalent to "Save workspace as".
+Manage Workspaces...
+   Opens the manage workspace dialog.
+
+
+.. _file_menu_import:
+
+The File > Import Menu
+-------------------------------------------------------
+
+Workspace...
+   Import a previously exported workspace.
+Template...
+   Imports a previously saved chart study template.
+
+
+.. _file_menu_export:
+
+The File > Export Menu
+-------------------------------------------------------
+
+Image...
+   Opens the export image dialog. Export images of the entire workspace of a single chart.
+Workspace...
+   Export the current workspace for import archive or for import to another installation.
+
+
+.. _file_menu_broker:
+
+The File > Broker Menu
+-------------------------------------------------------
+
+Login...
+   Open the login dialog to signin to your broker.
+Logout
+   Log out of the broker.
+Change Password...
+   Change you broker password.
+Symbols...
+   Opens the symbol subscription dialog. With FXCM you should enable subscriptions for all the symbols you want live prices for and symbols you want to trade.
+
+The View Menu
+-------------
+
+Show Toolbar
+   Show or hide the drawing toolbar.
+Show Format Bar
+   Show or hide the format bar. The format bar contains the fill and stroke color pickers.
+Show Statusbar
+   Show or hide the status bar. The status bar contains the connection status, and server time.
+Show Clean Screen
+   Hides all the main toolbars, mini blotter, markets sidebar. Clear you screen.
+Mini Blotter
+   Show or hide the mini blotter. The mini blotter contains trading related information, such as open positions, pending orders, and closed positions.
+Markets
+   Show or hide the price table.
+Show Tabbed
+   Changes the workspace view to tabbed, each pane will be on a separate tab, maximised.
+Enter Full Screen
+   Change to full screen mode.
+
+The Chart Menu
+--------------
+Study Template
+   Save a chart study template or load an existing chart study template.
+Color Scheme
+   Change the active color scheme.
+Reload All Data
+   Reload all the data for the active chart.
+Symbol Search...
+   Opens a dialog to search for a symbol. The symbol selected will replace the active charts symbol.
+Chart Properties
+   Opens the chart properties/options dialog. These properties are independant for each chart. Not all chart properties are displayed in this dialog. You will find more options by right-clicking the chart or an axis.
+
+The Interval Menu
+-----------------
+
+Change the active charts interval.
+
+s5 = Five Seconds m1 = One Minute m2 = Two Minutes H1 = One Hour H2 = Two Hours D1 = Daily W1 = Weekly M1 = Monthly Q1 = Quarterly Y1 = Yearly
+
+The Studies Menu
+----------------
+
+Insert Study...
+   Opens a dialog to search for an available indicator or overlay, most but not all studies are shown in this dialog. The selected study will be applied to the active chart in the workspace.
+
+
+The Drawing Menu
+----------------
+
+The Drawing menu contains menu items for all enabled drawing tools. It also contains drawing related actions.
+
+Select
+   The select tool allows selecting a drawing with the mouse.
+Move
+   The move tool allows moving a drawing with the mouse, the drawing will be selected after being moved. The move tool will move the entire drawing, if you want to only move a single point use the pen tool.
+Eraser
+   The eraser will erase and delete any drawing you click on.
+Pen
+   The pen tool can be used to move single points of a drawing. For example, a trend line has two points use the pen tool to move each point individually.
+Measure
+   The measure tool can be used to measure both time and price changes with the mouse. With the tool activated click on a point on the chart and drag to another point without releasing the mouse button, percent change, number of bars, slope information is displayed.
+Hand
+   The hand tool allows panning backwards and forward in time, and high or lower in price. Disable price axis autoscalling if you want to pan the price axis.
+Zoom
+   Allows zooming into a rectangular selection. Zooming in and out isalso possible using the mouse scroll wheel while holding the Control key. You can also zoom in and out by clicking and draging the axes.
+Default Colors
+   Resets the fill and stroke colors to there defaults values. If a drawing is selected the color changed will also be applied to it.
+Swap Colors
+   Swap the colors of the fill and stroke. If a drawing is selected the color changed will also be applied to it.
+Magnet Mode
+   Enable or disable snapping to the charts data points, snaps to high, low, open, close values.
+
+The Window Menu
+---------------
+Minimize
+   Hides the window. Show it again using alt-tab, or clicking the icon in the taskbar or dock.
+Select Previous Pane
+   Activate the previous pane. Also works in tabbed mode.
+Select Next Pane
+   Activate the next pane. Also works in tabbed mode.
+Select Previous Pane
+   Activate the previous pane. Also works in tabbed mode.
+Arrange Panes
+   Re-organize the panes in the current workspace by the selected algorithm.
+Data Window
+   Opens a data window in a separate tool window.
+Outliner
+   Opens a tree representation of the drawings and studies attached to a chart. The contents automatically update when the active chart changes.
+
+The Help Menu
+-------------
+Latinum Help
+   Opens your web browser to 
+   `support.beantrader.com.au <http://support.beantrader.com.au>`_
+Report a Bug
+   Opens your web browser to the Latinum issue trader. You can submit bug reports, or feature requests. Not displayed on macOS.
+About Latinum
+   Opens the About window, which contains the app's copyright information and version number. Not displayed on macOS.

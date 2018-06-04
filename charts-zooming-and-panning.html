@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Zooming and Panning &mdash; Latinum User 6.5.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Studies" href="studies.html" />
+    <link rel="prev" title="Candlestick Trend Chart Type" href="candlestick-trend-chart-type.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Zooming and Panning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#zooming-price-and-time">Zooming Price and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#panning-around-the-chart-data">Panning Around the Chart Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical-data-downloader-file-formats.html">Historical Data Downloader File Formats</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Zooming and Panning</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/charts-zooming-and-panning.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="zooming-and-panning">
+<h1>Zooming and Panning<a class="headerlink" href="#zooming-and-panning" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="zooming-price-and-time">
+<h2>Zooming Price and Time<a class="headerlink" href="#zooming-price-and-time" title="Permalink to this headline">¶</a></h2>
+<p>The time axis is interactive. You can zoom in and out of the chart by clicking and dragging the time axis left or right. You can also zoom using the mouse wheel, or the minus and equals/plus keys.</p>
+<p>With Binance, all history is available from since Binance added the coin to their exchange. If it doesn’t load try the menu item
+<em>Chart &gt; Reload &gt; Reload All Data</em>, if it still doesn’t load it probably means that it wasn’t listed on the exchange prior to the first candles time. Other exchanges provide fewer candles so they can’t be shown.</p>
+<p>To show more bars (zoom out). Click the time axis and drag left.</p>
+<p>To show fewer bars (zoom in). Click the time axis and drag right.</p>
+<p>You can reset the time scale zoom from the context menu (aka right-click menu) of the time axis, or press Control+0 (Command+0 on mac). You can also fit the entire data range in the chart view from the same menu, but this only fits the loaded data (it doesn’t retrieve more data from the server).</p>
+<p>You can expand and compress the price height by clicking and dragging the price axis up or down. When you do this the auto-scale feature is switched off automatically if you want to re-enable autoscaling double-click the price axis (or select
+<em>Auto Scale</em> from the price axis context menu).</p>
+<p>If you scroll back in time to view historic candles you may want to turn off the
+<em>Track Right</em> option from the chart properties window (from Chart &gt; Chart Properties menu item). When this option is switched on (the default) the price scrolls forward in time as new bars are created.</p>
+<p>To shift the price up or down, press Control (Command on Mac) and scroll up or down while the mouse cursor is over the price axis. Scrolling up or down without pressing Control (or Command on Mac) will scroll the chart backwards or forwards in time.</p>
+<p>If you want to show a gap between the price data and the top and bottom of the chart, set chart margins from the Chart Properties window. From this window, you can also set the amount of empty space shown after the last bar using the Right Margin option.</p>
+</div>
+<div class="section" id="panning-around-the-chart-data">
+<h2>Panning Around the Chart Data<a class="headerlink" href="#panning-around-the-chart-data" title="Permalink to this headline">¶</a></h2>
+<p>Use the Hand tool (from the left side toolbar/tool-palette, or
+<em>Drawing &gt; Hand</em> menu item). You may want to turn off Auto Scale option for more control. See the Zooming section (above) for other options that may affect panning behaviour (like the Track Right option).</p>
+<p>To pan backwards in time, select the Hand tool, then click on the chart and drag left. Drag right to pan forwards.</p>
+<p>To pan up or down, disable autoscale (as described in Zooming section), select the Hand tool, then click and drag up or down.</p>
+<p>You can also press the Page Up key to page forwards, the Page Down key to page backwards, and the End key to return to the latest bar.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="studies.html" class="btn btn-neutral float-right" title="Studies" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="candlestick-trend-chart-type.html" class="btn btn-neutral" title="Candlestick Trend Chart Type" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.5.2',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

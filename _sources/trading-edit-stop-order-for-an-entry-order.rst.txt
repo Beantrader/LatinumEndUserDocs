@@ -1,0 +1,21 @@
+Edit Stop Order for an Entry Order
+==================================
+
+#. In the Orders table, right-click an entry order, and then select **Edit Stop Order**.
+#. The **Edit Stop Order** dialog box will be shown.
+
+   .. image:: images/edit-stop-order-for-entry-order.png
+      :width: 372px
+      :height: 370px
+
+#. Select 
+   **Rate** to specify the Stop Loss order price, or select **Pips** to specify the Stop Loss order in pips offset from the orders entry price.
+   
+   If you enter the value in pips, the value is negative for buy entry orders, positive for sell entry orders.
+   
+   If there is no existing Stop order attached to the Entry order you put a tick into the 
+   **Stop** checkbox. To remove the Stop order uncheck the **Stop** checkbox.
+#. To make your stop order to a trailing stop, select Fixed or Dynamic. If you select Fixed trailing enter the step size in pips into the next box.
+#. Select **OK** to submit your modified order, or **Cancel** to close the dialog discarding your changes.
+   
+   If no errors occur the dialog box will close automatically, otherwise the error message will be displayed.

@@ -1,0 +1,29 @@
+.. Latinum User documentation master file, created by
+   sphinx-quickstart on Mon Jun  4 08:08:37 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Latinum User's documentation!
+========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   main-menu-bar-menu-items
+   workspace-basics
+   charts-settings
+   candlestick-trend-chart-type
+   charts-zooming-and-panning
+   studies
+   trading
+   historical-data-downloader-file-formats
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

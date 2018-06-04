@@ -1,0 +1,63 @@
+Charts Settings
+===============
+
+Changing the Symbol
+-------------------
+
+Main Menu Method:
+~~~~~~~~~~~~~~~~~
+
+#. With the chart sub-window active, select Charts > Symbol Search menu item
+#. Select USD/JPY or some other symbol
+#. Select OK
+
+Chart Toolbar Method:
+~~~~~~~~~~~~~~~~~~~~~
+
+#. Right-Click (or Control+Click on Mac) the chart sub-window, ensure Show Toolbar is checked in the context menu
+#. The chart will have a toolbar allowing you to change the symbol using a combo-box
+
+
+Changing the Interval
+---------------------
+
+Main Menu Method:
+~~~~~~~~~~~~~~~~~
+
+#. Activate the chart you want to change the interval of by clicking on its title bar or a blank space within the chart
+#. Select an Interval from the Interval main menu
+
+
+Context Menu Method:
+~~~~~~~~~~~~~~~~~~~~
+
+#. Right-click the chart
+#. Select the Interval sub-menu
+#. then select the Interval
+
+Chart Toolbar Method:
+~~~~~~~~~~~~~~~~~~~~~
+
+#. Show the chart toolbar by right-clicking (or Control+Click on Mac) the chart
+#. Ensure Show Toolbar is checked
+#. Change the Interval selected on the chart toolbar
+
+
+Chart Scaling
+-------------
+
+Plot Top and Bottom Margin
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Select Chart > Chart Properties main menu entry
+#. From the Chart Properties dialog, select the Scaling tab
+#. Ensure Use Margins is checked
+#. Enter a percentage of the charts height to use for the top and bottom margins
+#. Select OK
+
+Change Scale Type
+~~~~~~~~~~~~~~~~~
+
+You can select from Linear, or Semi-Log chart scaling.
+
+#. Right-click the charts price axis and select Linear Scale for Linear scales, or select Log Scale for Semi-Log chart scales

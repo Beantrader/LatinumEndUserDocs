@@ -1,0 +1,27 @@
+Candlestick Trend Chart Type
+============================
+
+The Candlestick Trend chart type is derived from the Candlestick chart type, but uses a coloring algorithm that also considers the previous candles closing price.
+
+The recommended Color Scheme to use with Candlestick Trend is 
+**Red Black and White**.
+
+Combinations when using the Red Black and White color scheme.
+
+Hollow Black
+	( Close > Previous Close ) and ( Close >= Open )
+
+Hollow Red
+	( Close < Previous Close ) and ( Close >= Open )
+
+Hollow Gray
+	( Close = Previous Close ) and ( Close >= Open )
+
+Filled Black
+	( Close > Previous Close ) and ( Close < Open )
+
+Filled Red
+	( Close < Previous Close ) and ( Close < Open )
+
+Filled Gray
+	( Close = Previous Close ) and ( Close < Open )
