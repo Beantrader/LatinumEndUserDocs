@@ -1,4 +1,6 @@
 WebQuery
 ========
 
+*Available for FXCM connections only*
+
 The WebQuery API Documentation is on the `Latinum Homepage <http://www.beantrader.com.au/products/latinum/web-query/>`_
