@@ -20,12 +20,3 @@ Welcome to Latinum User's documentation!
    trading
    webquery
    historical-data-downloader-file-formats
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
