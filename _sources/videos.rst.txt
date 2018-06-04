@@ -1,0 +1,6 @@
+Videos
+======
+
+`Latinum 6: How to make a workspace with symbol and interval linking <https://youtu.be/GE1mt3o7stY>`_
+
+Shows how to create a workspace in Latinum, where some charts are linked by symbol and some charts are linked by interval. Also quickly covers saving and applying Study Templates.

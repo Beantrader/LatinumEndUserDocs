@@ -10,6 +10,7 @@ Welcome to Latinum User's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   videos
    main-menu-bar-menu-items
    workspace-basics
    charts-settings
