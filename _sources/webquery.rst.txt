@@ -1,0 +1,4 @@
+WebQuery
+========
+
+The WebQuery API Documentation is on the `Latinum Homepage <http://www.beantrader.com.au/products/latinum/web-query/>`_

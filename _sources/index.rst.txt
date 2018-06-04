@@ -17,6 +17,7 @@ Welcome to Latinum User's documentation!
    charts-zooming-and-panning
    studies
    trading
+   webquery
    historical-data-downloader-file-formats
 
 
