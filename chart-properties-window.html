@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Chart Properties window &mdash; Latinum User 6.5.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Candlestick Trend Chart Type" href="candlestick-trend-chart-type.html" />
+    <link rel="prev" title="Charts Settings" href="charts-settings.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="videos.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Chart Properties window</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-tab">Data tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chart-properties-tab">Chart Properties tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#style-tab">Style tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#timezone-tab">Timezone tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scaling-tab">Scaling tab</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Chart Properties window</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/chart-properties-window.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="chart-properties-window">
+<h1>Chart Properties window<a class="headerlink" href="#chart-properties-window" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="data-tab">
+<h2>Data tab<a class="headerlink" href="#data-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Show bars with zero volume</dt>
+<dd>Keep bars with zero volume instead of removing them if the data source doesn’t provide zero volume bars they are created. Created bars use the previous bars close price for the new bars open, high, low, and close values.</dd>
+<dt>Show Weekend Data</dt>
+<dd>Keep bars (and price updates) that occur on the weekend. This option does not affect symbols trading 24/7 (e.g cryptos).</dd>
+<dt>Candle Open Price</dt>
+<dd><p class="first">Choose what price to use for the candle open price.</p>
+<ul class="last simple">
+<li>First Tick - Use the first tick received at or after the candle start time</li>
+<li>Previous Close - Use the previous candles close as the new candles open price</li>
+</ul>
+</dd>
+<dt>Edit Data Range</dt>
+<dd>Set the range of data to load into the chart. The range can be two dates, an end date and a number of bars, or dynamic. Dynamic is the default, additional bars are loaded on demand when you scroll back in time.</dd>
+</dl>
+</div>
+<div class="section" id="chart-properties-tab">
+<h2>Chart Properties tab<a class="headerlink" href="#chart-properties-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Show Data Tips</dt>
+<dd>Show a floating window that displays the price, date, and indicator values for the current bar the mouse is hovering.</dd>
+<dt>Show Toolbar</dt>
+<dd>Show the toolbar, some chart properties can only be accessed from the toolbar. You can use the keyboard shortcut to quickly show/hide the toolbar if you need to change those properties.</dd>
+<dt>Show Grid</dt>
+<dd>Show horizontal and vertical lines behind the symbols price display. Only vertical lines are displayed for sub-plots (i.e indicator windows).</dd>
+<dt>Show Session Breaks</dt>
+<dd>Shows vertical lines at the end-of-day time for intraday charts. On chart intervals larger than one day, the vertical lines appear weekly or monthly.</dd>
+<dt>Show Countdown</dt>
+<dd>Shows the remaining time until the next bar is expected. This will countdown to zero and restart when the first tick of the new bar is received.</dd>
+<dt>Show Legend</dt>
+<dd>Shows a small colored box or icon that represents indicator output. The name of the output is also displayed. Some indicators use their own colors, so the legend icon will not match.</dd>
+<dt>Show Watermark</dt>
+<dd>Display the symbol and interval text at the top-centre of the chart</dd>
+<dt>Show studies tabbed</dt>
+<dd>Displays indicators sub-plots in tabs instead of stacked vertically under the main plot</dd>
+<dt>Value Axis (Y) - Font</dt>
+<dd>Set a custom font for the price axis</dd>
+<dt>Date Axis (X) - Font</dt>
+<dd>Set a custom font for the date-time axis</dd>
+</dl>
+</div>
+<div class="section" id="style-tab">
+<h2>Style tab<a class="headerlink" href="#style-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Chart Type</dt>
+<dd>Set the chart type displayed for the main symbol</dd>
+<dt>Show price line</dt>
+<dd>Shows a horizontal line across the entire chart at the level of the last candles close price</dd>
+</dl>
+</div>
+<div class="section" id="timezone-tab">
+<h2>Timezone tab<a class="headerlink" href="#timezone-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Displayed Timezone</dt>
+<dd><p class="first">Select the time-zone used to display date-time values on the charts X axis, and in the data tip.</p>
+<ul class="last simple">
+<li>Local - use the system time zone</li>
+<li>UTC - use UTC/GMT</li>
+<li>Exchange - Use the time-zone that is specified in the symbol directory. For Forex and US stocks this is usually New York time, for cryptos this is UTC or UTC+8 for some of the Asian exchanges.</li>
+<li>Other - allows you to set any available time-zone</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="scaling-tab">
+<h2>Scaling tab<a class="headerlink" href="#scaling-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Auto Scale</dt>
+<dd>The price axis is automatically adjusted to fit the price data displayed</dd>
+<dt>Log Scale</dt>
+<dd>Use log scale for price axis</dd>
+<dt>Track right</dt>
+<dd>Automatically scroll right as new bars are created or received</dd>
+<dt>Use margins</dt>
+<dd>Enable or disable the top and bottom margins</dd>
+<dt>Top Margin</dt>
+<dd>Margin as a percentage of window height to leave empty above the main price data</dd>
+<dt>Bottom Margin</dt>
+<dd>Margin as a percentage of window height to leave empty below the main price data</dd>
+<dt>Right Margin</dt>
+<dd>Number of bars after the last bar to leave empty</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="candlestick-trend-chart-type.html" class="btn btn-neutral float-right" title="Candlestick Trend Chart Type" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="charts-settings.html" class="btn btn-neutral" title="Charts Settings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.5.2',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
