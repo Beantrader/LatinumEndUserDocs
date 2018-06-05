@@ -6,7 +6,7 @@ ADX, MACD, RSI, Stochastic, Bollinger Bands,
 and also includes candlestick pattern recognition.
 In addition to the classic indicators provided by TA-Lib, Latinum also includes
 Daily Pivot Point, Volume by Price, and studies that color candlesticks
-or arrows based on moving average crossover.
+or display arrows based on moving average crossover.
 
 In Latinum indicators are located under the Studies menu bar item.
 
