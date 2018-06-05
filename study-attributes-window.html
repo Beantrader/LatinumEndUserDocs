@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Edit Limit Order for an Entry Order &mdash; Latinum User 6.5.2 documentation</title>
+  <title>Study Attributes window &mdash; Latinum User 6.5.2 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Edit Stop Order for an Open Trade" href="trading-edit-stop-order-for-an-open-trade.html" />
-    <link rel="prev" title="Edit Entry Order" href="trading-edit-entry-order.html" /> 
+    <link rel="next" title="Trading" href="trading.html" />
+    <link rel="prev" title="Studies" href="studies.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -89,15 +89,15 @@
 <li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="trading.html">Trading</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-stop-order-for-an-entry-order.html">Edit Stop Order for an Entry Order</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-limit-order-for-an-open-trade.html">Edit Limit Order for an Open Trade</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-entry-order.html">Edit Entry Order</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Edit Limit Order for an Entry Order</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-stop-order-for-an-open-trade.html">Edit Stop Order for an Open Trade</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Study Attributes window</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#parameters-tab">Parameters tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#view-style-tab">View Style tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#axis-tab">Axis tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#series-tab">Series tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#help-tab">Help tab</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
 </ul>
 
@@ -144,15 +144,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-          <li><a href="trading.html">Trading</a> &raquo;</li>
-        
-      <li>Edit Limit Order for an Entry Order</li>
+      <li>Study Attributes window</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/trading-edit-limit-order-for-an-entry-order.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/study-attributes-window.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -165,23 +163,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="edit-limit-order-for-an-entry-order">
-<h1>Edit Limit Order for an Entry Order<a class="headerlink" href="#edit-limit-order-for-an-entry-order" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic">
-<li><p class="first">In the Orders table, right-click an entry order, and then select <strong>Edit Limit Order</strong>.</p>
-</li>
-<li><p class="first">The <strong>Edit Limit Order</strong> dialog box will be shown.</p>
-<a class="reference internal image-reference" href="_images/edit-limit-order-for-an-entry-order.png"><img alt="_images/edit-limit-order-for-an-entry-order.png" src="_images/edit-limit-order-for-an-entry-order.png" style="width: 366px; height: 316px;" /></a>
-</li>
-<li><p class="first">Select <strong>Rate</strong> to specify the Limit (Take Profit) order price, or select <strong>Pips</strong> to specify the Limit order in pips offset from the orders entry price.</p>
-<p>If you enter the value in pips, the value is positive for buy entry orders, negative for sell entry orders.</p>
-<p>If there is no existing Limit order attached to the Entry order you put a tick into the
-<strong>Limit</strong> checkbox. To remove the Limit order uncheck the <strong>Limit</strong> checkbox.</p>
-</li>
-<li><p class="first">Select <strong>OK</strong> to submit your modified order, or <strong>Cancel</strong> to close the dialog discarding your changes.</p>
-<p>If no errors occur the dialog box will close automatically, otherwise the error message will be displayed.</p>
-</li>
-</ol>
+  <div class="section" id="study-attributes-window">
+<h1>Study Attributes window<a class="headerlink" href="#study-attributes-window" title="Permalink to this headline">¶</a></h1>
+<p>Many of the studies use a similar looking properties/attributes window that window is described here. Some studies provide their own properties window such as the Volume by Price indicator, and some studies don’t have any editable attributes.</p>
+<p>The terms <em>Study Attributes</em> and <em>Study Properties</em> may be used interchangeably.</p>
+<div class="section" id="parameters-tab">
+<h2>Parameters tab<a class="headerlink" href="#parameters-tab" title="Permalink to this headline">¶</a></h2>
+<p>The parameters tab contains optional input parameters that affect the indicators calculation. Most of the time the input is an integer (whole number). Sometimes the input is a number that represents a mode or function an indicator should use internally, for example, the Stochastic Oscillator allows defining the moving-average type used internally, 0 (zero) represents SMA, 1 (one) represents EMA. The tool-tip will show valid options.</p>
+</div>
+<div class="section" id="view-style-tab">
+<h2>View Style tab<a class="headerlink" href="#view-style-tab" title="Permalink to this headline">¶</a></h2>
+<p>The view style tab contains options that affect the color and width of lines displayed by an indicator. There is one color option for each of the indicators outputs. The color and line width may be ignored by the indicator.</p>
+</div>
+<div class="section" id="axis-tab">
+<h2>Axis tab<a class="headerlink" href="#axis-tab" title="Permalink to this headline">¶</a></h2>
+<p>The axis tab contains display options for indicators that appear in their own sub-plot (i.e not overlays).</p>
+<dl class="docutils">
+<dt>Min and Max</dt>
+<dd>If set the Max value is used as the largest value on the y-axis, Min is used for the smallest value on the y-axis. If both Min and Max are empty autoscaling is used.</dd>
+<dt>Levels</dt>
+<dd>Input a separated list of numbers. For each number, a horizontal line is drawing across the chart. For example, if you want to show lines at 30, 70 on an RSI indicator input “30 70”.</dd>
+<dt>Digits</dt>
+<dd>The digits attribute controls the number of decimal places displayed on the y-axis, use -1 (negative one) to switch on number abbreviations (e.g 1000000 is shown as 1M).</dd>
+</dl>
+</div>
+<div class="section" id="series-tab">
+<h2>Series tab<a class="headerlink" href="#series-tab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Price source</dt>
+<dd>Select the input price source for the indicator. This only affects indicators that use a single input series (i.e not a candle). This value can also be ignored by some indicators that are always calculated with a certain price type (e.g Awesome Oscillator always uses Median).</dd>
+<dt>Bars Offset</dt>
+<dd>Input type is a number of bars. Shift the studies’ outputs forward or backwards by the number of bars. Use a negative number to shift backwards. Some indicators use an internal offset (e.g Ichimoku), the internal offset and the bars offset you specify here are added together for the final offset.</dd>
+</dl>
+</div>
+<div class="section" id="help-tab">
+<h2>Help tab<a class="headerlink" href="#help-tab" title="Permalink to this headline">¶</a></h2>
+<p>Displays text provided by the indicator, if the indicator doesn’t provide any help text the tab may be hidden.</p>
+</div>
 </div>
 
 
@@ -192,10 +210,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="trading-edit-stop-order-for-an-open-trade.html" class="btn btn-neutral float-right" title="Edit Stop Order for an Open Trade" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="trading.html" class="btn btn-neutral float-right" title="Trading" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="trading-edit-entry-order.html" class="btn btn-neutral" title="Edit Entry Order" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="studies.html" class="btn btn-neutral" title="Studies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

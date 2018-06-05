@@ -18,5 +18,6 @@ Welcome to Latinum User's documentation!
    candlestick-trend-chart-type
    charts-zooming-and-panning
    studies
+   study-attributes-window
    trading
    exporting-data
