@@ -3,4 +3,7 @@ WebQuery
 
 *Available for FXCM connections only*
 
+The Web Query server allows retrieving [*exporting*] up-to-date prices,
+historic candles and tick data with any application or programming language that supports HTTP and JSON.
+
 The WebQuery API Documentation is on the `Latinum Homepage <http://www.beantrader.com.au/products/latinum/web-query/>`_
