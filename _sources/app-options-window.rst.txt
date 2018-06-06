@@ -105,4 +105,4 @@ Language > Regional Formats tab
    :align: center
 
 Language and country:
-  Select the language and country combination you want to use for number are date formatting. The application supports using a comma or period for the decimal point.
+  Select the language and country combination you want to use for number and date formatting. The application supports using a comma or period for the decimal point.
