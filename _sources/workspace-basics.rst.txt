@@ -7,8 +7,7 @@ Workspace overview
 The arrangement of charts (and other panes) is called a workspace. You can create any number of workspaces and switch between them quickly.
 
 .. image:: images/manage-workspaces-dialog.png
-   :width: 711px
-   :height: 381px
+   :align: center
 
 Rename or duplicate a workspace
 -------------------------------

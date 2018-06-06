@@ -4,8 +4,7 @@ Historical Data Downloader File Formats
 *Available for FXCM connections only*
 
 .. image:: images/historical-data-downloader.png
-   :width: 425px
-   :height: 324px
+   :align: center
 
 To open **Historical Data Downloader**
 
