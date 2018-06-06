@@ -6,9 +6,8 @@ Edit Stop Order for an Open Trade
 #. In the Trades table, right-click a trade, and then select **Edit Stop Order**.
 #. The **Edit Stop Order** dialog box will be shown.
 
-   .. image:: images/edit-stop-order-for-an-open-trade.png
-      :width: 376px
-      :height: 370px
+    .. image:: images/edit-stop-order-for-an-open-trade.png
+       :align: center
 
 #. Select **Rate** to specify the Stop Loss order price, or select **Pips** to specify the Stop Loss order in pips offset from the trades entry price.
 

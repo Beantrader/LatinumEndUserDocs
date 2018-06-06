@@ -4,9 +4,8 @@ Edit Entry Order
 #. In the Orders table, right-click an entry order, and then select **Edit Entry Order**.
 #. The **Edit Entry Order** dialog box will be shown.
 
-   .. image:: images/edit-entry-order.png
-      :width: 366px
-      :height: 312px
+    .. image:: images/edit-entry-order.png
+       :align: center
 
    You can change the order being edited by selecting another Order ID.
 

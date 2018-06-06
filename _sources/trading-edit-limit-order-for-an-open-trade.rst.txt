@@ -7,8 +7,7 @@ Edit Limit Order for an Open Trade
 #. The **Edit Limit Order** dialog box will be shown.
 
     .. image:: images/edit-limit-order-for-an-open-trade.png
-       :width: 366px
-       :height: 316px
+       :align: center
 
 #. Select **Rate** to specify the Limit (Take Profit) order price, or select **Pips** to specify the Limit order in pips offset from the trades entry price.
 
