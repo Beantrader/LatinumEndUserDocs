@@ -20,5 +20,6 @@ Welcome to Latinum User's documentation!
    charts-zooming-and-panning
    studies
    study-attributes-window
+   study-volumebyprice
    trading
    exporting-data

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Candlestick Trend Chart Type &mdash; Latinum User 6.5.2 documentation</title>
+  <title>Volume by Price &mdash; Latinum User 6.5.2 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Zooming and Panning" href="charts-zooming-and-panning.html" />
-    <link rel="prev" title="Chart Properties window" href="chart-properties-window.html" /> 
+    <link rel="next" title="Trading" href="trading.html" />
+    <link rel="prev" title="Study Attributes window" href="study-attributes-window.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -87,11 +87,15 @@
 <li class="toctree-l1"><a class="reference internal" href="app-options-window.html">App Options window</a></li>
 <li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chart-properties-window.html">Chart Properties window</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
 <li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
-<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Volume by Price</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#study-attributes">Study Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#external-resources">External Resources</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
 </ul>
@@ -139,13 +143,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Candlestick Trend Chart Type</li>
+      <li>Volume by Price</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/candlestick-trend-chart-type.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/study-volumebyprice.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -158,26 +162,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="candlestick-trend-chart-type">
-<h1>Candlestick Trend Chart Type<a class="headerlink" href="#candlestick-trend-chart-type" title="Permalink to this headline">¶</a></h1>
-<p>The Candlestick Trend chart type is derived from the Candlestick chart type, but uses a coloring algorithm that also considers the previous candles closing price.</p>
-<p>The recommended Color Scheme to use with Candlestick Trend is
-<strong>Red Black and White</strong>.</p>
-<p>Combinations when using the Red Black and White color scheme.</p>
+  <div class="section" id="volume-by-price">
+<h1>Volume by Price<a class="headerlink" href="#volume-by-price" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/study-volumebyprice.png" class="align-center" src="_images/study-volumebyprice.png" />
+<div class="section" id="study-attributes">
+<h2>Study Attributes<a class="headerlink" href="#study-attributes" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/study-volumebyprice-props.png" class="align-center" src="_images/study-volumebyprice-props.png" />
 <dl class="docutils">
-<dt>Hollow Black</dt>
-<dd>( Close &gt; Previous Close ) and ( Close &gt;= Open )</dd>
-<dt>Hollow Red</dt>
-<dd>( Close &lt; Previous Close ) and ( Close &gt;= Open )</dd>
-<dt>Hollow Gray</dt>
-<dd>( Close = Previous Close ) and ( Close &gt;= Open )</dd>
-<dt>Filled Black</dt>
-<dd>( Close &gt; Previous Close ) and ( Close &lt; Open )</dd>
-<dt>Filled Red</dt>
-<dd>( Close &lt; Previous Close ) and ( Close &lt; Open )</dd>
-<dt>Filled Gray</dt>
-<dd>( Close = Previous Close ) and ( Close &lt; Open )</dd>
+<dt>Number of zones</dt>
+<dd>The number of price levels drawn between the highest and lowest close prices.</dd>
+<dt>Up Volume, Down volume</dt>
+<dd>The colors used to fill the bars drawn. The colors opacity/alpha-channel is used.</dd>
 </dl>
+</div>
+<div class="section" id="external-resources">
+<h2>External Resources<a class="headerlink" href="#external-resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:volume_by_price">Volume-by-Price</a> [stockcharts.com]</li>
+</ul>
+</div>
 </div>
 
 
@@ -188,10 +191,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="charts-zooming-and-panning.html" class="btn btn-neutral float-right" title="Zooming and Panning" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="trading.html" class="btn btn-neutral float-right" title="Trading" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="chart-properties-window.html" class="btn btn-neutral" title="Chart Properties window" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="study-attributes-window.html" class="btn btn-neutral" title="Study Attributes window" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

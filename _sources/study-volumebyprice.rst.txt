@@ -1,0 +1,24 @@
+Volume by Price
+===============
+
+.. image:: images/study-volumebyprice.png
+   :align: center
+
+
+Study Attributes
+----------------
+
+.. image:: images/study-volumebyprice-props.png
+   :align: center
+
+Number of zones
+  The number of price levels drawn between the highest and lowest close prices.
+
+Up Volume, Down volume
+  The colors used to fill the bars drawn. The colors opacity/alpha-channel is used.
+
+
+External Resources
+------------------
+
+- `Volume-by-Price <http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:volume_by_price>`_ [stockcharts.com]
