@@ -9,17 +9,27 @@ The terms *Study Attributes* and *Study Properties* may be used interchangeably.
 Parameters tab
 --------------
 
+.. image:: images/study-props-params.png
+   :align: center
+
+
 The parameters tab contains optional input parameters that affect the indicators calculation. Most of the time the input is an integer (whole number). Sometimes the input is a number that represents a mode or function an indicator should use internally, for example, the Stochastic Oscillator allows defining the moving-average type used internally, 0 (zero) represents SMA, 1 (one) represents EMA. The tool-tip will show valid options.
 
 
 View Style tab
 --------------
 
+.. image:: images/study-props-view-style.png
+   :align: center
+
 The view style tab contains options that affect the color and width of lines displayed by an indicator. There is one color option for each of the indicators outputs. The color and line width may be ignored by the indicator.
 
 
 Axis tab
 --------
+
+.. image:: images/study-props-axis.png
+   :align: center
 
 The axis tab contains display options for indicators that appear in their own sub-plot (i.e not overlays).
 
@@ -36,6 +46,9 @@ Digits
 Series tab
 ----------
 
+.. image:: images/study-props-series.png
+   :align: center
+
 Price source
   Select the input price source for the indicator. This only affects indicators that use a single input series (i.e not a candle). This value can also be ignored by some indicators that are always calculated with a certain price type (e.g Awesome Oscillator always uses Median).
 
@@ -45,5 +58,8 @@ Bars Offset
 
 Help tab
 --------
+
+.. image:: images/study-props-help.png
+   :align: center
 
 Displays text provided by the indicator, if the indicator doesn't provide any help text the tab may be hidden.

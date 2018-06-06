@@ -4,6 +4,9 @@ Chart Properties window
 Data tab
 --------
 
+.. image:: images/chart-props-data.png
+   :align: center
+
 Show bars with zero volume
   Keep bars with zero volume instead of removing them if the data source doesn't provide zero volume bars they are created. Created bars use the previous bars close price for the new bars open, high, low, and close values.
 Show Weekend Data
@@ -20,6 +23,9 @@ Edit Data Range
 
 Chart Properties tab
 --------------------
+
+.. image:: images/chart-props-chart-props.png
+   :align: center
 
 Show Data Tips
   Show a floating window that displays the price, date, and indicator values for the current bar the mouse is hovering.
@@ -46,6 +52,9 @@ Date Axis (X) - Font
 Style tab
 ---------
 
+.. image:: images/chart-props-style.png
+   :align: center
+
 Chart Type
   Set the chart type displayed for the main symbol  
 Show price line
@@ -54,6 +63,9 @@ Show price line
 
 Timezone tab
 ------------
+
+.. image:: images/chart-props-timezone.png
+   :align: center
 
 Displayed Timezone
   Select the time-zone used to display date-time values on the charts X axis, and in the data tip.
@@ -66,6 +78,9 @@ Displayed Timezone
 
 Scaling tab
 -----------
+
+.. image:: images/chart-props-scaling.png
+   :align: center
 
 Auto Scale
   The price axis is automatically adjusted to fit the price data displayed
