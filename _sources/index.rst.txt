@@ -13,6 +13,7 @@ Welcome to Latinum User's documentation!
    videos
    main-menu-bar-menu-items
    workspace-basics
+   app-options-window
    charts-settings
    chart-properties-window
    candlestick-trend-chart-type
