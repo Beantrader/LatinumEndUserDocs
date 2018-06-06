@@ -21,7 +21,7 @@ Charts > Drawings tab
    :align: center
 
 Stay in Drawing Mode
-  If checked drawing tool remains active after drawing sometime, if unchecked after drawing the Selection [Black Arrow] tool is set active.
+  If checked drawing tool remains active after drawing something, if unchecked after drawing the Selection [Black Arrow] tool is set active.
 
 Enable Magnet
   When drawing over (on top) of the main price series the drawings points will snap to the open, high, low, or close price.
