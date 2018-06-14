@@ -1,0 +1,26 @@
+Bill Williams Indicators
+========================
+
+Several Bill Williams indicators are available under the Custom Studies menu.
+
++-----------+----------------------------------------------+----------------+
+| ID        | Name                                         | Filename       |
++===========+==============================================+================+
+| AO        | Awesome Oscillator                           | AO.js          |
++-----------+----------------------------------------------+----------------+
+| AC        | Acceleration/Deceleration Oscillator -       |                |
+|           | Accelerator Oscillator                       | BwAC.js        |
++-----------+----------------------------------------------+----------------+
+| Alligator | Alligator Indicator                          | BwAlligator.js |
++-----------+----------------------------------------------+----------------+
+| Fractal   | Fractal Indicator                            | BwFractal.js   |
++-----------+----------------------------------------------+----------------+
+| Gator     | Gator Oscillator                             | BwGator.js     |
++-----------+----------------------------------------------+----------------+
+| BW MFI    | Market Facilitation Index Indicator          | BwMfi.js       |
++-----------+----------------------------------------------+----------------+
+
+External Resources
+------------------
+
+- `Exploring The Williams Alligator Indicator <https://www.investopedia.com/articles/trading/072115/exploring-williams-alligator-indicator.asp>`_ [investopedia.com]
