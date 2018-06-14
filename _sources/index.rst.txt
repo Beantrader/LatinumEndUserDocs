@@ -11,6 +11,7 @@ Welcome to Latinum User's documentation!
    :caption: Contents:
 
    videos
+   symbols-symbol-lists
    main-menu-bar-menu-items
    workspace-basics
    app-options-window

@@ -1,0 +1,77 @@
+Symbol Lists
+============
+
+Symbol Lists are a list of symbols where each row contain the data feed ID and symbol.
+The symbol lists are used in the Watchlist window (when connected to a Forex broker)
+and for symbol subscription management when accessed from the Quotes Sidebar.
+
+.. note::
+   Changes made to symbol lists from the Watchlist window are automatically saved.
+   Changes made to symbol lists from the Quotes Sidebar are **not** automatically saved.
+
+
+Create a new Symbol List
+------------------------
+
+Using the Quotes Sidebar
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can create a symbol list from the sidebar but note the following:
+
+- All selected (highlighted) symbols in the Quotes table will be included in the new list.
+
+  If you want an empty new list, deselect all symbols in the Quotes table by clicking in a blank area of the table or you can remove them after.
+- All existing subscriptions will be removed (unless selected in the Quotes table)
+
+#. Open the More Menu (the ``...`` at the top)
+#. Select ``New List``
+#. A file save window will open, enter a filename and select ``OK`` (or ``Save``)
+
+   Saving to the ``watchlists`` folder is recommended. Saving changes you make to the list will be easier to save if you save to the ``watchlists`` folder.
+#. The new lists will be activated
+#. Add the symbols you want
+
+   #. Right-click the Quotes table and select ``Symbols...``
+   #. Place a check-mark beside all symbols you want in the new list
+   #. Select ``OK``
+#. When you make any changes to the list you need to re-save the list
+
+   - If you saved to a file in the ``watchlists`` folder select ``Overwrite '*NAME*'`` from the More Menu,
+   - if you saved somewhere else select ``Save list as`` from the More Menu.
+
+
+Deleting a Symbol List
+----------------------
+
+Using the Library window
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Open the Library window from Window > Extensions > Library menu item
+#. Select the ``Watchlists`` section (on the left side of the Library window)
+#. Select the symbol list you want to delete (select by clicking on it)
+#. Press the ``Delete`` button (on the right side of the Library window)
+
+
+Merging Multiple Symbol Lists
+-----------------------------
+
+Using the Quotes Sidebar
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+When opening a symbol list using the ``Load list`` menu item in the More Menu you are given the open to remove all existing symbols,
+if you want to merge multiple lists select ``No``.
+
+
+Text File Format
+----------------
+
+Symbol Lists can be imported or exported using a plain text file format.
+
+- The data feed ID and symbol is delimited by a colon.
+- One data feed ID and symbol per-line.
+
+::
+
+  IEX:AAPL
+  FXCM:EUR/USD
+  BINANCE:BTCUSD
