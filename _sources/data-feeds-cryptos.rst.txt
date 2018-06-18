@@ -498,9 +498,14 @@ Crypto Data Feeds
 
 
 .. _CoinCap.io:
+.. |logo_coincap.ico| image:: images/icons-data-feed/coincap.ico
+   :width: 32px
+   :height: 32px
+   :alt: CoinCap.io
 
-CoinCap.io
-----------
+
+|logo_coincap.ico| CoinCap.io
+-----------------------------
 
 This provides close prices (only) for
 well over a thousand coins and tokens, it also provides market cap
@@ -516,9 +521,14 @@ and 24-hour volume time series data.
 
 
 .. _CoinMetrics:
+.. |logo_coinmetrics.png| image:: images/icons-data-feed/coinmetrics.png
+   :width: 32px
+   :height: 32px
+   :alt: CoinMetrics
 
-CoinMetrics
------------
+
+|logo_coinmetrics.png| CoinMetrics
+----------------------------------
 
 This provides fundamental time series
 data for: Transaction Count, Transaction Volume, Fees, Network
