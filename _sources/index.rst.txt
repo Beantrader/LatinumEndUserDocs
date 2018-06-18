@@ -18,6 +18,7 @@ Welcome to Latinum User's documentation!
    chart-toolbar
    charts-settings
    chart-properties-window
+   charts-chart-types
    candlestick-trend-chart-type
    charts-zooming-and-panning
    studies

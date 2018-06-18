@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Chart Types &mdash; Latinum User 6.6.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Candlestick Trend Chart Type" href="candlestick-trend-chart-type.html" />
+    <link rel="prev" title="Chart Properties window" href="chart-properties-window.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="videos.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols-symbol-lists.html">Symbol Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-options-window.html">App Options window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-toolbar.html">Chart Toolbar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-properties-window.html">Chart Properties window</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Chart Types</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#candlestick">Candlestick</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#candlestick-trend">Candlestick Trend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hollow-candlestick">Hollow Candlestick</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#real-body">Real Body</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ohlc">OHLC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hlc">HLC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hl">HL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#area">Area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#line">Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#colored-line">Colored Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step">Step</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#histogram">Histogram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dots">Dots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#invisible">Invisible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#heikin-ashi">Heikin-Ashi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#column">Column</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trade-feed-window.html">Trade Feed window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Chart Types</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/charts-chart-types.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="chart-types">
+<h1>Chart Types<a class="headerlink" href="#chart-types" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="candlestick">
+<h2>Candlestick<a class="headerlink" href="#candlestick" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/candlestick.png" class="align-center" src="_images/candlestick.png" />
+<p>Displays the Open, High, Low, and Close price.</p>
+</div>
+<div class="section" id="candlestick-trend">
+<h2>Candlestick Trend<a class="headerlink" href="#candlestick-trend" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/candlestick-trend.png" class="align-center" src="_images/candlestick-trend.png" />
+<p>Displays the Open, High, Low, and Close price. The previous candle is used when determining color.</p>
+<p><a class="reference internal" href="candlestick-trend-chart-type.html"><span class="doc">Coloring algo</span></a></p>
+</div>
+<div class="section" id="hollow-candlestick">
+<h2>Hollow Candlestick<a class="headerlink" href="#hollow-candlestick" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/hollow-candlestick.png" class="align-center" src="_images/hollow-candlestick.png" />
+<p>Displays the Open, High, Low, and Close price. Bullish bars are hollow, bearish bars are filled.</p>
+</div>
+<div class="section" id="real-body">
+<h2>Real Body<a class="headerlink" href="#real-body" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/real-body.png" class="align-center" src="_images/real-body.png" />
+<p>Displays the Open and Close price.</p>
+</div>
+<div class="section" id="ohlc">
+<h2>OHLC<a class="headerlink" href="#ohlc" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/ohlc.png" class="align-center" src="_images/ohlc.png" />
+<p>Displays the Open, High, Low, and Close price.</p>
+</div>
+<div class="section" id="hlc">
+<h2>HLC<a class="headerlink" href="#hlc" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/hlc.png" class="align-center" src="_images/hlc.png" />
+<p>Displays the High, Low, and Close price.</p>
+</div>
+<div class="section" id="hl">
+<h2>HL<a class="headerlink" href="#hl" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/hl.png" class="align-center" src="_images/hl.png" />
+<p>Displays the High and Low price.</p>
+</div>
+<div class="section" id="area">
+<h2>Area<a class="headerlink" href="#area" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/area.png" class="align-center" src="_images/area.png" />
+<p>Displays the Close price. The area from the baseline (zero) to the price is filled.</p>
+</div>
+<div class="section" id="line">
+<h2>Line<a class="headerlink" href="#line" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/line.png" class="align-center" src="_images/line.png" />
+<p>Displays the Close price.</p>
+</div>
+<div class="section" id="colored-line">
+<h2>Colored Line<a class="headerlink" href="#colored-line" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/colored-line.png" class="align-center" src="_images/colored-line.png" />
+<p>Displays the Close price. The line segments between each point are colored based on increase or decrease in price.</p>
+</div>
+<div class="section" id="step">
+<h2>Step<a class="headerlink" href="#step" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/step.png" class="align-center" src="_images/step.png" />
+<p>Displays the Close price.</p>
+</div>
+<div class="section" id="histogram">
+<h2>Histogram<a class="headerlink" href="#histogram" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/histogram.png" class="align-center" src="_images/histogram.png" />
+<p>Displays the Close price.</p>
+</div>
+<div class="section" id="dots">
+<h2>Dots<a class="headerlink" href="#dots" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/dots.png" class="align-center" src="_images/dots.png" />
+<p>Displays the Close price.</p>
+</div>
+<div class="section" id="invisible">
+<h2>Invisible<a class="headerlink" href="#invisible" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/invisible.png" class="align-center" src="_images/invisible.png" />
+<p>Displays nothing. Use this if you have a study applied and are not interested in the price.</p>
+</div>
+<div class="section" id="heikin-ashi">
+<h2>Heikin-Ashi<a class="headerlink" href="#heikin-ashi" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/heikin-ashi.png" class="align-center" src="_images/heikin-ashi.png" />
+<p>Displays an averaging of current and previous bars.</p>
+</div>
+<div class="section" id="column">
+<h2>Column<a class="headerlink" href="#column" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/column.png" class="align-center" src="_images/column.png" />
+<p>Displays values in columns, similar to Histogram but Column have width.</p>
+<p><em>Only used by studies</em></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="candlestick-trend-chart-type.html" class="btn btn-neutral float-right" title="Candlestick Trend Chart Type" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="chart-properties-window.html" class="btn btn-neutral" title="Chart Properties window" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.6.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-26974913-4"></script>
+      <script type="text/javascript" src="_static/js/ga.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

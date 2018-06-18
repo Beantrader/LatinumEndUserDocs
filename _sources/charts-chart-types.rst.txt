@@ -1,0 +1,149 @@
+Chart Types
+===========
+
+Candlestick
+-----------
+
+.. image:: images/chart-types/candlestick.png
+   :align: center
+
+Displays the Open, High, Low, and Close price.
+
+
+Candlestick Trend
+-----------------
+
+.. image:: images/chart-types/candlestick-trend.png
+   :align: center
+
+Displays the Open, High, Low, and Close price. The previous candle is used when determining color.
+
+:doc:`Coloring algo <candlestick-trend-chart-type>`
+
+
+Hollow Candlestick
+------------------
+
+.. image:: images/chart-types/hollow-candlestick.png
+   :align: center
+
+Displays the Open, High, Low, and Close price. Bullish bars are hollow, bearish bars are filled.
+
+
+Real Body
+---------
+
+.. image:: images/chart-types/real-body.png
+   :align: center
+
+Displays the Open and Close price.
+
+
+OHLC
+----
+
+.. image:: images/chart-types/ohlc.png
+   :align: center
+
+Displays the Open, High, Low, and Close price.
+
+
+HLC
+---
+
+.. image:: images/chart-types/hlc.png
+   :align: center
+
+Displays the High, Low, and Close price.
+
+
+HL
+--
+
+.. image:: images/chart-types/hl.png
+   :align: center
+
+Displays the High and Low price.
+
+
+Area
+----
+
+.. image:: images/chart-types/area.png
+   :align: center
+
+Displays the Close price. The area from the baseline (zero) to the price is filled.
+
+
+Line
+----
+
+.. image:: images/chart-types/line.png
+   :align: center
+
+Displays the Close price.
+
+
+Colored Line
+------------
+
+.. image:: images/chart-types/colored-line.png
+   :align: center
+
+Displays the Close price. The line segments between each point are colored based on increase or decrease in price.
+
+
+Step
+----
+
+.. image:: images/chart-types/step.png
+   :align: center
+
+Displays the Close price.
+
+
+Histogram
+---------
+
+.. image:: images/chart-types/histogram.png
+   :align: center
+
+Displays the Close price.
+
+
+Dots
+----
+
+.. image:: images/chart-types/dots.png
+   :align: center
+
+Displays the Close price.
+
+
+Invisible
+---------
+
+.. image:: images/chart-types/invisible.png
+   :align: center
+
+Displays nothing. Use this if you have a study applied and are not interested in the price.
+
+
+Heikin-Ashi
+-----------
+
+.. image:: images/chart-types/heikin-ashi.png
+   :align: center
+
+Displays an averaging of current and previous bars.
+
+
+Column
+------
+
+.. image:: images/chart-types/column.png
+   :align: center
+
+Displays values in columns, similar to Histogram but Column have width.
+
+*Only used by studies*
