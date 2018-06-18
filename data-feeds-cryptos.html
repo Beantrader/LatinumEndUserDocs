@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Crypto Data Feeds &mdash; Latinum User 6.6.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Symbol Lists" href="symbols-symbol-lists.html" />
+    <link rel="prev" title="Videos" href="videos.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="videos.html">Videos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Crypto Data Feeds</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#acx">ACX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bibox">Bibox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#binance">Binance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bit-z">Bit-Z</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bitbank">Bitbank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bitbay">BitBay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bitfinex">Bitfinex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bitflyer">bitFlyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bithumb">Bithumb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bitstamp">Bitstamp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bittrex">Bittrex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cex-io">CEX.IO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coincap-io">CoinCap.io</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coinmetrics">CoinMetrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ethfinex">Ethfinex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gdax">GDAX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gemini">Gemini</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hadax">HADAX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hitbtc">HitBTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#huobi-pro">Huobi.pro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kraken">Kraken</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kucoin">Kucoin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lbank">LBank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#luno">Luno</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#okex">OKEx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#poloniex">Poloniex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#qryptos">Qryptos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quadrigacx">QuadrigaCX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quoine">Quoine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wex">WEX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#zb-com">ZB.com</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="symbols-symbol-lists.html">Symbol Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-options-window.html">App Options window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-toolbar.html">Chart Toolbar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-properties-window.html">Chart Properties window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-chart-types.html">Chart Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trade-feed-window.html">Trade Feed window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Crypto Data Feeds</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/data-feeds-cryptos.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="crypto-data-feeds">
+<h1>Crypto Data Feeds<a class="headerlink" href="#crypto-data-feeds" title="Permalink to this headline">¶</a></h1>
+<p><strong>Exchanges</strong></p>
+<ul class="simple">
+<li><a class="reference internal" href="#acx">ACX</a></li>
+<li><a class="reference internal" href="#bibox">Bibox</a></li>
+<li><a class="reference internal" href="#binance">Binance</a></li>
+<li><a class="reference internal" href="#bit-z">Bit-Z</a></li>
+<li><a class="reference internal" href="#bitbank">Bitbank</a></li>
+<li><a class="reference internal" href="#bitbay">BitBay</a></li>
+<li><a class="reference internal" href="#bitfinex">Bitfinex</a></li>
+<li><a class="reference internal" href="#bitflyer">bitFlyer</a></li>
+<li><a class="reference internal" href="#bithumb">Bithumb</a></li>
+<li><a class="reference internal" href="#bitstamp">Bitstamp</a></li>
+<li><a class="reference internal" href="#bittrex">Bittrex</a></li>
+<li><a class="reference internal" href="#cex-io">CEX.IO</a></li>
+<li><a class="reference internal" href="#ethfinex">Ethfinex</a></li>
+<li><a class="reference internal" href="#gdax">GDAX</a></li>
+<li><a class="reference internal" href="#gemini">Gemini</a></li>
+<li><a class="reference internal" href="#hadax">HADAX</a></li>
+<li><a class="reference internal" href="#hitbtc">HitBTC</a></li>
+<li><a class="reference internal" href="#huobi-pro">Huobi.pro</a></li>
+<li><a class="reference internal" href="#kraken">Kraken</a></li>
+<li><a class="reference internal" href="#kucoin">Kucoin</a></li>
+<li><a class="reference internal" href="#lbank">LBank</a></li>
+<li><a class="reference internal" href="#luno">Luno</a></li>
+<li><a class="reference internal" href="#okex">OKEx</a></li>
+<li><a class="reference internal" href="#poloniex">Poloniex</a></li>
+<li><a class="reference internal" href="#qryptos">Qryptos</a></li>
+<li><a class="reference internal" href="#quadrigacx">QuadrigaCX</a></li>
+<li><a class="reference internal" href="#quoine">Quoine</a></li>
+<li><a class="reference internal" href="#wex">WEX</a></li>
+<li><a class="reference internal" href="#zb-com">ZB.com</a></li>
+</ul>
+<p><strong>Other</strong></p>
+<ul class="simple">
+<li><a class="reference internal" href="#coincap-io">CoinCap.io</a></li>
+<li><a class="reference internal" href="#coinmetrics">CoinMetrics</a></li>
+</ul>
+<hr class="docutils" />
+<div class="section" id="acx">
+<span id="id1"></span><h2>ACX<a class="headerlink" href="#acx" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/acx/">https://coinmarketcap.com/exchanges/acx/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bibox">
+<span id="id2"></span><h2>Bibox<a class="headerlink" href="#bibox" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bibox/">https://coinmarketcap.com/exchanges/bibox/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 5 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="binance">
+<span id="id3"></span><h2>Binance<a class="headerlink" href="#binance" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/binance/">https://coinmarketcap.com/exchanges/binance/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="bit-z">
+<span id="id4"></span><h2>Bit-Z<a class="headerlink" href="#bit-z" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bit-z/">https://coinmarketcap.com/exchanges/bit-z/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bitbank">
+<span id="id5"></span><h2>Bitbank<a class="headerlink" href="#bitbank" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bitbank/">https://coinmarketcap.com/exchanges/bitbank/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bitbay">
+<span id="id6"></span><h2>BitBay<a class="headerlink" href="#bitbay" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bitbay/">https://coinmarketcap.com/exchanges/bitbay/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bitfinex">
+<span id="id7"></span><h2>Bitfinex<a class="headerlink" href="#bitfinex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bitfinex/">https://coinmarketcap.com/exchanges/bitfinex/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="bitflyer">
+<span id="id8"></span><h2>bitFlyer<a class="headerlink" href="#bitflyer" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bitflyer/">https://coinmarketcap.com/exchanges/bitflyer/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bithumb">
+<span id="id9"></span><h2>Bithumb<a class="headerlink" href="#bithumb" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bithumb/">https://coinmarketcap.com/exchanges/bithumb/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="bitstamp">
+<span id="id10"></span><h2>Bitstamp<a class="headerlink" href="#bitstamp" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bitstamp/">https://coinmarketcap.com/exchanges/bitstamp/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="bittrex">
+<span id="id11"></span><h2>Bittrex<a class="headerlink" href="#bittrex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/bittrex/">https://coinmarketcap.com/exchanges/bittrex/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="cex-io">
+<span id="id12"></span><h2>CEX.IO<a class="headerlink" href="#cex-io" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/cex-io/">https://coinmarketcap.com/exchanges/cex-io/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="coincap-io">
+<span id="id13"></span><h2>CoinCap.io<a class="headerlink" href="#coincap-io" title="Permalink to this headline">¶</a></h2>
+<p>This provides close prices (only) for
+well over a thousand coins and tokens, it also provides market cap
+and 24-hour volume time series data.</p>
+<p>✔ Price Charts</p>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="coinmetrics">
+<span id="id14"></span><h2>CoinMetrics<a class="headerlink" href="#coinmetrics" title="Permalink to this headline">¶</a></h2>
+<p>This provides fundamental time series
+data for: Transaction Count, Transaction Volume, Fees, Network
+Value (or Market Cap), Exchange Volume, Value of Created Coins,
+Active Addresses, NVT Ratio, Average Transaction Value, Average
+Fee, Inflation Rate, and the Open Price sourced from
+CoinMarketCap. All data is EOD/daily.</p>
+<p>✔ Price Charts</p>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="ethfinex">
+<span id="id15"></span><h2>Ethfinex<a class="headerlink" href="#ethfinex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/ethfinex/">https://coinmarketcap.com/exchanges/ethfinex/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="gdax">
+<span id="id16"></span><h2>GDAX<a class="headerlink" href="#gdax" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/gdax/">https://coinmarketcap.com/exchanges/gdax/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="gemini">
+<span id="id17"></span><h2>Gemini<a class="headerlink" href="#gemini" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/gemini/">https://coinmarketcap.com/exchanges/gemini/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="hadax">
+<span id="id18"></span><h2>HADAX<a class="headerlink" href="#hadax" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/hadax/">https://coinmarketcap.com/exchanges/hadax/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="hitbtc">
+<span id="id19"></span><h2>HitBTC<a class="headerlink" href="#hitbtc" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/hitbtc/">https://coinmarketcap.com/exchanges/hitbtc/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="huobi-pro">
+<span id="id20"></span><h2>Huobi.pro<a class="headerlink" href="#huobi-pro" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/huobi/">https://coinmarketcap.com/exchanges/huobi/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="kraken">
+<span id="id21"></span><h2>Kraken<a class="headerlink" href="#kraken" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/kraken/">https://coinmarketcap.com/exchanges/kraken/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="kucoin">
+<span id="id22"></span><h2>Kucoin<a class="headerlink" href="#kucoin" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/kucoin/">https://coinmarketcap.com/exchanges/kucoin/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 5 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="lbank">
+<span id="id23"></span><h2>LBank<a class="headerlink" href="#lbank" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/lbank/">https://coinmarketcap.com/exchanges/lbank/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="luno">
+<span id="id24"></span><h2>Luno<a class="headerlink" href="#luno" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/luno/">https://coinmarketcap.com/exchanges/luno/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="okex">
+<span id="id25"></span><h2>OKEx<a class="headerlink" href="#okex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/okex/">https://coinmarketcap.com/exchanges/okex/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="poloniex">
+<span id="id26"></span><h2>Poloniex<a class="headerlink" href="#poloniex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/poloniex/">https://coinmarketcap.com/exchanges/poloniex/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="qryptos">
+<span id="id27"></span><h2>Qryptos<a class="headerlink" href="#qryptos" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/qryptos/">https://coinmarketcap.com/exchanges/qryptos/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="quadrigacx">
+<span id="id28"></span><h2>QuadrigaCX<a class="headerlink" href="#quadrigacx" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/quadrigacx/">https://coinmarketcap.com/exchanges/quadrigacx/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="quoine">
+<span id="id29"></span><h2>Quoine<a class="headerlink" href="#quoine" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/quoine/">https://coinmarketcap.com/exchanges/quoine/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>This feed doesn’t use streaming prices, charts update every 10 seconds</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+<div class="section" id="wex">
+<span id="id30"></span><h2>WEX<a class="headerlink" href="#wex" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/wex/">https://coinmarketcap.com/exchanges/wex/</a></p>
+<p>✔ Price Charts</p>
+<p>✔ Quotes in Sidebar</p>
+<p>✔ Order Book</p>
+<p>✔ Trade Feed</p>
+</div>
+<div class="section" id="zb-com">
+<span id="id31"></span><h2>ZB.com<a class="headerlink" href="#zb-com" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coinmarketcap.com/exchanges/zb-com/">https://coinmarketcap.com/exchanges/zb-com/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div><p>This feed doesn’t use streaming prices, charts update every 10 seconds</p>
+<p>This feed’s connection (to the exchange) is not secure, it uses HTTP not HTTPS</p>
+</div></blockquote>
+<p>✖ [No] Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="symbols-symbol-lists.html" class="btn btn-neutral float-right" title="Symbol Lists" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="videos.html" class="btn btn-neutral" title="Videos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.6.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-26974913-4"></script>
+      <script type="text/javascript" src="_static/js/ga.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

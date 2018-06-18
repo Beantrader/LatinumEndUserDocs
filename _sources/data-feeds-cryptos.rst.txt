@@ -1,0 +1,601 @@
+..
+   generated
+
+Crypto Data Feeds
+=================
+
+**Exchanges**
+
+- `ACX <ACX_>`_
+- `Bibox <Bibox_>`_
+- `Binance <Binance_>`_
+- `Bit-Z <Bit-Z_>`_
+- `Bitbank <Bitbank_>`_
+- `BitBay <BitBay_>`_
+- `Bitfinex <Bitfinex_>`_
+- `bitFlyer <bitFlyer_>`_
+- `Bithumb <Bithumb_>`_
+- `Bitstamp <Bitstamp_>`_
+- `Bittrex <Bittrex_>`_
+- `CEX.IO <CEX.IO_>`_
+- `Ethfinex <Ethfinex_>`_
+- `GDAX <GDAX_>`_
+- `Gemini <Gemini_>`_
+- `HADAX <HADAX_>`_
+- `HitBTC <HitBTC_>`_
+- `Huobi.pro <Huobi.pro_>`_
+- `Kraken <Kraken_>`_
+- `Kucoin <Kucoin_>`_
+- `LBank <LBank_>`_
+- `Luno <Luno_>`_
+- `OKEx <OKEx_>`_
+- `Poloniex <Poloniex_>`_
+- `Qryptos <Qryptos_>`_
+- `QuadrigaCX <QuadrigaCX_>`_
+- `Quoine <Quoine_>`_
+- `WEX <WEX_>`_
+- `ZB.com <ZB.com_>`_
+
+**Other**
+
+- `CoinCap.io <CoinCap.io_>`_
+- `CoinMetrics <CoinMetrics_>`_
+
+------------
+
+.. _ACX:
+
+ACX
+---
+
+`<https://coinmarketcap.com/exchanges/acx/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bibox:
+
+Bibox
+-----
+
+`<https://coinmarketcap.com/exchanges/bibox/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 5 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Binance:
+
+Binance
+-------
+
+`<https://coinmarketcap.com/exchanges/binance/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Bit-Z:
+
+Bit-Z
+-----
+
+`<https://coinmarketcap.com/exchanges/bit-z/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bitbank:
+
+Bitbank
+-------
+
+`<https://coinmarketcap.com/exchanges/bitbank/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _BitBay:
+
+BitBay
+------
+
+`<https://coinmarketcap.com/exchanges/bitbay/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bitfinex:
+
+Bitfinex
+--------
+
+`<https://coinmarketcap.com/exchanges/bitfinex/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _bitFlyer:
+
+bitFlyer
+--------
+
+`<https://coinmarketcap.com/exchanges/bitflyer/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bithumb:
+
+Bithumb
+-------
+
+`<https://coinmarketcap.com/exchanges/bithumb/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bitstamp:
+
+Bitstamp
+--------
+
+`<https://coinmarketcap.com/exchanges/bitstamp/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Bittrex:
+
+Bittrex
+-------
+
+`<https://coinmarketcap.com/exchanges/bittrex/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _CEX.IO:
+
+CEX.IO
+------
+
+`<https://coinmarketcap.com/exchanges/cex-io/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _CoinCap.io:
+
+CoinCap.io
+----------
+
+This provides close prices (only) for
+well over a thousand coins and tokens, it also provides market cap
+and 24-hour volume time series data.
+
+✔ Price Charts
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _CoinMetrics:
+
+CoinMetrics
+-----------
+
+This provides fundamental time series
+data for: Transaction Count, Transaction Volume, Fees, Network
+Value (or Market Cap), Exchange Volume, Value of Created Coins,
+Active Addresses, NVT Ratio, Average Transaction Value, Average
+Fee, Inflation Rate, and the Open Price sourced from
+CoinMarketCap. All data is EOD/daily.
+
+✔ Price Charts
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Ethfinex:
+
+Ethfinex
+--------
+
+`<https://coinmarketcap.com/exchanges/ethfinex/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _GDAX:
+
+GDAX
+----
+
+`<https://coinmarketcap.com/exchanges/gdax/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Gemini:
+
+Gemini
+------
+
+`<https://coinmarketcap.com/exchanges/gemini/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _HADAX:
+
+HADAX
+-----
+
+`<https://coinmarketcap.com/exchanges/hadax/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _HitBTC:
+
+HitBTC
+------
+
+`<https://coinmarketcap.com/exchanges/hitbtc/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Huobi.pro:
+
+Huobi.pro
+---------
+
+`<https://coinmarketcap.com/exchanges/huobi/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Kraken:
+
+Kraken
+------
+
+`<https://coinmarketcap.com/exchanges/kraken/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Kucoin:
+
+Kucoin
+------
+
+`<https://coinmarketcap.com/exchanges/kucoin/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 5 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _LBank:
+
+LBank
+-----
+
+`<https://coinmarketcap.com/exchanges/lbank/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Luno:
+
+Luno
+----
+
+`<https://coinmarketcap.com/exchanges/luno/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _OKEx:
+
+OKEx
+----
+
+`<https://coinmarketcap.com/exchanges/okex/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Poloniex:
+
+Poloniex
+--------
+
+`<https://coinmarketcap.com/exchanges/poloniex/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Qryptos:
+
+Qryptos
+-------
+
+`<https://coinmarketcap.com/exchanges/qryptos/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _QuadrigaCX:
+
+QuadrigaCX
+----------
+
+`<https://coinmarketcap.com/exchanges/quadrigacx/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Quoine:
+
+Quoine
+------
+
+`<https://coinmarketcap.com/exchanges/quoine/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _WEX:
+
+WEX
+---
+
+`<https://coinmarketcap.com/exchanges/wex/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _ZB.com:
+
+ZB.com
+------
+
+`<https://coinmarketcap.com/exchanges/zb-com/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+   This feed's connection (to the exchange) is not secure, it uses HTTP not HTTPS
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
