@@ -6,6 +6,181 @@ Crypto Data Feeds
 
 **Exchanges**
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/288.png
+   :target: ACX_
+   :width: 32px
+   :height: 32px
+   :alt: ACX
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/339.png
+   :target: Bibox_
+   :width: 32px
+   :height: 32px
+   :alt: Bibox
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/270.png
+   :target: Binance_
+   :width: 32px
+   :height: 32px
+   :alt: Binance
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/300.png
+   :target: Bit-Z_
+   :width: 32px
+   :height: 32px
+   :alt: Bit-Z
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/257.png
+   :target: Bitbank_
+   :width: 32px
+   :height: 32px
+   :alt: Bitbank
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/82.png
+   :target: BitBay_
+   :width: 32px
+   :height: 32px
+   :alt: BitBay
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/37.png
+   :target: Bitfinex_
+   :width: 32px
+   :height: 32px
+   :alt: Bitfinex
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/139.png
+   :target: bitFlyer_
+   :width: 32px
+   :height: 32px
+   :alt: bitFlyer
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/200.png
+   :target: Bithumb_
+   :width: 32px
+   :height: 32px
+   :alt: Bithumb
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/70.png
+   :target: Bitstamp_
+   :width: 32px
+   :height: 32px
+   :alt: Bitstamp
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/22.png
+   :target: Bittrex_
+   :width: 32px
+   :height: 32px
+   :alt: Bittrex
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/36.png
+   :target: CEX.IO_
+   :width: 32px
+   :height: 32px
+   :alt: CEX.IO
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/344.png
+   :target: Ethfinex_
+   :width: 32px
+   :height: 32px
+   :alt: Ethfinex
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/89.png
+   :target: GDAX_
+   :width: 32px
+   :height: 32px
+   :alt: GDAX
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/151.png
+   :target: Gemini_
+   :width: 32px
+   :height: 32px
+   :alt: Gemini
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/408.png
+   :target: HADAX_
+   :width: 32px
+   :height: 32px
+   :alt: HADAX
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
+   :target: HitBTC_
+   :width: 32px
+   :height: 32px
+   :alt: HitBTC
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
+   :target: Huobi.pro_
+   :width: 32px
+   :height: 32px
+   :alt: Huobi.pro
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/24.png
+   :target: Kraken_
+   :width: 32px
+   :height: 32px
+   :alt: Kraken
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/311.png
+   :target: Kucoin_
+   :width: 32px
+   :height: 32px
+   :alt: Kucoin
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/333.png
+   :target: LBank_
+   :width: 32px
+   :height: 32px
+   :alt: LBank
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/171.png
+   :target: Luno_
+   :width: 32px
+   :height: 32px
+   :alt: Luno
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/294.png
+   :target: OKEx_
+   :width: 32px
+   :height: 32px
+   :alt: OKEx
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/16.png
+   :target: Poloniex_
+   :width: 32px
+   :height: 32px
+   :alt: Poloniex
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/163.png
+   :target: Qryptos_
+   :width: 32px
+   :height: 32px
+   :alt: Qryptos
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/146.png
+   :target: QuadrigaCX_
+   :width: 32px
+   :height: 32px
+   :alt: QuadrigaCX
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
+   :target: Quoine_
+   :width: 32px
+   :height: 32px
+   :alt: Quoine
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/2.png
+   :target: WEX_
+   :width: 32px
+   :height: 32px
+   :alt: WEX
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/326.png
+   :target: ZB.com_
+   :width: 32px
+   :height: 32px
+   :alt: ZB.com
+
+
 - `ACX <ACX_>`_
 - `Bibox <Bibox_>`_
 - `Binance <Binance_>`_
@@ -44,9 +219,14 @@ Crypto Data Feeds
 ------------
 
 .. _ACX:
+.. |logo_288| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/288.png
+   :width: 32px
+   :height: 32px
+   :alt: ACX
 
-ACX
----
+
+|logo_288| ACX
+--------------
 
 `<https://coinmarketcap.com/exchanges/acx/>`_
 
@@ -63,9 +243,14 @@ ACX
 
 
 .. _Bibox:
+.. |logo_339| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/339.png
+   :width: 32px
+   :height: 32px
+   :alt: Bibox
 
-Bibox
------
+
+|logo_339| Bibox
+----------------
 
 `<https://coinmarketcap.com/exchanges/bibox/>`_
 
@@ -82,9 +267,14 @@ Bibox
 
 
 .. _Binance:
+.. |logo_270| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/270.png
+   :width: 32px
+   :height: 32px
+   :alt: Binance
 
-Binance
--------
+
+|logo_270| Binance
+------------------
 
 `<https://coinmarketcap.com/exchanges/binance/>`_
 
@@ -98,9 +288,14 @@ Binance
 
 
 .. _Bit-Z:
+.. |logo_300| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/300.png
+   :width: 32px
+   :height: 32px
+   :alt: Bit-Z
 
-Bit-Z
------
+
+|logo_300| Bit-Z
+----------------
 
 `<https://coinmarketcap.com/exchanges/bit-z/>`_
 
@@ -117,9 +312,14 @@ Bit-Z
 
 
 .. _Bitbank:
+.. |logo_257| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/257.png
+   :width: 32px
+   :height: 32px
+   :alt: Bitbank
 
-Bitbank
--------
+
+|logo_257| Bitbank
+------------------
 
 `<https://coinmarketcap.com/exchanges/bitbank/>`_
 
@@ -136,9 +336,14 @@ Bitbank
 
 
 .. _BitBay:
+.. |logo_82| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/82.png
+   :width: 32px
+   :height: 32px
+   :alt: BitBay
 
-BitBay
-------
+
+|logo_82| BitBay
+----------------
 
 `<https://coinmarketcap.com/exchanges/bitbay/>`_
 
@@ -155,9 +360,14 @@ BitBay
 
 
 .. _Bitfinex:
+.. |logo_37| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/37.png
+   :width: 32px
+   :height: 32px
+   :alt: Bitfinex
 
-Bitfinex
---------
+
+|logo_37| Bitfinex
+------------------
 
 `<https://coinmarketcap.com/exchanges/bitfinex/>`_
 
@@ -171,9 +381,14 @@ Bitfinex
 
 
 .. _bitFlyer:
+.. |logo_139| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/139.png
+   :width: 32px
+   :height: 32px
+   :alt: bitFlyer
 
-bitFlyer
---------
+
+|logo_139| bitFlyer
+-------------------
 
 `<https://coinmarketcap.com/exchanges/bitflyer/>`_
 
@@ -190,9 +405,14 @@ bitFlyer
 
 
 .. _Bithumb:
+.. |logo_200| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/200.png
+   :width: 32px
+   :height: 32px
+   :alt: Bithumb
 
-Bithumb
--------
+
+|logo_200| Bithumb
+------------------
 
 `<https://coinmarketcap.com/exchanges/bithumb/>`_
 
@@ -209,9 +429,14 @@ Bithumb
 
 
 .. _Bitstamp:
+.. |logo_70| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/70.png
+   :width: 32px
+   :height: 32px
+   :alt: Bitstamp
 
-Bitstamp
---------
+
+|logo_70| Bitstamp
+------------------
 
 `<https://coinmarketcap.com/exchanges/bitstamp/>`_
 
@@ -225,9 +450,14 @@ Bitstamp
 
 
 .. _Bittrex:
+.. |logo_22| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/22.png
+   :width: 32px
+   :height: 32px
+   :alt: Bittrex
 
-Bittrex
--------
+
+|logo_22| Bittrex
+-----------------
 
 `<https://coinmarketcap.com/exchanges/bittrex/>`_
 
@@ -244,9 +474,14 @@ Bittrex
 
 
 .. _CEX.IO:
+.. |logo_36| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/36.png
+   :width: 32px
+   :height: 32px
+   :alt: CEX.IO
 
-CEX.IO
-------
+
+|logo_36| CEX.IO
+----------------
 
 `<https://coinmarketcap.com/exchanges/cex-io/>`_
 
@@ -302,9 +537,14 @@ CoinMarketCap. All data is EOD/daily.
 
 
 .. _Ethfinex:
+.. |logo_344| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/344.png
+   :width: 32px
+   :height: 32px
+   :alt: Ethfinex
 
-Ethfinex
---------
+
+|logo_344| Ethfinex
+-------------------
 
 `<https://coinmarketcap.com/exchanges/ethfinex/>`_
 
@@ -318,9 +558,14 @@ Ethfinex
 
 
 .. _GDAX:
+.. |logo_89| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/89.png
+   :width: 32px
+   :height: 32px
+   :alt: GDAX
 
-GDAX
-----
+
+|logo_89| GDAX
+--------------
 
 `<https://coinmarketcap.com/exchanges/gdax/>`_
 
@@ -334,9 +579,14 @@ GDAX
 
 
 .. _Gemini:
+.. |logo_151| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/151.png
+   :width: 32px
+   :height: 32px
+   :alt: Gemini
 
-Gemini
-------
+
+|logo_151| Gemini
+-----------------
 
 `<https://coinmarketcap.com/exchanges/gemini/>`_
 
@@ -350,9 +600,14 @@ Gemini
 
 
 .. _HADAX:
+.. |logo_408| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/408.png
+   :width: 32px
+   :height: 32px
+   :alt: HADAX
 
-HADAX
------
+
+|logo_408| HADAX
+----------------
 
 `<https://coinmarketcap.com/exchanges/hadax/>`_
 
@@ -366,9 +621,14 @@ HADAX
 
 
 .. _HitBTC:
+.. |logo_42| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
+   :width: 32px
+   :height: 32px
+   :alt: HitBTC
 
-HitBTC
-------
+
+|logo_42| HitBTC
+----------------
 
 `<https://coinmarketcap.com/exchanges/hitbtc/>`_
 
@@ -382,9 +642,14 @@ HitBTC
 
 
 .. _Huobi.pro:
+.. |logo_102| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
+   :width: 32px
+   :height: 32px
+   :alt: Huobi.pro
 
-Huobi.pro
----------
+
+|logo_102| Huobi.pro
+--------------------
 
 `<https://coinmarketcap.com/exchanges/huobi/>`_
 
@@ -398,9 +663,14 @@ Huobi.pro
 
 
 .. _Kraken:
+.. |logo_24| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/24.png
+   :width: 32px
+   :height: 32px
+   :alt: Kraken
 
-Kraken
-------
+
+|logo_24| Kraken
+----------------
 
 `<https://coinmarketcap.com/exchanges/kraken/>`_
 
@@ -417,9 +687,14 @@ Kraken
 
 
 .. _Kucoin:
+.. |logo_311| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/311.png
+   :width: 32px
+   :height: 32px
+   :alt: Kucoin
 
-Kucoin
-------
+
+|logo_311| Kucoin
+-----------------
 
 `<https://coinmarketcap.com/exchanges/kucoin/>`_
 
@@ -436,9 +711,14 @@ Kucoin
 
 
 .. _LBank:
+.. |logo_333| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/333.png
+   :width: 32px
+   :height: 32px
+   :alt: LBank
 
-LBank
------
+
+|logo_333| LBank
+----------------
 
 `<https://coinmarketcap.com/exchanges/lbank/>`_
 
@@ -455,9 +735,14 @@ LBank
 
 
 .. _Luno:
+.. |logo_171| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/171.png
+   :width: 32px
+   :height: 32px
+   :alt: Luno
 
-Luno
-----
+
+|logo_171| Luno
+---------------
 
 `<https://coinmarketcap.com/exchanges/luno/>`_
 
@@ -474,9 +759,14 @@ Luno
 
 
 .. _OKEx:
+.. |logo_294| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/294.png
+   :width: 32px
+   :height: 32px
+   :alt: OKEx
 
-OKEx
-----
+
+|logo_294| OKEx
+---------------
 
 `<https://coinmarketcap.com/exchanges/okex/>`_
 
@@ -490,9 +780,14 @@ OKEx
 
 
 .. _Poloniex:
+.. |logo_16| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/16.png
+   :width: 32px
+   :height: 32px
+   :alt: Poloniex
 
-Poloniex
---------
+
+|logo_16| Poloniex
+------------------
 
 `<https://coinmarketcap.com/exchanges/poloniex/>`_
 
@@ -506,9 +801,14 @@ Poloniex
 
 
 .. _Qryptos:
+.. |logo_163| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/163.png
+   :width: 32px
+   :height: 32px
+   :alt: Qryptos
 
-Qryptos
--------
+
+|logo_163| Qryptos
+------------------
 
 `<https://coinmarketcap.com/exchanges/qryptos/>`_
 
@@ -525,9 +825,14 @@ Qryptos
 
 
 .. _QuadrigaCX:
+.. |logo_146| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/146.png
+   :width: 32px
+   :height: 32px
+   :alt: QuadrigaCX
 
-QuadrigaCX
-----------
+
+|logo_146| QuadrigaCX
+---------------------
 
 `<https://coinmarketcap.com/exchanges/quadrigacx/>`_
 
@@ -544,9 +849,14 @@ QuadrigaCX
 
 
 .. _Quoine:
+.. |logo_112| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
+   :width: 32px
+   :height: 32px
+   :alt: Quoine
 
-Quoine
-------
+
+|logo_112| Quoine
+-----------------
 
 `<https://coinmarketcap.com/exchanges/quoine/>`_
 
@@ -563,9 +873,14 @@ Quoine
 
 
 .. _WEX:
+.. |logo_2| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/2.png
+   :width: 32px
+   :height: 32px
+   :alt: WEX
 
-WEX
----
+
+|logo_2| WEX
+------------
 
 `<https://coinmarketcap.com/exchanges/wex/>`_
 
@@ -579,9 +894,14 @@ WEX
 
 
 .. _ZB.com:
+.. |logo_326| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/326.png
+   :width: 32px
+   :height: 32px
+   :alt: ZB.com
 
-ZB.com
-------
+
+|logo_326| ZB.com
+-----------------
 
 `<https://coinmarketcap.com/exchanges/zb-com/>`_
 
