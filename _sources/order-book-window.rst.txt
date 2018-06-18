@@ -1,0 +1,16 @@
+Order Book window
+=================
+
+.. image:: images/order-book-window.png
+   :align: center
+
+Open the Order Book window from Window > Extensions > Order Book menu item.
+
+*The Order Book window is available for selected crypto data feeds*
+
+Toolbar from left to right:
+  #. Symbol - the symbol and exchange to show the order book of when clicked the Symbol Search window is displayed
+  #. Symbol Link - the channel used for symbol linking
+  #. Price Grouping - group orders by price into bins of this size
+  #. Max Levels - the maximum number of levels (rows) the table will display
+  #. Volume Decimals - the number of decimals to display size amounts with

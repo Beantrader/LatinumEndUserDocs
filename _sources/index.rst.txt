@@ -23,6 +23,8 @@ Welcome to Latinum User's documentation!
    studies
    study-attributes-window
    study-volumebyprice
-   studies-bill-williams.rst
+   studies-bill-williams
    trading
+   order-book-window
+   trade-feed-window
    exporting-data

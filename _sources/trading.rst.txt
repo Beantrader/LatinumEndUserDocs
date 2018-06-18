@@ -1,7 +1,7 @@
 Trading
 =======
 
-Trading is only available for FXCM accounts
+*Trading is only available for FXCM accounts*
 
 .. toctree::
    :maxdepth: 2

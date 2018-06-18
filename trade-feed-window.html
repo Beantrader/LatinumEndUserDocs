@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Edit Entry Order &mdash; Latinum User 6.6.0 documentation</title>
+  <title>Trade Feed window &mdash; Latinum User 6.6.0 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Edit Limit Order for an Entry Order" href="trading-edit-limit-order-for-an-entry-order.html" />
-    <link rel="prev" title="Edit Limit Order for an Open Trade" href="trading-edit-limit-order-for-an-open-trade.html" /> 
+    <link rel="next" title="Exporting Data" href="exporting-data.html" />
+    <link rel="prev" title="Order Book window" href="order-book-window.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -95,16 +95,16 @@
 <li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
 <li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="trading.html">Trading</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-stop-order-for-an-entry-order.html">Edit Stop Order for an Entry Order</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-limit-order-for-an-open-trade.html">Edit Limit Order for an Open Trade</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Edit Entry Order</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-limit-order-for-an-entry-order.html">Edit Limit Order for an Entry Order</a></li>
-<li class="toctree-l2"><a class="reference internal" href="trading-edit-stop-order-for-an-open-trade.html">Edit Stop Order for an Open Trade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Trade Feed window</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#filter-settings-panel">Filter Settings panel</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#filter-settings">Filter settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#aggregation-settings">Aggregation settings</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
-<li class="toctree-l1"><a class="reference internal" href="trade-feed-window.html">Trade Feed window</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
 </ul>
 
@@ -151,15 +151,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-          <li><a href="trading.html">Trading</a> &raquo;</li>
-        
-      <li>Edit Entry Order</li>
+      <li>Trade Feed window</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/trading-edit-entry-order.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/trade-feed-window.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -172,29 +170,87 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="edit-entry-order">
-<h1>Edit Entry Order<a class="headerlink" href="#edit-entry-order" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic">
-<li><p class="first">In the Orders table, right-click an entry order, and then select <strong>Edit Entry Order</strong>.</p>
+  <div class="section" id="trade-feed-window">
+<h1>Trade Feed window<a class="headerlink" href="#trade-feed-window" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/trade-feed-window.png" class="align-center" src="_images/trade-feed-window.png" />
+<p>Open the Trade Feed window from Window &gt; Extensions &gt; Trade Feed menu item.</p>
+<p><em>The Trade Feed window is available for selected crypto data feeds</em></p>
+<dl class="docutils">
+<dt>Coloring:</dt>
+<dd><ol class="first last arabic simple">
+<li>A blue row is a trade executed at Bid</li>
+<li>A green row is a trade executed at Ask</li>
+<li>A white arrow is a price increase</li>
+<li>A black arrow is a price decrease</li>
+</ol>
+</dd>
+<dt>Columns:</dt>
+<dd><ol class="first last arabic">
+<li><p class="first">Time - in exchange time zone.</p>
+<p>Displays the first trade time if By Time aggregation is used.</p>
 </li>
-<li><p class="first">The <strong>Edit Entry Order</strong> dialog box will be shown.</p>
-<blockquote>
-<div><img alt="_images/edit-entry-order.png" class="align-center" src="_images/edit-entry-order.png" />
-</div></blockquote>
-<p>You can change the order being edited by selecting another Order ID.</p>
+<li><p class="first">Price - the price the trade was executed.</p>
+<p>Displays the volume-weighted average price if By Price aggregation is <strong>not</strong> used but another aggregation option is used.</p>
 </li>
-<li><p class="first">In the <strong>Amount</strong> box, type the amount (order size, units) of the order.</p>
-<p><em>Note that the Amount may be either “Amount” or “Amount (K)”. **The K suffix indicates that the number entered is thousands; The following amounts are equal - “Amount 20000” equals “Amount (K) 20 K”</em></p>
-<p>The <strong>Pip Pip</strong> value shown is the pip value of the order.</p>
-<p>The <strong>Usd Mr</strong> value shown is the margin required by the order.</p>
-</li>
-<li><p class="first">In the <strong>Rate</strong> box, type the entry price of the order.</p>
-</li>
-<li><p class="first">Select <strong>OK</strong> to submit your modified order, or <strong>Cancel</strong> to close the dialog discarding your changes.</p>
-<p>If no errors occur the dialog box will close automatically, otherwise the error message will be displayed.</p>
-<p>Tip: If you receive an error message regarding Stop or Limit values, you may need to edit those orders first.</p>
+<li><p class="first">Size - the volume of the trade.</p>
+<p>Displays the sum of all aggregated trades if aggregation is used.</p>
 </li>
 </ol>
+</dd>
+<dt>Toolbar from left to right:</dt>
+<dd><ol class="first last arabic simple">
+<li>Symbol - the symbol and exchange to show the order book of when clicked the Symbol Search window is displayed</li>
+<li>Symbol Link - the channel used for symbol linking</li>
+<li>Toggle Filter settings panel - show or hide the filter settings. Any filter is still applied when the panel is hidden</li>
+<li>Volume Decimals - the number of decimals to display size amounts with</li>
+</ol>
+</dd>
+</dl>
+<div class="section" id="filter-settings-panel">
+<h2>Filter Settings panel<a class="headerlink" href="#filter-settings-panel" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/trade-feed-filter-settings-panel.png" class="align-center" src="_images/trade-feed-filter-settings-panel.png" />
+<dl class="docutils">
+<dt>Reset button</dt>
+<dd>Clear the filter settings and apply</dd>
+<dt>Apply button</dt>
+<dd>Apply the filter settings</dd>
+</dl>
+<div class="section" id="filter-settings">
+<h3>Filter settings<a class="headerlink" href="#filter-settings" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Min Size and Max Size</dt>
+<dd>The minimum and maximum size (volume) to display trades off.
+Minimum is inclusive, maximum is exclusive.</dd>
+<dt>Min Value and Max Value</dt>
+<dd>The minimum and the maximum value (volume × price) to display trades off.
+Minimum is inclusive, maximum is exclusive.</dd>
+</dl>
+<p>Filter settings are applied before aggregation settings.</p>
+</div>
+<div class="section" id="aggregation-settings">
+<h3>Aggregation settings<a class="headerlink" href="#aggregation-settings" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>By Price</dt>
+<dd>If the incoming trade has a price difference of less than 0.00000001
+when compared to the previous trade
+the incoming trades quantity is added to the last (previous) trade.</dd>
+<dt>By Time</dt>
+<dd><p class="first">If the incoming trade has a time equal to the previous trade (to the second)
+the incoming trades quantity is added to the last (previous) trade.</p>
+<p class="last">If By Price aggregation is not enabled a volume-weighted average price is calculated.</p>
+</dd>
+<dt>By Side</dt>
+<dd><p class="first">If the incoming trade was executed on the same side (Bid or Ask) as
+the previous trade
+the incoming trades quantity is added to the last (previous) trade.</p>
+<p>If By Price aggregation is not enabled a volume-weighted average price is calculated.</p>
+<p class="last">If By Side is not enabled the side is determined by all the aggregated trades.
+The side with the highest value wins.</p>
+</dd>
+</dl>
+<p>Any combination of By Price, By Time, and By Side can be selected.</p>
+</div>
+</div>
 </div>
 
 
@@ -205,10 +261,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="trading-edit-limit-order-for-an-entry-order.html" class="btn btn-neutral float-right" title="Edit Limit Order for an Entry Order" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="exporting-data.html" class="btn btn-neutral float-right" title="Exporting Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="trading-edit-limit-order-for-an-open-trade.html" class="btn btn-neutral" title="Edit Limit Order for an Open Trade" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="order-book-window.html" class="btn btn-neutral" title="Order Book window" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
