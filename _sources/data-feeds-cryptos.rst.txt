@@ -4,6 +4,10 @@
 Crypto Data Feeds
 =================
 
+.. note::
+   Crypto data feeds available only in *Latinum* (standard edition)
+   and *Latinum Cryptos for Mac*.
+
 **Exchanges**
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/288.png

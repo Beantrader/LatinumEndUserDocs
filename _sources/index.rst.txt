@@ -11,7 +11,7 @@ Welcome to Latinum User's documentation!
    :caption: Contents:
 
    videos
-   data-feeds-cryptos
+   data-feeds-supported
    symbols-symbol-lists
    main-menu-bar-menu-items
    workspace-basics

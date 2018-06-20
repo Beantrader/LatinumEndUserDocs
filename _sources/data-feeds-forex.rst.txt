@@ -1,0 +1,38 @@
+Forex Data Feeds
+================
+
+.. note::
+   Forex data feeds available only in *Latinum* (standard edition).
+
+.. _FXCM:
+.. |logo_fxcm.gif| image:: images/icons-data-feed/fxcm.gif
+   :width: 32px
+   :height: 32px
+   :alt: FXCM
+
+
+|logo_fxcm.gif| FXCM
+--------------------
+
+Compatible with Real and Practice (Demo) FXCM Trading Station/Marketscope accounts.
+
+Available symbols depend on the FXCM account connected (logged in).
+Only one account (Login ID) can be logged in at a time,
+this account is used for trading and market data.
+
+`<https://www.fxcm.com/>`_
+
+✔ Price Charts
+
+   Charts update every 250 milliseconds
+
+
+✔ Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+.. note::
+   If using Real (live) accounts you may have to enable ForexConnect API
+   connections in `MyFXCM <https://www.myfxcm.com/>`_, contact FXCM for details.

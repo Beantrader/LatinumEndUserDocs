@@ -1,0 +1,36 @@
+Stocks Data Feeds
+=================
+
+.. note::
+   Stocks data feeds available only in *Latinum* (standard edition)
+   and *Latinum Stocks for Mac*.
+
+.. _IEX:
+.. |logo_iex.png| image:: images/icons-data-feed/iex.png
+   :width: 32px
+   :height: 32px
+   :alt: IEX
+
+
+|logo_iex.png| IEX
+------------------
+
+IEX provides data for US stocks.
+
+`<https://iextrading.com/>`_
+
+✔ Price Charts
+
+   Charts update every 500 milliseconds. This update interval will
+   automatically increase if no trading activity is detected (up to 64 seconds)
+
+
+✔ Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+.. note::
+   Please use the `IEX Stocks app <https://stocks.iextrading.com/>`_
+   to find out if your favorite stocks are available.

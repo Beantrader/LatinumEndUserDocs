@@ -1,0 +1,10 @@
+Supported Data Feeds
+====================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   data-feeds-forex
+   data-feeds-stocks
+   data-feeds-cryptos

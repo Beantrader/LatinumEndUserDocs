@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Order Book window &mdash; Latinum User 6.6.0 documentation</title>
+  <title>Stocks Data Feeds &mdash; Latinum User 6.6.0 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Trade Feed window" href="trade-feed-window.html" />
-    <link rel="prev" title="Edit Stop Order for an Open Trade" href="trading-edit-stop-order-for-an-open-trade.html" /> 
+    <link rel="next" title="Crypto Data Feeds" href="data-feeds-cryptos.html" />
+    <link rel="prev" title="Forex Data Feeds" href="data-feeds-forex.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -82,7 +82,15 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="videos.html">Videos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data-feeds-supported.html">Supported Data Feeds</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="data-feeds-supported.html">Supported Data Feeds</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="data-feeds-forex.html">Forex Data Feeds</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Stocks Data Feeds</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#logo-iex-png-iex"> IEX</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data-feeds-cryptos.html">Crypto Data Feeds</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="symbols-symbol-lists.html">Symbol Lists</a></li>
 <li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
 <li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
@@ -98,7 +106,7 @@
 <li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Order Book window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
 <li class="toctree-l1"><a class="reference internal" href="trade-feed-window.html">Trade Feed window</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
 </ul>
@@ -146,13 +154,15 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Order Book window</li>
+          <li><a href="data-feeds-supported.html">Supported Data Feeds</a> &raquo;</li>
+        
+      <li>Stocks Data Feeds</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/order-book-window.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/data-feeds-stocks.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -165,22 +175,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="order-book-window">
-<h1>Order Book window<a class="headerlink" href="#order-book-window" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/order-book-window.png" class="align-center" src="_images/order-book-window.png" />
-<p>Open the Order Book window from Window &gt; Extensions &gt; Order Book menu item.</p>
-<p><em>The Order Book window is available for selected crypto data feeds</em></p>
-<dl class="docutils">
-<dt>Toolbar from left to right:</dt>
-<dd><ol class="first last arabic simple">
-<li>Symbol - the symbol and exchange to show the order book of when clicked the Symbol Search window is displayed</li>
-<li>Symbol Link - the channel used for symbol linking</li>
-<li>Price Grouping - group orders by price into bins of this size</li>
-<li>Max Levels - the maximum number of levels (rows) the table will display</li>
-<li>Volume Decimals - the number of decimals to display size amounts with</li>
-</ol>
-</dd>
-</dl>
+  <div class="section" id="stocks-data-feeds">
+<h1>Stocks Data Feeds<a class="headerlink" href="#stocks-data-feeds" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Stocks data feeds available only in <em>Latinum</em> (standard edition)
+and <em>Latinum Stocks for Mac</em>.</p>
+</div>
+<span class="target" id="iex"></span><div class="section" id="logo-iex-png-iex">
+<h2><a class="reference internal" href="_images/iex.png"><img alt="IEX" src="_images/iex.png" style="width: 32px; height: 32px;" /></a> IEX<a class="headerlink" href="#logo-iex-png-iex" title="Permalink to this headline">¶</a></h2>
+<p>IEX provides data for US stocks.</p>
+<p><a class="reference external" href="https://iextrading.com/">https://iextrading.com/</a></p>
+<p>✔ Price Charts</p>
+<blockquote>
+<div>Charts update every 500 milliseconds. This update interval will
+automatically increase if no trading activity is detected (up to 64 seconds)</div></blockquote>
+<p>✔ Quotes in Sidebar</p>
+<p>✖ [No] Order Book</p>
+<p>✖ [No] Trade Feed</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please use the <a class="reference external" href="https://stocks.iextrading.com/">IEX Stocks app</a>
+to find out if your favorite stocks are available.</p>
+</div>
+</div>
 </div>
 
 
@@ -191,10 +209,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="trade-feed-window.html" class="btn btn-neutral float-right" title="Trade Feed window" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="data-feeds-cryptos.html" class="btn btn-neutral float-right" title="Crypto Data Feeds" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="trading-edit-stop-order-for-an-open-trade.html" class="btn btn-neutral" title="Edit Stop Order for an Open Trade" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="data-feeds-forex.html" class="btn btn-neutral" title="Forex Data Feeds" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
