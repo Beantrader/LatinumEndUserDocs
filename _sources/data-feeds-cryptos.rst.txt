@@ -142,6 +142,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Luno
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/61.png
+   :target: OKCoin-International_
+   :width: 32px
+   :height: 32px
+   :alt: OKCoin International
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/294.png
    :target: OKEx_
    :width: 32px
@@ -207,6 +213,7 @@ Crypto Data Feeds
 - `Kucoin <Kucoin_>`_
 - `LBank <LBank_>`_
 - `Luno <Luno_>`_
+- `OKCoin International <OKCoin-International_>`_
 - `OKEx <OKEx_>`_
 - `Poloniex <Poloniex_>`_
 - `Qryptos <Qryptos_>`_
@@ -581,6 +588,8 @@ CoinMarketCap. All data is EOD/daily.
 |logo_89| GDAX
 --------------
 
+Also known as Coinbase Pro
+
 `<https://coinmarketcap.com/exchanges/gdax/>`_
 
 ✔ Price Charts
@@ -770,6 +779,27 @@ CoinMarketCap. All data is EOD/daily.
 ✖ [No] Order Book
 
 ✖ [No] Trade Feed
+
+
+.. _OKCoin-International:
+.. |logo_61| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/61.png
+   :width: 32px
+   :height: 32px
+   :alt: OKCoin International
+
+
+|logo_61| OKCoin International
+------------------------------
+
+`<https://coinmarketcap.com/exchanges/okcoin-intl/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
 
 
 .. _OKEx:
