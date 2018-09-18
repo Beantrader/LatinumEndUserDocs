@@ -82,6 +82,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: CEX.IO
 
+.. image:: images/icons-data-feed/cryptofacilities.png
+   :target: Crypto-Facilities_
+   :width: 32px
+   :height: 32px
+   :alt: Crypto Facilities
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/344.png
    :target: Ethfinex_
    :width: 32px
@@ -106,11 +112,23 @@ Crypto Data Feeds
    :height: 32px
    :alt: HADAX
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/414.png
+   :target: HBUS_
+   :width: 32px
+   :height: 32px
+   :alt: HBUS
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
    :target: HitBTC_
    :width: 32px
    :height: 32px
    :alt: HitBTC
+
+.. image:: images/icons-data-feed/huobiau.png
+   :target: Huobi-Australia_
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Australia
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
    :target: Huobi.pro_
@@ -203,11 +221,14 @@ Crypto Data Feeds
 - `Bitstamp <Bitstamp_>`_
 - `Bittrex <Bittrex_>`_
 - `CEX.IO <CEX.IO_>`_
+- `Crypto Facilities <Crypto-Facilities_>`_
 - `Ethfinex <Ethfinex_>`_
 - `GDAX <GDAX_>`_
 - `Gemini <Gemini_>`_
 - `HADAX <HADAX_>`_
+- `HBUS <HBUS_>`_
 - `HitBTC <HitBTC_>`_
+- `Huobi Australia <Huobi-Australia_>`_
 - `Huobi.pro <Huobi.pro_>`_
 - `Kraken <Kraken_>`_
 - `Kucoin <Kucoin_>`_
@@ -557,6 +578,32 @@ CoinMarketCap. All data is EOD/daily.
 ✖ [No] Trade Feed
 
 
+.. _Crypto-Facilities:
+.. |logo_cryptofacilities.png| image:: images/icons-data-feed/cryptofacilities.png
+   :width: 32px
+   :height: 32px
+   :alt: Crypto Facilities
+
+
+|logo_cryptofacilities.png| Crypto Facilities
+---------------------------------------------
+
+https://cryptofacilities.com
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+   Not all instruments supported
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
 .. _Ethfinex:
 .. |logo_344| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/344.png
    :width: 32px
@@ -643,6 +690,27 @@ Also known as Coinbase Pro
 ✔ Trade Feed
 
 
+.. _HBUS:
+.. |logo_414| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/414.png
+   :width: 32px
+   :height: 32px
+   :alt: HBUS
+
+
+|logo_414| HBUS
+---------------
+
+`<https://coinmarketcap.com/exchanges/hbus/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
 .. _HitBTC:
 .. |logo_42| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
    :width: 32px
@@ -654,6 +722,27 @@ Also known as Coinbase Pro
 ----------------
 
 `<https://coinmarketcap.com/exchanges/hitbtc/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Huobi-Australia:
+.. |logo_huobiau.png| image:: images/icons-data-feed/huobiau.png
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Australia
+
+
+|logo_huobiau.png| Huobi Australia
+----------------------------------
+
+https://huobi.com.au/
 
 ✔ Price Charts
 
