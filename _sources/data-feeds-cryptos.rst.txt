@@ -76,6 +76,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Bittrex
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/224.png
+   :target: BTC-Markets_
+   :width: 32px
+   :height: 32px
+   :alt: BTC Markets
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/36.png
    :target: CEX.IO_
    :width: 32px
@@ -220,6 +226,7 @@ Crypto Data Feeds
 - `Bithumb <Bithumb_>`_
 - `Bitstamp <Bitstamp_>`_
 - `Bittrex <Bittrex_>`_
+- `BTC Markets <BTC-Markets_>`_
 - `CEX.IO <CEX.IO_>`_
 - `Crypto Facilities <Crypto-Facilities_>`_
 - `Ethfinex <Ethfinex_>`_
@@ -264,7 +271,7 @@ Crypto Data Feeds
 
 ✔ Price Charts
 
-   This feed doesn't use streaming prices, charts update every 10 seconds
+   This feed doesn't use streaming prices, charts update every 5 seconds
 
 
 ✖ [No] Quotes in Sidebar
@@ -288,7 +295,7 @@ Crypto Data Feeds
 
 ✔ Price Charts
 
-   This feed doesn't use streaming prices, charts update every 5 seconds
+   This feed doesn't use streaming prices, charts update every 10 seconds
 
 
 ✖ [No] Quotes in Sidebar
@@ -496,6 +503,30 @@ Crypto Data Feeds
 ✔ Price Charts
 
    This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _BTC-Markets:
+.. |logo_224| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/224.png
+   :width: 32px
+   :height: 32px
+   :alt: BTC Markets
+
+
+|logo_224| BTC Markets
+----------------------
+
+`<https://coinmarketcap.com/exchanges/btc-markets/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 5 seconds
 
 
 ✖ [No] Quotes in Sidebar
