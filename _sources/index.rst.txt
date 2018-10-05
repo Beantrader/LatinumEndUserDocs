@@ -25,6 +25,7 @@ Welcome to Latinum User's documentation!
    studies
    study-attributes-window
    study-volumebyprice
+   study-zigzag
    studies-bill-williams
    trading
    order-book-window

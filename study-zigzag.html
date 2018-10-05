@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Study Attributes window &mdash; Latinum User 6.8.0 documentation</title>
+  <title>ZigZag &mdash; Latinum User 6.8.0 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Volume by Price" href="study-volumebyprice.html" />
-    <link rel="prev" title="Studies" href="studies.html" /> 
+    <link rel="next" title="Bill Williams Indicators" href="studies-bill-williams.html" />
+    <link rel="prev" title="Volume by Price" href="study-volumebyprice.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -94,16 +94,13 @@
 <li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Study Attributes window</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#parameters-tab">Parameters tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#view-style-tab">View Style tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#axis-tab">Axis tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#series-tab">Series tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#help-tab">Help tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ZigZag</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#study-attributes">Study Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#external-resources">External Resources</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
-<li class="toctree-l1"><a class="reference internal" href="study-zigzag.html">ZigZag</a></li>
 <li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
 <li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
@@ -154,13 +151,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Study Attributes window</li>
+      <li>ZigZag</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/study-attributes-window.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/study-zigzag.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -173,47 +170,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="study-attributes-window">
-<h1>Study Attributes window<a class="headerlink" href="#study-attributes-window" title="Permalink to this headline">¶</a></h1>
-<p>Many of the studies use a similar looking properties/attributes window that window is described here. Some studies provide their own properties window such as the Volume by Price indicator, and some studies don’t have any editable attributes.</p>
-<p>The terms <em>Study Attributes</em> and <em>Study Properties</em> may be used interchangeably.</p>
-<div class="section" id="parameters-tab">
-<h2>Parameters tab<a class="headerlink" href="#parameters-tab" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/study-props-params.png" class="align-center" src="_images/study-props-params.png" />
-<p>The parameters tab contains optional input parameters that affect the indicators calculation. Most of the time the input is an integer (whole number). Sometimes the input is a number that represents a mode or function an indicator should use internally, for example, the Stochastic Oscillator allows defining the moving-average type used internally, 0 (zero) represents SMA, 1 (one) represents EMA. The tool-tip will show valid options.</p>
-</div>
-<div class="section" id="view-style-tab">
-<h2>View Style tab<a class="headerlink" href="#view-style-tab" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/study-props-view-style.png" class="align-center" src="_images/study-props-view-style.png" />
-<p>The view style tab contains options that affect the color and width of lines displayed by an indicator. There is one color option for each of the indicators outputs. The color and line width may be ignored by the indicator.</p>
-</div>
-<div class="section" id="axis-tab">
-<h2>Axis tab<a class="headerlink" href="#axis-tab" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/study-props-axis.png" class="align-center" src="_images/study-props-axis.png" />
-<p>The axis tab contains display options for indicators that appear in their own sub-plot (i.e not overlays).</p>
+  <div class="section" id="zigzag">
+<h1>ZigZag<a class="headerlink" href="#zigzag" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/study-zigzag.png" class="align-center" src="_images/study-zigzag.png" />
+<div class="section" id="study-attributes">
+<h2>Study Attributes<a class="headerlink" href="#study-attributes" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/study-zigzag-props.png" class="align-center" src="_images/study-zigzag-props.png" />
 <dl class="docutils">
-<dt>Min and Max</dt>
-<dd>If set the Max value is used as the largest value on the y-axis, Min is used for the smallest value on the y-axis. If both Min and Max are empty autoscaling is used.</dd>
-<dt>Levels</dt>
-<dd>Input a separated list of numbers. For each number, a horizontal line is drawing across the chart. For example, if you want to show lines at 30, 70 on an RSI indicator input “30 70”.</dd>
-<dt>Digits</dt>
-<dd>The digits attribute controls the number of decimal places displayed on the y-axis, use -1 (negative one) to switch on number abbreviations (e.g 1000000 is shown as 1M).</dd>
+<dt>Reversal %</dt>
+<dd><p class="first">The minimum percentage change in price since the previous zig for a zag to be added.</p>
+<p class="last"><em>A value of 5.5 equals 5.5%.</em></p>
+</dd>
+<dt>Pricing Method</dt>
+<dd>The price field used to calculate the change amounts.</dd>
+<dt>Test Order</dt>
+<dd>The order of test operations.</dd>
 </dl>
 </div>
-<div class="section" id="series-tab">
-<h2>Series tab<a class="headerlink" href="#series-tab" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/study-props-series.png" class="align-center" src="_images/study-props-series.png" />
-<dl class="docutils">
-<dt>Price source</dt>
-<dd>Select the input price source for the indicator. This only affects indicators that use a single input series (i.e not a candle). This value can also be ignored by some indicators that are always calculated with a certain price type (e.g Awesome Oscillator always uses Median).</dd>
-<dt>Bars Offset</dt>
-<dd>Input type is a number of bars. Shift the studies’ outputs forward or backwards by the number of bars. Use a negative number to shift backwards. Some indicators use an internal offset (e.g Ichimoku), the internal offset and the bars offset you specify here are added together for the final offset.</dd>
-</dl>
-</div>
-<div class="section" id="help-tab">
-<h2>Help tab<a class="headerlink" href="#help-tab" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/study-props-help.png" class="align-center" src="_images/study-props-help.png" />
-<p>Displays text provided by the indicator, if the indicator doesn’t provide any help text the tab may be hidden.</p>
+<div class="section" id="external-resources">
+<h2>External Resources<a class="headerlink" href="#external-resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:zigzag">ZigZag</a> [stockcharts.com]</li>
+</ul>
 </div>
 </div>
 
@@ -225,10 +203,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="study-volumebyprice.html" class="btn btn-neutral float-right" title="Volume by Price" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="studies-bill-williams.html" class="btn btn-neutral float-right" title="Bill Williams Indicators" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="studies.html" class="btn btn-neutral" title="Studies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="study-volumebyprice.html" class="btn btn-neutral" title="Volume by Price" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

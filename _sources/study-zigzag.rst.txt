@@ -1,0 +1,29 @@
+ZigZag
+======
+
+.. image:: images/study-zigzag.png
+   :align: center
+
+
+Study Attributes
+----------------
+
+.. image:: images/study-zigzag-props.png
+   :align: center
+
+Reversal %
+  The minimum percentage change in price since the previous zig for a zag to be added.
+
+  *A value of 5.5 equals 5.5%.*
+
+Pricing Method
+  The price field used to calculate the change amounts.
+
+Test Order
+  The order of test operations.
+
+
+External Resources
+------------------
+
+- `ZigZag <http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:zigzag>`_ [stockcharts.com]
