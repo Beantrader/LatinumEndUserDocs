@@ -100,6 +100,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Ethfinex
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
+   :target: Gate.io_
+   :width: 32px
+   :height: 32px
+   :alt: Gate.io
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/89.png
    :target: GDAX_
    :width: 32px
@@ -159,6 +165,12 @@ Crypto Data Feeds
    :width: 32px
    :height: 32px
    :alt: LBank
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
+   :target: Liquid_
+   :width: 32px
+   :height: 32px
+   :alt: Liquid
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/171.png
    :target: Luno_
@@ -230,6 +242,7 @@ Crypto Data Feeds
 - `CEX.IO <CEX.IO_>`_
 - `Crypto Facilities <Crypto-Facilities_>`_
 - `Ethfinex <Ethfinex_>`_
+- `Gate.io <Gate.io_>`_
 - `GDAX <GDAX_>`_
 - `Gemini <Gemini_>`_
 - `HADAX <HADAX_>`_
@@ -240,6 +253,7 @@ Crypto Data Feeds
 - `Kraken <Kraken_>`_
 - `Kucoin <Kucoin_>`_
 - `LBank <LBank_>`_
+- `Liquid <Liquid_>`_
 - `Luno <Luno_>`_
 - `OKCoin International <OKCoin-International_>`_
 - `OKEx <OKEx_>`_
@@ -656,6 +670,30 @@ https://cryptofacilities.com
 ✔ Trade Feed
 
 
+.. _Gate.io:
+.. |logo_302| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
+   :width: 32px
+   :height: 32px
+   :alt: Gate.io
+
+
+|logo_302| Gate.io
+------------------
+
+`<https://coinmarketcap.com/exchanges/gate-io/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
 .. _GDAX:
 .. |logo_89| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/89.png
    :width: 32px
@@ -864,6 +902,30 @@ https://huobi.com.au/
 ----------------
 
 `<https://coinmarketcap.com/exchanges/lbank/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Liquid:
+.. |logo_112| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
+   :width: 32px
+   :height: 32px
+   :alt: Liquid
+
+
+|logo_112| Liquid
+-----------------
+
+`<https://coinmarketcap.com/exchanges/liquid/>`_
 
 ✔ Price Charts
 
