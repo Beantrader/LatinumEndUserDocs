@@ -179,76 +179,71 @@
 <img alt="_images/trade-feed-window.png" class="align-center" src="_images/trade-feed-window.png" />
 <p>Open the Trade Feed window from Window &gt; Extensions &gt; Trade Feed menu item.</p>
 <p><em>The Trade Feed window is available for selected crypto data feeds</em></p>
-<dl class="docutils">
-<dt>Coloring:</dt>
-<dd><ol class="first last arabic simple">
-<li>A blue row is a trade executed at Bid</li>
-<li>A green row is a trade executed at Ask</li>
-<li>A white arrow is a price increase</li>
-<li>A black arrow is a price decrease</li>
+<dl>
+<dt>Coloring:</dt><dd><ol class="arabic simple">
+<li><p>A blue row is a trade executed at Bid</p></li>
+<li><p>A green row is a trade executed at Ask</p></li>
+<li><p>A white arrow is a price increase</p></li>
+<li><p>A black arrow is a price decrease</p></li>
 </ol>
 </dd>
-<dt>Columns:</dt>
-<dd><ol class="first last arabic">
-<li><p class="first">Time - in exchange time zone.</p>
+<dt>Columns:</dt><dd><ol class="arabic">
+<li><p>Time - in exchange time zone.</p>
 <p>Displays the first trade time if By Time aggregation is used.</p>
 </li>
-<li><p class="first">Price - the price the trade was executed.</p>
+<li><p>Price - the price the trade was executed.</p>
 <p>Displays the volume-weighted average price if By Price aggregation is <strong>not</strong> used but another aggregation option is used.</p>
 </li>
-<li><p class="first">Size - the volume of the trade.</p>
+<li><p>Size - the volume of the trade.</p>
 <p>Displays the sum of all aggregated trades if aggregation is used.</p>
 </li>
 </ol>
 </dd>
-<dt>Toolbar from left to right:</dt>
-<dd><ol class="first last arabic simple">
-<li>Symbol - the symbol and exchange to show the order book of when clicked the Symbol Search window is displayed</li>
-<li>Symbol Link - the channel used for symbol linking</li>
-<li>Toggle Filter settings panel - show or hide the filter settings. Any filter is still applied when the panel is hidden</li>
-<li>Volume Decimals - the number of decimals to display size amounts with</li>
+<dt>Toolbar from left to right:</dt><dd><ol class="arabic simple">
+<li><p>Symbol - the symbol and exchange to show the order book of when clicked the Symbol Search window is displayed</p></li>
+<li><p>Symbol Link - the channel used for symbol linking</p></li>
+<li><p>Toggle Filter settings panel - show or hide the filter settings. Any filter is still applied when the panel is hidden</p></li>
+<li><p>Volume Decimals - the number of decimals to display size amounts with</p></li>
 </ol>
 </dd>
 </dl>
 <div class="section" id="filter-settings-panel">
 <h2>Filter Settings panel<a class="headerlink" href="#filter-settings-panel" title="Permalink to this headline">¶</a></h2>
 <img alt="_images/trade-feed-filter-settings-panel.png" class="align-center" src="_images/trade-feed-filter-settings-panel.png" />
-<dl class="docutils">
-<dt>Reset button</dt>
-<dd>Clear the filter settings and apply</dd>
-<dt>Apply button</dt>
-<dd>Apply the filter settings</dd>
+<dl class="simple">
+<dt>Reset button</dt><dd><p>Clear the filter settings and apply</p>
+</dd>
+<dt>Apply button</dt><dd><p>Apply the filter settings</p>
+</dd>
 </dl>
 <div class="section" id="filter-settings">
 <h3>Filter settings<a class="headerlink" href="#filter-settings" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt>Min Size and Max Size</dt>
-<dd>The minimum and maximum size (volume) to display trades off.
-Minimum is inclusive, maximum is exclusive.</dd>
-<dt>Min Value and Max Value</dt>
-<dd>The minimum and the maximum value (volume × price) to display trades off.
-Minimum is inclusive, maximum is exclusive.</dd>
+<dl class="simple">
+<dt>Min Size and Max Size</dt><dd><p>The minimum and maximum size (volume) to display trades off.
+Minimum is inclusive, maximum is exclusive.</p>
+</dd>
+<dt>Min Value and Max Value</dt><dd><p>The minimum and the maximum value (volume × price) to display trades off.
+Minimum is inclusive, maximum is exclusive.</p>
+</dd>
 </dl>
 <p>Filter settings are applied before aggregation settings.</p>
 </div>
 <div class="section" id="aggregation-settings">
 <h3>Aggregation settings<a class="headerlink" href="#aggregation-settings" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt>By Price</dt>
-<dd>If the incoming trade has a price difference of less than 0.00000001
+<dl>
+<dt>By Price</dt><dd><p>If the incoming trade has a price difference of less than 0.00000001
 when compared to the previous trade
-the incoming trades quantity is added to the last (previous) trade.</dd>
-<dt>By Time</dt>
-<dd><p class="first">If the incoming trade has a time equal to the previous trade (to the second)
 the incoming trades quantity is added to the last (previous) trade.</p>
-<p class="last">If By Price aggregation is not enabled a volume-weighted average price is calculated.</p>
 </dd>
-<dt>By Side</dt>
-<dd><p class="first">If the incoming trade was executed on the same side (Bid or Ask) as
+<dt>By Time</dt><dd><p>If the incoming trade has a time equal to the previous trade (to the second)
+the incoming trades quantity is added to the last (previous) trade.</p>
+<p>If By Price aggregation is not enabled a volume-weighted average price is calculated.</p>
+</dd>
+<dt>By Side</dt><dd><p>If the incoming trade was executed on the same side (Bid or Ask) as
 the previous trade
 the incoming trades quantity is added to the last (previous) trade.</p>
 <p>If By Price aggregation is not enabled a volume-weighted average price is calculated.</p>
-<p class="last">If By Side is not enabled the side is determined by all the aggregated trades.
+<p>If By Side is not enabled the side is determined by all the aggregated trades.
 The side with the highest value wins.</p>
 </dd>
 </dl>
@@ -310,6 +305,7 @@ The side with the highest value wins.</p>
       <script type="text/javascript" src="_static/jquery.js"></script>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
       <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-26974913-4"></script>
       <script type="text/javascript" src="_static/js/ga.js"></script>
 
