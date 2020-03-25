@@ -1,0 +1,23 @@
+Version 3.8.2
+=============
+
+Beantrader Latinum version 3.8.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved appearance on high DPI displays
+
+### Charts
+   * Fixed exporting chart image as PDF and SVG
+
+### Datafeed
+   * FXCM
+      * Improved stability
+      * Fixed local cache when cache path contains non-Latin1
+        characters
+      * Fixed "Timed out." login error dialog shown multiple times
+
+### Workspaces
+   * Fixed issue loading workspaces from an incorrect location
+   * Fixed issue loading nonexistent last workspace at startup

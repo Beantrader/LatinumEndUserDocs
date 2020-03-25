@@ -1,0 +1,20 @@
+Version 6.0.7
+=============
+
+Beantrader Latinum version 6.0.7 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed potential crash subscribing to crypto symbols
+
+### Datafeed
+   * GDAX
+      * Added volume for bars created from real-time feed
+      * Fixed some reconnection issues
+   * GEMINI
+      * Added Gemini charts and last trade data
+   * BITSTAMP
+      * Added Bitstamp charts and last trade data
+   * BITFINIX
+      * Added Bitfinix charts and level 1 quotes data

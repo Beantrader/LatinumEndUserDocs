@@ -1,0 +1,13 @@
+Version 6.1.1
+=============
+
+Beantrader Latinum version 6.1.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * Changed Volume study to Columns style (was Histogram)
+
+### Datafeed
+   * BITFINEX
+      * Fixed issue with chart volume if using Best Bit/Ask Lines study

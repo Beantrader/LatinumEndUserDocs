@@ -1,0 +1,21 @@
+Version 6.0.15
+==============
+
+Beantrader Latinum version 6.0.15 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed drag and drop of symbol from Quotes sidebar, the data feed is
+     now changed too
+
+### Drawing
+   * Added ability to edit floating text labels text
+   * Fixed saving z-index
+   * Changed floating text labels so they are now associated with the
+     chart symbol. Existing labels are not affected, new labels will now
+     be shown or hidden when the symbol of the chart is changed.
+
+### Datafeed
+   * RPX
+      * Added backup symbol list server, this is used by all crypto feeds

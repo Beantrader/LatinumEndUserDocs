@@ -1,0 +1,20 @@
+Version 6.0.13
+==============
+
+Beantrader Latinum version 6.0.13 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * BITSTAMP
+      * Fixed potential crash when unsubscribing from symbol, this may
+        occur when closing a chart or exiting the application
+      * Fixed some reconnection issues
+   * POLONIEX
+      * Added Poloniex charts and Level 1 data. Provides 99 new symbols.
+   * WEX
+      * Added WEX charts and Last Trade data. Provides 17 new symbols
+        with chart data and 47 symbols with Last price only.
+   * HUOBI
+      * Added Huobi.pro charts and Last Trade data, note bars are based
+        on Hong Kong time. Provides 91 new symbols.

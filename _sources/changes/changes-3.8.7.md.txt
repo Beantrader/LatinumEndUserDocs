@@ -1,0 +1,12 @@
+Version 3.8.7
+=============
+
+Beantrader Latinum version 3.8.7 is a bugfix release.
+
+The most important changes are listed in this document.
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed crash at app exit on macOS Sierra (10.12)

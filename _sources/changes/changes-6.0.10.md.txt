@@ -1,0 +1,24 @@
+Version 6.0.10
+==============
+
+Beantrader Latinum version 6.0.10 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * GDAX
+      * Fixed some reconnection issues
+      * Updated to new GDAX API restrictions
+   * BINANCE
+      * Added Binance charts and Last Trade data. Provides more than
+        200 new symbols.
+   * OKEX
+      * Added OKEX charts and Level 1 data, note bars are based on Hong
+        Kong time. Provides 21 new symbols.
+   * HITBTC
+      * Added HitBTC charts and Level 1 data. Provides more than 400
+        new symbols.
+
+### Quotes Sidebar
+   * Fixed missing quotes from crypto data feeds in windows created
+     after the data feed was connected

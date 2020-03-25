@@ -1,0 +1,19 @@
+Version 6.0.14
+==============
+
+Beantrader Latinum version 6.0.14 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed exchange filter in symbol search dialog
+
+### Studies
+   * Added Best Bid/Ask Lines study, this displays horizontal lines for
+     the current bid and ask prices
+
+### Datafeed
+   * ETHFINEX
+      * Added Ethfinex charts and Level 1 quotes data. Note, Ethfinex
+        log or error messages may contain the word Bitfinex in place of
+        Ethfinex.

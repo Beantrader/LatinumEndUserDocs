@@ -1,0 +1,37 @@
+Version 6.7.0
+=============
+
+Beantrader Latinum version 6.7 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved stability, security, and performance
+   * Removed obsolete Spreadsheet and Basket Entry features
+   * Obsoleted embeded JavaScript trading API [^1]
+
+### Charts
+   * Changed Stay in Drawing Mode disabled behaviour. The Selection tool
+     (black arrow) is now activated instead of the Hand Tool
+
+### Drawing
+   * Changed how y-axis values are labeled on the plot. These values are
+     now shown with the same number of decimals as the y-axis
+
+### Studies
+   * Added additional StochRSI indicator. This implementation uses a
+     a different smoothing method compared to the one provided by TA-Lib
+   * Fixed Pivot Point study not loading for some data feeds
+
+### Datafeed
+   * Added Crypto Facilities chart data feed. This data feed does not use
+     streaming prices, it updates every 10 seconds
+   * Fixed crash using Huobi, HADAX, Huobi Australia, and HBUS connections
+   * GEMINI
+      * Fixed loading order book
+   * LBANK
+      * Updated to new LBank KLine API
+   * BITZ
+      * Updated to new Bit-Z API Ver.2.0
+
+[^1]: Obsolete items are considered for removal in subsequent releases

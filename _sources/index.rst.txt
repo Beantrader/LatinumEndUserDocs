@@ -31,3 +31,4 @@ Welcome to Latinum User's documentation!
    order-book-window
    trade-feed-window
    exporting-data
+   changes/index

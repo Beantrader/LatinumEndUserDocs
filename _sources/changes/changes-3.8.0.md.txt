@@ -1,0 +1,57 @@
+Version 3.8.0
+=============
+
+Beantrader Latinum version 3.8 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added Localization application setting
+   * Fixed localization of numbers, dates, and currency amounts
+
+### Charts
+   * Added infinite scrolling, scroll back to request more data
+   * Added Solarized color scheme
+   * Added Scroll to End button
+   * Added study output values to data tip window
+   * Added Reset Scales action to Zoom tool submenu
+   * Added localized time scale labels (excl. Week interval)
+   * Added font setting for price, volume, and time scales
+   * Changed zoom behaviour to keep current bar visible
+   * Changed price Reset Scale action to also re-enable autoscale
+   * Changed time Reset Scale action to also scroll to end
+   * Removed limit when manually expanding price scale
+
+### Drawing
+   * Added Cycle Lines tool
+   * Added configurable levels to Fibonacci Extension tool
+   * Fixed loading Shape objects from version < 1.9
+   * Fixed loading Trend objects from version < 1.9
+   * Fixed saving transparency in levels presets
+   * Fixed selection of overlapping objects
+   * Fixed input of localized numbers in levels editor
+   * Fixed localized number labels in drawings
+
+### Studies
+   * Changed parameter list separator to semicolon when decimal point
+     character is comma
+
+### Trading
+   * Added per pip value for actual order size to order ticket
+   * Fixed input of localized rate value in Edit Entry Order dialog
+
+### Blotter
+   * Added placeholder text to empty tables
+
+### WebQuery
+   * Fixed includeWeekends parameter for v1/candles when requesting
+     intraday intervals that span a weekend
+
+Platform Specific
+-----------------
+
+### Linux
+   * Fixed crash when logging into FXCM
+
+### Mac
+   * Fixed delete key shortcut in charts and Outliner

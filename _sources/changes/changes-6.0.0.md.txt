@@ -1,0 +1,13 @@
+Version 6.0.0
+=============
+
+Beantrader Latinum version 6.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * IEX
+      * Added IEX charts and quotes data
+
+### Quotes Sidebar
+   * Added option to show or hide Bid/Ask and Last columns

@@ -1,0 +1,9 @@
+Version 7.1.3
+=============
+
+Beantrader Latinum version 7.1.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed crash at app exit if still connected to FXCM

@@ -1,0 +1,38 @@
+Version 3.8.9
+=============
+
+Beantrader Latinum version 3.8.9 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed potential crash in autoscaling algorithm
+   * Fixed update of studies price scale labels displayed in sub-charts
+   * Enabled Second intervals; s1, s2, s3, s4, s6, s12, s20
+   * Enabled Minute intervals; m2, m3, m4, m6, m10, m12, m20 in all
+     editions
+   * Enabled 12 Hour (H12) interval in all editions
+   * Changed symbol linking to also sync the data feed
+   * Changed alerts created from the chart to match the charts current
+     price field (Mid, Bid or Ask only)
+
+### Drawing
+   * Fixed Horizontal Ray tool label, keep it within the viewable area
+
+### Studies
+   * Improved interactive editing of price alerts from charts using
+     the price alert study
+
+### Trading
+   * FXCM
+      * Changed Market Entry widget to not reset amount, stop and
+        limit values when the selected account is changed, or the
+        broker connection is interrupted
+
+### Alerts
+   * Added support for Mid price alerts
+   * Improved performance testing price alerts against price updates
+
+### Datafeed
+   * FXCM
+      * Updated ForexConnectAPI and Price History API

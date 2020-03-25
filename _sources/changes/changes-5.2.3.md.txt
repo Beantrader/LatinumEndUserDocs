@@ -1,0 +1,15 @@
+Version 5.2.3
+=============
+
+Beantrader Latinum version 5.2.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Drawing
+   * Fixed Horizontal Ray tool label, keep it within the viewable area
+
+### Chart Trading
+   * OANDA
+      * Fixed 'Invalid Precision' error when chart trading
+      * Fixed updating of stop loss and take profit level markers
+        when trade or order price has changed

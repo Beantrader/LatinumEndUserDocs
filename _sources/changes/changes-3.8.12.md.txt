@@ -1,0 +1,21 @@
+Version 3.8.12
+==============
+
+Beantrader Latinum version 3.8.12 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added option to display date/time values in UTC or local time
+   * Fixed Dot chart dot color not changing with color scheme
+   * Fixed mouse hit test used when moving horizontal line markers.
+     This fixes issues moving stop loss orders, take profit orders,
+     pending entry orders, and price alerts from the chart
+
+### Trading
+   * FXCM
+      * Fixed attaching new limit orders to trades. This change allows
+        adding a limit order to trades that were opened without one
+      * Fixed risk label not recalculated in mini order ticket, and
+        order ticket when a different account is selected
+

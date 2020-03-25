@@ -1,0 +1,9 @@
+Version 4.9.1
+=============
+
+Beantrader Latinum version 4.9.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed Light color scheme

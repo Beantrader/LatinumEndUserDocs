@@ -1,0 +1,9 @@
+Version 7.1.1
+=============
+
+Beantrader Latinum version 7.1.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fix sign in with OANDA legacy accounts

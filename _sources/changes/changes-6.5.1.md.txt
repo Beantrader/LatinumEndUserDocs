@@ -1,0 +1,24 @@
+Version 6.5.1
+=============
+
+Beantrader Latinum version 6.5.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed axis not updating last price markers for some indicators
+
+### Studies
+   * Added MROC (Multiple ROC) indicator
+   * Added Ichimoku indicator. The parameters and colors can be
+     changed, unlike the older built-in Ichimoku indicator
+   * Added Moving Average Envelopes indicator, SMA and EMA versions
+   * Added Elder Impulse System study
+   * Added MACD-Histogram indicator
+   * Fixed application locking up when using candlestick pattern
+     recognition. The red/green triangles have also been replaced with
+     up/down arrows, these arrows use the color option set on the study
+
+### Datafeed
+   * HUOBI
+      * Fixed reconnection issue

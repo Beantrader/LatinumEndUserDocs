@@ -1,0 +1,14 @@
+Version 3.8.4
+=============
+
+Beantrader Latinum version 3.8.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * TA-Lib
+      * Fixed studies that have input parameters that specify the type
+        of moving average used internally. The following indicators
+        maybe affected; APO, BBANDS, MA, MACDEXT, MAVP, PPO, STOCH,
+        STOCHF, STOCHRSI. If you use the default moving average type
+        you are not affected.

@@ -1,0 +1,16 @@
+Version 6.4.0
+==============
+
+Beantrader Latinum version 6.4 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed potential crash loading charts with an applied data range
+
+### Datafeed
+   * Added data feeds providing chart data for 17 new exchanges: ACX,
+     Bibox, Bit-Z, Bitbank, BitBay, bitFlyer, Bithumb, Bittrex, CEX.IO,
+     Kraken, Kucoin, LBank, Luno, Qryptos, QuadrigaCX, Quoine, and
+     ZB.com. These data feeds do not use streaming prices, they update
+     every 5 or 10 seconds (depending on the feed)

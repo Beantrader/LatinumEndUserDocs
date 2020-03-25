@@ -1,0 +1,11 @@
+Version 7.3.1
+=============
+
+Beantrader Latinum version 7.3.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * Added auto-backfill of minimum bars required to calculate an
+     indicator on a chart. This was added for IntradayVWAP
+   * Fixed error calculating min bars required for IntradayVWAP

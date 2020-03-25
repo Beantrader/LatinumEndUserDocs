@@ -1,0 +1,10 @@
+Version 3.8.5
+=============
+
+Beantrader Latinum version 3.8.5 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * FXCM
+      * Fixed editing stop/limit order for FIFO accounts

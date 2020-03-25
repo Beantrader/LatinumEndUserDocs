@@ -1,0 +1,51 @@
+Version 5.1.0
+=============
+
+Beantrader Latinum version 5.1 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added Real Body chart type
+   * Added collection and playback of ticks that occur while waiting
+     for historical data to load.
+   * Added edit attributes context menu action for text objects
+   * Enabled Hour intervals; H2, H3, H6, H8 in all editions
+   * Enabled Second intervals; s5, s10, s15, s30 in all editions
+
+### Drawing
+   * Added Edit menu with Cut, Copy, Paste, Delete, Select All, and
+     Duplicate commands.
+   * Added configurable levels to Andrews' Pitchfork tool
+   * Added configurable levels to Fibonacci Circle tool
+   * Added extend options for neckline of Head and Shoulders tool
+   * Added Price Dimension tool, measures price change
+   * Added Date Dimension tool, measures date range
+   * Added Bring to Front and Send to Back arrangement actions to
+     context menu
+   * Improved Selection tool, now capable of moving drawings and
+     anchor points without needed to switch to the Move or Pen tool
+   * Improved editing experience, anchors are highlighted on
+     mouse-over when Selection, Move, Eraser, or Pen tool is enabled
+   * Improved Arc tool editing
+   * Improved label positioning in pattern tools, labels are now
+     offset from the picked point.
+   * Fixed issue changing properties of a drawing using the format
+     toolbar while the pen tool is selected.
+   * Fixed hit-test for extended channel lines
+   * Fixed hit-test for extended arrow drawings
+   * Fixed Bring Forward and Send Backward arrangement algorithm
+   * Changed Arc tool curviness, a quadratic Bézier curve is now used
+     instead of a cubic Bézier curve.
+   * Changed Arrow tool start point from Circle to None
+   * Removed the start and end point markers from extended Arrow,
+     Channel, and Trend tools.
+
+### Trading
+   * FXCM
+      * Enabled live account login in all editions
+      * Removed maximum balance limit for live accounts
+
+### Datafeed
+   * FXCM
+      * Improved performance parsing price updates

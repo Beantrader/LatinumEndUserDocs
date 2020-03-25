@@ -1,0 +1,48 @@
+Version 6.2.0
+=============
+
+Beantrader Latinum version 6.2 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added text display for data feed connection state changes
+   * Fixed shrinking width of Y-Axis after viewing a symbol that has
+     many decimals in price value
+
+### Datafeed
+   * GDAX
+      * Added Level 2 order book data (all price levels)
+      * Fixed bug in connection monitoring that caused additional
+        (unneeded) reconnections
+      * Fixed bug in symbol subscriptions where subscriptions would be
+        lost if computer went offline before subscription was confirmed
+   * GEMINI
+      * Added order book data (all price levels)
+   * BITSTAMP
+      * Added order book data (top 100 price levels)
+   * BITFINEX
+      * Added order book data (top 100 price levels), at P0 precision
+        (see Bitfinex API docs)
+      * Fixed issue when using Bitfinex and Ethfinex at the same time
+   * BINANCE
+      * Added order book data (top 1000 price levels)
+   * OKEX
+      * Added order book data (top 200 price levels)
+      * Fixed percent change (shown in quotes sidebar)
+   * HITBTC
+      * Added order book data (all price levels)
+      * Fixed percent change (shown in quotes sidebar)
+   * POLONIEX
+      * Added order book data (all price levels)
+      * Changed chart data to use quote volume instead of base volume
+   * WEX
+      * Added order book data (top 1000 price levels)
+   * HUOBI
+      * Added order book data (top 150 price levels), at step0 precision
+        (see Huobi API docs)
+
+### Order Book
+   * Added Order Book auxiliary window. This displays a Market by Price
+     order book for a single exchange. Compatible with all current
+     crypto feeds. To view, select Window > Extensions > Order Book.

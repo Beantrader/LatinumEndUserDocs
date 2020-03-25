@@ -1,0 +1,43 @@
+Version 5.0.0
+=============
+
+Beantrader Latinum version 5.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved stability and performance
+   * Added saving and restoring of fill and stroke between app opens
+
+### Charts
+   * Added Candle Open Price option for candle calculation, choose
+     from First Tick or Previous Close modes
+   * Added Colored Line chart type
+   * Added Quarter (Q1) and Year (Y1) intervals [^1]
+   * Added Monokai color scheme
+
+### Drawing
+   * Added Locked property, to prevent changing a drawings geometry
+   * Added configurable levels to Speed Resistance Lines tool
+   * Added Risk Reward Caliper tool
+   * Added Arrow Up and Arrow Down marker tools
+   * Added Left Price Tag and Right Price Tag marker tools
+   * Improved appearance, smooth line definition and reduced jaggies
+
+### Studies
+   * Added opacity setting for indicator colors
+
+### Trading
+   * Added Ask price to order ticket
+
+### Workspaces
+   * Added option to rearrange panes by any number of rows or columns
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed symbol and chart edit dialogs, they now stay above the
+     window that displayed them
+
+[^1]: For FXCM, Q1 and Y1 intervals always include weekend data.

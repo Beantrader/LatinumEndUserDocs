@@ -1,0 +1,29 @@
+Version 2.8.0
+=============
+
+Beantrader Latinum version 2.8 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added panning behaviour for mouse wheel over axis
+   * Added semi-log scaling
+   * Added mid price quote field
+
+### Drawing
+   * Added snap mode toggle action to toolbox
+   * Added arrow tool
+   * Added head and shoulders pattern tool
+   * Added elliott impulse wave tool
+   * Added elliott corrective wave tool
+   * Added fill option to arc tool
+   * Fixed hit-test for arc tool
+
+### Watchlists
+   * Fixed Show Charts, and Show Tickets context menu items
+
+Platform Specific
+-----------------
+
+### Mac
+   * Changed to quit when the last open window is closed

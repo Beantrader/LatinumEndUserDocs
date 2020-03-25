@@ -1,0 +1,19 @@
+Version 6.8.0
+=============
+
+Beantrader Latinum version 6.8 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Studies
+   * Added Donchian Channel indicator
+   * Added ZigZag indicator
+   * Added Keltner Channels indicator
+
+### Datafeed
+   * Added BTC Markets chart data feed. This data feed does not use
+     streaming prices, it updates every 5 seconds
+
+### Trade Feed
+   * Added price tolerance parameter for aggregate trades by price
+   * Added accumulation interval parameter for aggregate trades by time

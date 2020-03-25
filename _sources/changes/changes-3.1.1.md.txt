@@ -1,0 +1,12 @@
+Version 3.1.1
+=============
+
+Beantrader Latinum version 3.1.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+Platform Specific
+-----------------
+
+### Linux
+   * Fixed some compatibility problems in binary packages

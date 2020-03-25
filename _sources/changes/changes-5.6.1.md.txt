@@ -1,0 +1,25 @@
+Version 5.6.1
+=============
+
+Beantrader Latinum version 5.6.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed OANDA request error messages not cleared from status bar
+
+### Charts
+   * Fixed mouse hit test used when moving horizontal line markers.
+     This fixes issues moving stop loss orders, take profit orders,
+     pending entry orders, and price alerts from the chart
+
+### Trading
+   * FXCM
+      * Fixed attaching new limit orders to trades. This change allows
+        adding a limit order to trades that were opened without one
+      * Fixed risk label not recalculated in mini order ticket, and
+        order ticket when a different account is selected
+
+### Chart Trading
+   * OANDA
+      * Fixed editing stop loss and take profit of pending entry orders

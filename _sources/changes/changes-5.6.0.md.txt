@@ -1,0 +1,13 @@
+Version 5.6.0
+=============
+
+Beantrader Latinum version 5.6 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed Dot chart dot color not changing with color scheme
+
+### Drawing
+   * Added horizontal zone tool, for highlighting price ranges
+   * Added vertical zone tool, for highlighting date ranges

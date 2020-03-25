@@ -1,0 +1,17 @@
+Version 6.5.2
+=============
+
+Beantrader Latinum version 6.5.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * Added Volume by Price indicator
+   * Added Crossover Arrow study. This plots arrows on an SMA crossover
+   * Fixed application crash related to candlestick pattern recognition
+   * Changed studies that display candles or bars to use the line width
+     selected in the properties window. If you use the Inverse Pair or
+     Crossover Candle studies you will need to manually change the
+     line width to restore the previous appearance.
+   * Changed Ichimoku study [the one in Custom Studies menu] so that the
+     color of the Kumo can be selected in the properties window

@@ -1,0 +1,31 @@
+Version 6.0.5
+=============
+
+Beantrader Latinum version 6.0.5 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added option to set a fixed date range or fixed last date to
+     display, access option from chart context menu
+
+### Datafeed
+   * IEX
+      * Improved daily candle parsing performance, this speeds up
+        display of charts using daily or larger intervals
+      * Improved speed that weekly data is retrieved
+   * GDAX
+      * Added GDAX (by Coinbase) charts and quotes data. View Bitcoin
+        and Ethereum charts using real-time market data provided
+        directly by the exchange.
+
+### Quotes Sidebar
+   * Added context menu item to quickly unsubscribe and remove a symbol
+   * Added option to hide Percent Change
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed IEX symbol update progress dialog, it now doesn't disappear
+     underneath the window that displayed it

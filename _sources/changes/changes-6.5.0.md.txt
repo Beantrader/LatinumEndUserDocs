@@ -1,0 +1,39 @@
+Version 6.5.0
+=============
+
+Beantrader Latinum version 6.5 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed issue where price axis labels would sometimes not be drawn
+   * Changed how drawings that were drawn on a smaller interval are
+     positioned when switching chart to a larger interval. The time
+     is now rounded down instead of rounding to closest bar time.
+
+### Drawing
+   * Fixed sign (+/-) used to calculate gain/loss on price dimension
+     tool
+   * Fixed drawing extended vertical lines when chart is log scale,
+     this affected Cycle Lines, Fib Time, and Vertical Line tools.
+
+### Studies
+   * Added Awesome Oscillator indicator. Access the indicator from
+     the Custom Studies menu
+   * Added EMA/SMA Crossover Candle studies, these two studies color
+     candlesticks based on either an EMA cross or an SMA cross. The
+     chart type should be set to Invisible when using these studies.
+   * Added Volume with SMA study. This is a different study than the
+     Volume study located in the Builtin menu, access this version
+     from the Custom Studies menu
+   * Added additional Bollinger Bands indicator. This implementation
+     is recommended over the one provided by TA-Lib if you view
+     instruments with very small price values (e.g sub-cent altcoins).
+   * Added Inverse Pair study. This study displays candlesticks of the
+     inverse of the main symbols price (i.e 1/price).
+
+### Datafeed
+   * IEX
+      * Updated as IEX now provide open and close values for minute data
+   * BINANCE
+      * Reduced CPU usage

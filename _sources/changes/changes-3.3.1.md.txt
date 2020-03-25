@@ -1,0 +1,9 @@
+Version 3.3.1
+=============
+
+Beantrader Latinum version 3.3.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added revocable session tokens for Beantrader accounts

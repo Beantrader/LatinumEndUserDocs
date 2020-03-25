@@ -1,0 +1,19 @@
+Version 6.3.0
+=============
+
+Beantrader Latinum version 6.3 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * POLONIEX
+      * Changed chart data to use base volume instead of quote volume
+
+### Order Book
+   * Added context menu item to open Order Book from the Quotes Sidebar
+
+### Trade Feed
+   * Added Trade Feed auxiliary window. This displays a Time and Sales
+     (or Tape) like view for trades from a single exchange. Compatible
+     with all current crypto feeds. To view, select
+     Window > Extensions > Trade Feed.

@@ -1,0 +1,16 @@
+Version 3.8.3
+=============
+
+Beantrader Latinum version 3.8.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Changed server address for Beantrader accounts
+
+### Drawing
+   * Fixed move tool moving the watermark
+
+### Datafeed
+   * FXCM
+      * Fixed crash loading trading tables

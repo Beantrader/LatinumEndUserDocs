@@ -1,0 +1,47 @@
+Version 3.3.0
+=============
+
+Beantrader Latinum version 3.3 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added application font size setting
+   * Show session state changes in log view
+
+### Charts
+   * Added Show Session Breaks action to date scale
+   * Added Show Countdown action to price scale
+   * Added Second intervals; s5, s10, s15, s30
+   * Added delete key shortcut to delete selected drawings
+   * Improved order modification with the move tool
+   * Fixed candle color selection for perfect Dojis
+   * Fixed chart not receiving price updates
+
+### Drawing
+   * Added custom Style Presets, for Fill and Stroke appearance
+
+### Trading
+   * Added synchronized rate and pip distance values in
+     Edit Stop Order and Edit Limit Order dialog boxes
+   * Added order modified sound effect
+   * Orders
+      * Fixed editing stop/limit order by rate when order is pegged
+        (in pips)
+
+### Datafeed
+   * FXCM
+      * Added milliseconds to exported historical data
+      * Improved historical tick data export
+      * Fixed crash affecting new users on first login
+
+### WebQuery
+   * Added Web Query API
+
+Platform Specific
+-----------------
+
+### Linux
+   * Show icons in Drawing menu, and toolbar pop-up menus
+   * Show icons in Chart menu, and toolbar pop-up menu
+

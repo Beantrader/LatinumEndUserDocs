@@ -1,0 +1,54 @@
+Version 7.0.0
+=============
+
+Beantrader Latinum version 7.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved stability, security, and performance
+
+### Charts
+   * Added Dracula color scheme
+
+### Datafeed
+   * Updated the FXCM data feed (to ForexConnect 1.6.3)
+   * Updated the IEX data feed to support additional US and international
+     exchanges that IEX Cloud now provide data for. The list of supported
+     exchanges will automatically update as IEX Cloud add or remove them.
+     The current list of all supported exchanges is listed below [^1].
+
+Platform Specific
+-----------------
+
+### Mac
+   * Raised minumum macOS version required to Sierra (10.12)
+
+[^1]: List of exchanges IEX Cloud provide data for (valid on 2019-12-03,
+      Expect changes):
+
+         * Abu Dhabi Securities Exchange
+         * Tel Aviv Stock Exchange
+         * Bombay Stock Exchange (BSE Ltd.)
+         * Korea Exchange
+         * Euronext Brussels
+         * XETRA
+         * Euronext Paris
+         * London Stock Exchange
+         * Euronext Dublin
+         * Euronext Amsterdam
+         * Euronext Lisbon
+         * Toronto Stock Exchange
+         * TSX Venture Exchange
+         * Mexican Stock Exchange
+         * NYSE American
+         * Cboe BZX US Equities Exchange
+         * IEX Markets
+         * NASDAQ
+         * New York Stock Exchange
+         * US OTC
+         * NASDAQ OMX PHLX
+         * NYSE Arca
+
+      US OTC and international exchanges support end of day (EOD) daily
+      charts and quotes

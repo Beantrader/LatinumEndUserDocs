@@ -1,0 +1,12 @@
+Version 4.9.3
+=============
+
+Beantrader Latinum version 4.9.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed crash at app exit on macOS Sierra (10.12)

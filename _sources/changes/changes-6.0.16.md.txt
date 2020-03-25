@@ -1,0 +1,12 @@
+Version 6.0.16
+==============
+
+Beantrader Latinum version 6.0.16 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed application locking up when switching from a symbol with a
+     very small value (i.e. less than 1) to a symbol with a very large
+     value (i.e greater than 10000), this only occured when the chart
+     contained a drawing with extended lines

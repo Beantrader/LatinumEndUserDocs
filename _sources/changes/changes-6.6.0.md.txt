@@ -1,0 +1,36 @@
+Version 6.6.0
+=============
+
+Beantrader Latinum version 6.6 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added dialog box to change chart interval using keyboard only,
+     access by pressing ',' (comma) and typing the interval code
+
+### Studies
+   * Added SMMA indicator
+   * Added Bill Williams indicators
+      * Acceleration/Deceleration Oscillator
+      * Alligator
+      * Fractals
+      * Gator Oscillator
+      * Market Facilitation Index
+
+### Alerts
+   * Added support for dragging a symbol from alerts table to charts
+   * Added Modification time column to alerts table
+   * Added Alerts Log auxiliary window. This displays all the price alerts
+     that have triggered since the app was launched. To view, select
+     Window > Extensions > Alerts Log.
+
+### Datafeed
+   * BINANCE
+      * Fixed volume accumulation issue
+
+### Quotes Sidebar
+   * Added option to save and load symbols lists
+
+### Trade Feed
+   * Added option to aggregate trades by price, time, and side

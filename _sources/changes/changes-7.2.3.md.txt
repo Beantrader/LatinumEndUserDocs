@@ -1,0 +1,6 @@
+Version 7.2.3
+=============
+
+Beantrader Latinum version 7.2.3 is a bugfix release.
+
+No user-facing changes made.

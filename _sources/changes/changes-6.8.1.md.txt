@@ -1,0 +1,16 @@
+Version 6.8.1
+=============
+
+Beantrader Latinum version 6.8.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed some font and window sizing issues on higher DPI displays
+
+### Datafeed
+   * Fixed OKEX, HBUS, OKCOIN feeds, required due to changes by exchanges
+   * Fixed missing daily chart data for BITZ
+   * Fixed missing H4, H8, H12 chart data for BITBANK
+   * Update COINCAP to use the new CoinCap API 2.0 service
+   * Update KUCOIN to use KuCoin’s Platform 2.0 v1 API

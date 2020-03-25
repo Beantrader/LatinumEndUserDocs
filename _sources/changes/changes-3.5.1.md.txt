@@ -1,0 +1,21 @@
+Version 3.5.1
+=============
+
+Beantrader Latinum version 3.5.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Drawing
+   * Added Preset Levels page to Library, for removing preset files
+   * Fixed drawing not saved after z-index is changed
+
+### Datafeed
+   * FXCM
+      * Fixed login dialog responsiveness
+      * Fixed quitting application when session is not disconnected
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed crash when logging into FXCM

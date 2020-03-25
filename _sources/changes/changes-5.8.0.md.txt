@@ -1,0 +1,36 @@
+Version 5.8.0
+=============
+
+Beantrader Latinum version 5.8 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added option to display date/time values in Exchange time or any
+     other manually selected timezone.
+
+### Studies
+   * Added context menu to markers drawn by the Trades study and Orders
+     study. This menu allows editing the entry price for pending orders
+     and allows adding, editing and removing stop-loss/take-profit
+     orders for both open trades and pending orders.
+   * Added context menu to markers drawn by the price alert study. This
+     menu allows removing alarms.
+   * Fixed application hang caused by Pivot Point indicator
+   * Fixed removal of inactive stop-loss/take-profit markers drawn by
+     the Orders study
+
+### Trading
+   * OANDA
+      * Fixed editing fractional part of price and pip values from
+        order ticket
+
+### Blotter
+   * Improved performance repainting tables
+
+### Watchlists
+   * Added Add Symbols context menu item that displays an input field
+     for manual entry of a list of symbols.
+
+### Workspaces
+   * Added subwindow panes to Window menu

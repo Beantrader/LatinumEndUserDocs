@@ -1,0 +1,10 @@
+Version 6.0.2
+=============
+
+Beantrader Latinum version 6.0.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * IEX
+      * Improve chart data parsing speed

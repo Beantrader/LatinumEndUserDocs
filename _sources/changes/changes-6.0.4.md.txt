@@ -1,0 +1,10 @@
+Version 6.0.4
+=============
+
+Beantrader Latinum version 6.0.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * IEX
+      * Fix invisible symbol update progress dialog

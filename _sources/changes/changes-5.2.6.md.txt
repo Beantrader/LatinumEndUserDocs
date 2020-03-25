@@ -1,0 +1,10 @@
+Version 5.2.6
+=============
+
+Beantrader Latinum version 5.2.6 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * FXCM
+      * Fixed percent change missing from sidebar

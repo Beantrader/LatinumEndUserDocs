@@ -1,0 +1,14 @@
+Version 6.6.3
+=============
+
+Beantrader Latinum version 6.6.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * BINANCE
+      * Fixed stuck in Reconnecting state issue
+   * HUOBIAU
+      * Added Huobi Australia charts, trade, and order data
+   * HBUS
+      * Added HBUS (Huobi US partner) charts, trade, and order data

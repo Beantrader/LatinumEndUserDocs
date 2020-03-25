@@ -1,0 +1,30 @@
+Version 6.0.9
+=============
+
+Beantrader Latinum version 6.0.9 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added more options to the Chart Properties dialog, the options
+     added were previously only accessible from the charts context menu
+   * Added Reload Stream Built Bars command to the Chart menu, this
+     replaces all the bars built from a real-time feed with bars
+     provided by the history feed
+   * Added a button to the chart toolbar that contains actions
+     previously only accessible from the charts context menu
+   * Removed the Candle Open Price and Data Range options from the
+     chart context menu, the options are now available in the Chart
+     Properties dialog
+
+### Drawing
+   * Added Arrange (stacking order) commands to the drawings format
+     bar, this contains the Bring to Front, Bring Forward,
+     Send Backward and Send to Back commands to control the stacking
+     order of drawing objects
+   * Fixed a crash that occurred when using the Arrange commands
+   * Changed Remove All Drawings action to affect all plots in a chart
+
+### Quotes Sidebar
+   * Added a button next to the symbol filter that contains actions
+     previously only accessible from the tables context menu

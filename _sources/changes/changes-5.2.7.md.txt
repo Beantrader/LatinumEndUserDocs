@@ -1,0 +1,16 @@
+Version 5.2.7
+=============
+
+Beantrader Latinum version 5.2.7 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Trading
+   * OANDA
+      * Added sound effects for trade, close trade, order complete,
+        and order fail events
+      * Added high and low values to mini order ticket
+
+### Datafeed
+   * FXCM
+      * Fixed issues parsing market data (e.g. empty instrument name)

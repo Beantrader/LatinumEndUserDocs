@@ -1,0 +1,35 @@
+Version 5.2.0
+=============
+
+Beantrader Latinum version 5.2 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed potential crash in autoscaling algorithm
+   * Fixed potential crash playing back collected ticks
+   * Fixed top and bottom margins to include new highs and lows of the
+     incomplete candle
+   * Enabled Second intervals; s1, s2, s3, s4, s6, s12, s20
+   * Enabled Minute intervals; m2, m3, m4, m6, m10, m12, m20 in all
+     editions
+   * Enabled 12 Hour (H12) interval in all editions
+   * Changed symbol linking to also sync the data feed
+
+### Drawing
+   * Added Deselect command to Edit menu
+   * Added keyboard shortcut for Duplicate command in Edit menu
+   * Fixed potential crash opening charts containing unknown drawing
+     types (i.e created in future application versions)
+
+### Trading
+   * FXCM
+      * Changed Market Entry widget to not reset amount, stop and
+        limit values when the selected account is changed, or the
+        broker the connection is interrupted
+   * OANDA
+      * Added fxTrade Practice account login for trading
+
+### Datafeed
+   * OANDA
+      * Added fxTrade Practice account login for market data

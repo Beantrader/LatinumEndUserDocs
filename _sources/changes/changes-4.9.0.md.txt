@@ -1,0 +1,13 @@
+Version 4.9.0
+=============
+
+Beantrader Latinum version 4.9 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved stability and performance
+
+### Charts
+   * Added configurable top and bottom margins
+   * Added option to show price line

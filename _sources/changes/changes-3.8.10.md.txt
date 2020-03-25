@@ -1,0 +1,15 @@
+Version 3.8.10
+==============
+
+Beantrader Latinum version 3.8.10 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * Fixed crash in price alert study
+   * TA-Lib
+      * Changed display of histogram from steps to sticks
+
+### Datafeed
+   * FXCM
+      * Fixed potential crash when logging into FXCM

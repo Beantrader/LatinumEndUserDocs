@@ -1,0 +1,39 @@
+Version 3.8.8
+=============
+
+Beantrader Latinum version 3.8.8 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved stability and performance
+
+### Charts
+   * Enabled Hour intervals; H2, H3, H6, H8 in all editions
+   * Enabled Second intervals; s5, s10, s15, s30 in all editions
+
+### Drawing
+   * Improved Arc tool editing
+   * Fixed issue changing properties of a drawing using the format
+     toolbar while the pen tool is selected.
+   * Fixed hit-test for extended channel lines
+   * Fixed hit-test for extended arrow drawings
+   * Changed Arc tool curviness, a quadratic Bézier curve is now used
+     instead of a cubic Bézier curve.
+   * Changed Arrow tool start point from Circle to None
+
+### Trading
+   * FXCM
+      * Enabled live account login in all editions
+      * Removed maximum balance limit for live accounts
+
+### News Feed
+   * Changed server address for retrieving default news feeds
+
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed symbol and chart edit dialogs, they now stay above the
+     window that displayed them

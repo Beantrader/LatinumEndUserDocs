@@ -1,0 +1,21 @@
+Version 6.6.2
+=============
+
+Beantrader Latinum version 6.6.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed keyboard shortcuts sometimes not working
+
+### Studies
+   * Fixed last price marker not updating for Inverse Pair study
+
+### Datafeed
+   * BINANCE
+      * Fixed some reconnection issues
+   * HUOBI
+      * Added support for HUOBI10 Index and HB10 ETF symbols
+   * OKCOIN
+      * Added OKCoin (not CN) charts, trade, and order data. This offers
+        fiat-to-crypto data compared to crypto-to-crypto from OKEx.

@@ -1,0 +1,18 @@
+Version 6.1.0
+=============
+
+Beantrader Latinum version 6.1 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Drawing
+   * Added Elliott Triangle (ABCDE) and Combination (WXY, WXYXZ) tools
+   * Fixed missing Fib Time level
+   * Changed Fib tool label position when lines are extended, the labels
+     are now always drawn inside the viewable area
+
+### Datafeed
+   * GEMINI
+      * Fixed invalid Best Bid and Ask values after reconnect
+   * BITFINEX
+      * Fixed invalid Best Bid and Ask timestamp

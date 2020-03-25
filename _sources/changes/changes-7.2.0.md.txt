@@ -1,0 +1,36 @@
+Version 7.2.0
+=============
+
+Beantrader Latinum version 7.2.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added drag and drop to the symbol button on the chart toolbar. This
+     button can be dragged onto another chart to change the symbol of the
+     drop target. This works with the Trade Feed and Order Book too,
+     additionally, symbols can be dropped onto the sidebar quotes table.
+
+### Charts
+   * Changed the y-axis marker label to show the last visible value
+     instead of the last value in the series
+   * Added Avoid Overlapping Labels axis option
+   * Added Recent menu to symbol lookup window, this will list the 9
+     most recently selected symbols (since the app was launched)
+
+### Studies
+   * Added option to show/hide studies (including overlays). To toggle
+     this option you must have the chart toolbar visible
+   * Added ATR Bands indicator. Access the indicator from the Custom
+     Studies menu
+   * Increased the number of decimal places for display in the axis and
+     data tip window when using auto mode (set -1 to use auto mode)
+
+### Datafeed
+   * Added Percent Change to Huobi quotes
+   * Improved subscribing/unsubscribing symbols using the Binance ticker
+     feed, a reconnect isn't needed any more
+   * Fixed viewing order books for Binance where the pair has had
+     billions of updates (i.e BTCUSDT)
+   * Fixed unneeded candles downloaded on the Cryptowatch data feed
+   * Fixed percent change of OKEx quotes

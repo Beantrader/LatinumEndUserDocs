@@ -1,0 +1,14 @@
+Version 4.9.5
+=============
+
+Beantrader Latinum version 4.9.5 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added quit confirmation dialog, displayed only when more than
+     one window is open
+
+### Datafeed
+   * FXCM
+      * Updated ForexConnectAPI and Price History API

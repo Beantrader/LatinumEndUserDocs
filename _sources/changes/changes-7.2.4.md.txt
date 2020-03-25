@@ -1,0 +1,15 @@
+Version 7.2.4
+=============
+
+Beantrader Latinum version 7.2.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added saving of toolbars position and visibility
+
+### Charts
+   * Fixed y-axis marker label not updating
+
+### Alerts
+   * Added 10 second delay between price alert repeats

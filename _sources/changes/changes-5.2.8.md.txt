@@ -1,0 +1,14 @@
+Version 5.2.8
+=============
+
+Beantrader Latinum version 5.2.8 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added option to display date/time values in UTC or local time
+   * Fixed changing symbol from chart toolbar when connected to OANDA
+
+### Trading
+   * OANDA
+      * Fixed symbol linking of mini order ticket in sidebar

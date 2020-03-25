@@ -1,0 +1,20 @@
+Version 6.8.4
+=============
+
+Beantrader Latinum version 6.8.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed potential crash subscribing to IEX symbols
+   * Changed to keep symbols for delisted assets in user created lists
+
+### Charts
+   * Fixed option to hide bars with zero volume for IEX charts
+   * Fixed Previous Close, Candle Open Price mode for IEX charts
+
+### Datafeed
+   * Fixed reading IEX chart data when price did not move during the day
+   * Fixed Coinmetrics data feed
+   * Fixed calculation that caused unneeded data to be download from IEX
+   * Removed Huobi Australia, Ethfinex, and Huobi HADAX data feeds

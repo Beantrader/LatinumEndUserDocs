@@ -1,0 +1,19 @@
+Version 6.1.2
+=============
+
+Beantrader Latinum version 6.1.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added multiday intervals; D3, D5 [^1]. For crypto feeds only.
+   * Added Weekly (W1) interval support to crypto feeds [^2]
+
+### Datafeeds
+   * GDAX
+      * Updated to new GDAX API restrictions
+   * POLONIEX
+      * Fixed percent change display (shown in quotes sidebar)
+
+[^1]: The baseline date for multiday intervals is January 1, 1960
+[^2]: Weekly interval starts on Monday for all current crypto feeds

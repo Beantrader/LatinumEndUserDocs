@@ -1,0 +1,28 @@
+Version 7.3.0
+=============
+
+Beantrader Latinum version 7.3 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Changed to display fractional pip digits for instruments that are
+     defined with a fractional pip smaller than 1/10 of a pip
+
+### Studies
+   * Added IntradayVWAP indicator
+   * Added VolumeEma study
+   * Added Color based on previous close option to VolumeSma
+   * Added a third color to VolumeSma to indicate no-change (in price)
+   * Added PreviousClose (PDC) study
+   * Added Formula option to Pivot Points indicator. Floor, Camarilla,
+     Fibonacci, Woodie, Classic, and DeMark were added
+   * Added Interval option to Pivot Points indicator. You can now plot
+     pivots for any valid interval that has candle data
+
+### Datafeed
+   * Improved timestamp parsing performance in crypto trade feeds
+   * Fixed GDAX (Coinbase Pro) infinite scrolling chart data (aka
+     on-demand loading)
+   * Fixed issues requesting depth snapshot and applying diff depth
+     updates on Binance feed

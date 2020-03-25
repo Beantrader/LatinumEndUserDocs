@@ -1,0 +1,25 @@
+Version 3.5.0
+=============
+
+Beantrader Latinum version 3.5 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fixed watermark text autosizing algorithm
+
+### Drawing
+   * Added configurable levels to Fibonacci Retracement tool, change
+     the visibility, value, color, width, and style for each level.
+   * Added Horizontal Ray tool
+   * Fixed hit-test for extended trend lines
+
+### Blotter
+   * Fixed move stop/limit order rate for FIFO accounts
+
+Platform Specific
+-----------------
+
+### Linux
+   * Enabled import and export of workspace files
+

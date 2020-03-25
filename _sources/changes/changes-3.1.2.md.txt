@@ -1,0 +1,24 @@
+Version 3.1.2
+=============
+
+Beantrader Latinum version 3.1.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed price alerts being duplicated on reconnect
+
+### Charts
+   * Added Show Weekend Data action to date scale
+   * Improved intra-bar tick volume accumulator
+   * Fixed image export when studies are tabbed
+   * Fixed initial high low values when creating bars from ticks
+
+### Drawing
+   * Added Text Tool edit dialog box
+
+### Trading
+   * Fixed live account max balance check
+
+### Datafeed
+   * Fixed historical data export

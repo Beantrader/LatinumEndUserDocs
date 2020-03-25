@@ -1,0 +1,21 @@
+Version 7.1.0
+=============
+
+Beantrader Latinum version 7.1.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added popup text notification to price alerts
+
+### Studies
+   * Added VWMA indicator
+
+### Datafeed
+   * Improved candle parsing performance for all crypto and stocks feeds
+   * Fixed bug in GDAX (Coinbase Pro) data feed that caused an unneeded
+     reconnection every time the app was opened or workspace was changed
+
+### Workspaces
+   * Fixed issue where charts could be lost if a workspace is open in
+     multiple Latinum instances

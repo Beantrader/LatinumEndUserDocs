@@ -1,0 +1,33 @@
+Version 6.3.1
+==============
+
+Beantrader Latinum version 6.3.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added the slash - '/' keyboard shortcut to the symbol search
+     dialog. When an entry in the results table is selected you can
+     press '/' to return focus back to the query text entry. This
+     improves keyboard-only symbol changing. As in previous versions,
+     you can press the down key from the text entry to select a result.
+   * Fixed application UI locking up when switching to a symbol using
+     either Poloniex, Gemini, or HitBTC data feeds. The UI would
+     occasionally lock up or freeze for up to 5 seconds while waiting
+     for data to be received.
+
+### Drawing
+   * Changed behaviour of Selection tool (aka Black Arrow tool), the
+     tool now allows moving a drawings anchor points (shown when
+     hovering) without first having to select the drawing. This reduces
+     the number of clicks required to move a point from two to one.
+
+### Datafeed
+   * POLONIEX
+      * Changed chart data to use quote volume instead of base volume
+   * HUOBI
+      * Fixed infinite scrolling chart data (aka on-demand loading)
+   * HADAX
+      * Added Huobi HADAX charts, trade, and quote data. Note, HADAX
+        log or error messages may contain the word Huobi in place of
+        HADAX.

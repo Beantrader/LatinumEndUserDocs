@@ -1,0 +1,9 @@
+Version 7.1.2
+=============
+
+Beantrader Latinum version 7.1.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Fix zoom in and out using the mouse wheel

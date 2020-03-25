@@ -1,0 +1,6 @@
+Version 6.5.3
+=============
+
+Beantrader Latinum version 6.5.3 is a bugfix release.
+
+No user-facing changes made.

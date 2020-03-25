@@ -1,0 +1,10 @@
+Version 6.0.8
+=============
+
+Beantrader Latinum version 6.0.8 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * BITFINEX
+      * Fixed spelling Bitfinex

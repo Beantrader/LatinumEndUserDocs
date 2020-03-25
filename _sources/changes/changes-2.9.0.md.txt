@@ -1,0 +1,29 @@
+Version 2.9.0
+=============
+
+Beantrader Latinum version 2.9 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added keyboard shortcut to access the symbol search window
+   * Added Symbols context menu item to quotes sidebar
+   * Fixed Study Template saving
+
+### Charts
+   * Added Create at Market context menu item
+   * Fixed duplicate items in Interval context menu
+
+### Datafeed
+   * Improved handling of market data incremental updates
+   * FXCM
+      * Added local cache for historical market data
+
+### Watchlists
+   * Added a context menu for showing and hiding columns
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed sound notifications

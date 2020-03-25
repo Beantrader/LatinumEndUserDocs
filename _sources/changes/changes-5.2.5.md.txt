@@ -1,0 +1,18 @@
+Version 5.2.5
+=============
+
+Beantrader Latinum version 5.2.5 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Studies
+   * TA-Lib
+      * Changed display of histogram from steps to sticks
+
+### Datafeed
+   * FXCM
+      * Fixed potential crash when logging into FXCM
+   * OANDA
+      * Added timeout for stream connections and network requests
+      * Fixed loading charts with more than 5000 visible bars
+      * Fixed missing error message from application log messages

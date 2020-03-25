@@ -1,0 +1,17 @@
+Version 6.8.3
+=============
+
+Beantrader Latinum version 6.8.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Added Binance US (BINANCEUS) data feed, this feed offers USD pairs
+   * Added Binance Jersey (BINANCEJE) data feed, this feed offers EUR
+     and GBP pairs
+   * Fixed OKEx and OKCoin data feeds
+   * Updated Binance and BTC Markets data feed
+
+### Quotes Sidebar
+   * Added option to hide the mini order ticker, this allows you to
+     shrink the width of the sidebar even more

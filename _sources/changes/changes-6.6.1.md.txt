@@ -1,0 +1,13 @@
+Version 6.6.1
+=============
+
+Beantrader Latinum version 6.6.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * GDAX
+      * Fixed potential crash at app exit
+      * Changed to Coinbase Pro servers
+   * BITZ
+      * Updated to new Bit-Z API server URL

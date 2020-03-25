@@ -1,0 +1,16 @@
+Version 2.9.1
+=============
+
+Beantrader Latinum version 2.9.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added return key shortcut to accept first search result in the
+     symbol search window
+
+### Charts
+   * Fixed price scale jumping on vertically panned charts
+
+### Drawing
+   * Added gann retracement tool

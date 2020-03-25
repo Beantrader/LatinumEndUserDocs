@@ -1,0 +1,34 @@
+Version 6.8.2
+=============
+
+Beantrader Latinum version 6.8.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added the option to use the system proxy configuration
+
+### Drawing
+   * Fixed changing selection using the up/down keys in Outliner window
+   * Changed the Paste command, drawings are now pasted matching the
+     symbol of the destination chart. Useful if you analyse the same
+     asset with different symbols.
+
+### Studies
+   * Added SuperTrend indicator
+
+### Datafeed
+   * Added Liquid and Gate.io chart data feeds. These data feeds do not
+     use streaming prices, they update every 10 seconds.
+   * Updated IEX data feed. You will need to update Latinum before June
+     1, 2019, to continue using IEX US Stocks data.
+
+### Quotes Sidebar
+   * Added symbol linking to the quotes table
+   * Fixed saving the symbol link channel of the mini order ticket
+
+Platform Specific
+-----------------
+
+### Mac
+   * Fixed crash when changing indicator colors

@@ -1,0 +1,17 @@
+Version 6.0.6
+=============
+
+Beantrader Latinum version 6.0.6 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * GDAX
+      * Fixed audio notifications of state changes (e.g Disconnected,
+        Connected)
+      * Fixed subscribing to symbols
+      * Fixed multiple issues reconnecting to GDAX WebSocket server
+      * Fixed incorrect symbol shown in chart toolbar
+
+### Quotes Sidebar
+   * Added option to show Data Feed

@@ -1,0 +1,39 @@
+Version 6.4.1
+==============
+
+Beantrader Latinum version 6.4.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Added an option to show only subscribed symbols in the symbol
+     search window, this setting is remembered while the app is running
+   * Replaced the drop-down list used to select the chart symbol with a
+     button that displays a symbol search window. The same change was
+     made to the price alert editor window
+
+### Charts
+   * Added option to show bars with zero volume, it is located in Data
+     section of Chart Properties window. Bars with zero volume have an
+     open, high, low, and close price equal to the previous close price
+   * Fixed infinite loop requesting data that doesn't exist, this could
+     sometimes occur when viewing a symbol without enough data to fill
+     the screen
+   * Fixed incorrect session breaks when switching from a symbol with
+     different session times (e.g switching from OKEx to GDAX)
+   * Changed how price field (e.g Bid, Last) setting is loaded from
+     chart templates. The value is now ignored if the field is not
+     available for the charts current instrument
+
+### Datafeed
+   * Added Coinone chart data feed. This data feed does not use
+     streaming prices, it updates every 10 seconds
+   * Added CoinCap data feed. This provides close prices (only) for
+     well over a thousand coins and tokens, it also provides market cap
+     and 24-hour volume time series data.
+   * Added Coinmetrics data feed. This provides fundamental time series
+     data for: Transaction Count, Transaction Volume, Fees, Network
+     Value (or Market Cap), Exchange Volume, Value of Created Coins,
+     Active Addresses, NVT Ratio, Average Transaction Value, Average
+     Fee, Inflation Rate, and the Open Price sourced from
+     CoinMarketCap. All data is EOD/daily.

@@ -1,0 +1,72 @@
+Version 3.1.0
+=============
+
+Beantrader Latinum version 3.1 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added persistent login functionality for Beantrader accounts
+   * Fixed date conversion for dates prior to 1970
+   * Fixed year 2106 problem
+   * Removed notification message for Market Snapshot Error
+
+### Charts
+   * Added Black and White color scheme
+   * Added Red Black and White color scheme
+   * Added Blue White and Black color scheme
+   * Added Fit Data Range action to date scale
+   * Added Step chart type
+   * Added Histogram chart type
+   * Added Candle Trend chart type
+   * Improved intra-bar tick volume accumulator
+   * Fixed order modification with the move tool
+   * Fixed date time displayed in data tip window, when chart type
+     is Hollow Candlestick or Heikin-Ashi
+   * Fixed y axis width synchronization
+
+### Drawing
+   * Added Outliner window to manage drawings
+   * Added Quadrant Lines tool
+
+### Studies
+   * Added price source transform for Median Price, Typical Price, and
+     Weighted Close.
+
+### Scripting
+   * Javascript
+      * Replaced offerId with symbol parameter for send order functions
+
+### Trading
+   * Enabled live trade execution
+   * Orders
+      * Added Edit Entry Order dialog box
+      * Added Edit Stop Order dialog box
+      * Added Edit Limit Order dialog box
+   * Trades
+      * Added Edit Stop Order dialog box
+      * Added Edit Limit Order dialog box
+
+### Blotter
+   * Show Commission column in Closed Trades table
+   * Added color to BuySell column
+
+### Datafeed
+   * FXCM
+      * Added Change Password dialog box
+      * Improved security for login passwords stored on disk and in
+        memory, stored passwords are incompatible with older releases.
+      * Improved processing of historical market data
+      * Improved handling of request responses
+      * Improved handling of trading tables
+
+### Workspaces
+   * Added import and export workspace files, suitable for Dropbox
+   * Increased screenshot size from 300 x 225 to 600 × 450
+
+Platform Specific
+-----------------
+
+### Mac
+   * Show icons in Drawing menu, and toolbar pop-up menus
+   * Show icons in Chart menu, and toolbar pop-up menu

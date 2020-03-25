@@ -1,0 +1,9 @@
+Version 2.9.2
+=============
+
+Beantrader Latinum version 2.9.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed historical data export

@@ -1,0 +1,20 @@
+Version 6.0.1
+=============
+
+Beantrader Latinum version 6.0.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+
+### General
+   * Fixed crash when playing sound effects if sound's filename contains
+     special characters
+
+### Datafeed
+   * IEX 
+      * Added prefetching of minute candles, this speeds up display of
+        all intraday charts
+
+### Quotes Sidebar
+   * Fixed empty table in windows created after server connected
+

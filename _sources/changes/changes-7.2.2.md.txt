@@ -1,0 +1,7 @@
+Version 7.2.2
+=============
+
+Beantrader Latinum version 7.2.2 is a bugfix release.
+
+### Charts
+   * Fixed symbol button length on chart toolbar
