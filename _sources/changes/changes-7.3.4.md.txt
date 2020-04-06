@@ -1,0 +1,9 @@
+Version 7.3.4
+=============
+
+Beantrader Latinum version 7.3.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed regression in Binance local order book management

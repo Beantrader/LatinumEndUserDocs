@@ -1,0 +1,9 @@
+Version 7.3.3
+=============
+
+Beantrader Latinum version 7.3.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed Binance candle downloading, avoid over-limit request

@@ -1,0 +1,26 @@
+Version 7.3.2
+=============
+
+Beantrader Latinum version 7.3.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Added six additional Huobi or Huobi Cloud exchanges listed below [^1]
+   * Added Kraken Futures (KRAKENFUTURES) alias for Crypto Facilities
+   * Added OKEx Korea (OKEXKR)
+   * Improved Binance order book update speed - now 4x faster
+   * Fixed Crypto Facilities and Qryptos
+   * Fixed potential app freeze when streaming Binance order books
+   * Fixed stuck [not updating] Binance order books
+   * Upgraded to Bitstamp WebSocket API v2
+   * Removed HBUS, QuadrigaCX, and WEX
+
+[^1]: List of Huobi or Huobi Cloud exchanges added:
+
+         * HUOBIKR - Huobi Korea
+         * HUOBIJP - Huobi Japan
+         * HUOBIID - Huobi Indonesia
+         * HUOBIRU - Huobi Russia
+         * HUOBIAR - Huobi Argentina
+         * HUOBITH - Huobi Thailand
