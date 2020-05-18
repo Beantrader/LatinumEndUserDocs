@@ -1,0 +1,26 @@
+Version 7.4.0
+=============
+
+Beantrader Latinum version 7.4 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Changed keyboard shortcut for Delete command in charts and Outliner,
+     either Backspace or Delete key can now be used
+
+### Charts
+   * Added <kbd>Shift</kbd>+<kbd><</kbd> and <kbd>Shift</kbd>+<kbd>></kbd>
+     shortcuts to scroll the active chart one bar backwards or forwards
+   * Changed Stay in Drawing Mode disabled behaviour. The Selection tool
+     (black arrow) or Hand tool (whichever was used last) is now activated
+     instead of always the Selection Tool
+
+### Studies
+   * Added True Strength Index (TSI) indicator
+
+### Drawings
+   * Added Schiff and Modified Schiff Pitchfork variants
+   * Added Regression tool formula option, select from
+     Regression Line only, Linear Regression Trend Channel,
+     Raff Regression Channel, or Standard Deviation Channel

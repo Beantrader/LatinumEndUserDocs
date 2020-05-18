@@ -1,0 +1,48 @@
+Version 7.5.0
+=============
+
+Beantrader Latinum version 7.5 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added option to specify user interface (UI) color theme. Darker and
+     Light themes were added. The UI color theme does not affect the chart
+     color scheme.
+   * Added an HTTP request timeout to all requests. Timeout is set to 30
+     seconds in most cases.
+   * Added <kbd>Ctrl</kbd>+<kbd>/</kbd> shortcut to hide the main window
+     status bar
+   * Added <kbd>Ctrl</kbd>+<kbd>K</kbd> shortcut to hide the toolbar in
+     Trade Feed and Order Book windows
+   * Added option to display Trade Feed and Order Book windows in the
+     workspace area. When added to the workspace area the symbol, display,
+     and/or filtering options will also be saved with the workspace.
+
+### Charts
+   * Improved the symbol lookup window. The list of recent symbols and
+     Show Subscribed Symbols Only option is now saved when you exit the
+     app
+   * Changed to not track right (auto-scroll) when new bars added if the
+     chart was panned backwards in time (ignoring the track rick chart
+     setting)
+   * Added floating buttons to scroll the chart one bar backwards or
+     forwards. These buttons appear when the chart is panned backwards
+     (i.e the last bar is not visible)
+   * Enable Month (M1) interval on crypto feeds
+
+### Datafeed
+   * Improved efficiency of all crypto streaming feeds in processing trade
+     data used to update charts. This results in less CPU usage and should
+     avoid lockups during periods of extremely high trading activity
+   * Fixed bug where charts don't update for some time in non-streaming
+     crypto feeds where the chart interval is resampled and no trade
+     occurred in the first base bar
+   * Added BitBay (BITBAY), FTX, Binance Futures (BINANCEFUTURES), and
+     Bitpanda (BITPANDA) chart data feeds. These data feeds do not use
+     streaming prices, they update every 10 seconds.
+   * Fixed HitBTC data feed. They broke it!
+   * Fixed OKEx volume shown in charts
+
+### Order Book
+   * Added 0.5 tick increment option for price grouping

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Version 5.1.0 &mdash; Latinum User 6.8.2 documentation</title>
+  <title>Version 7.4.0 &mdash; Latinum User 6.8.2 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Version 5.0.0" href="changes-5.0.0.html" />
-    <link rel="prev" title="Version 5.1.1" href="changes-5.1.1.html" /> 
+    <link rel="next" title="Version 7.3.4" href="changes-7.3.4.html" />
+    <link rel="prev" title="Version 7.4.1" href="changes-7.4.1.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -105,7 +105,13 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Changes</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="changes-7.5.0.html">Version 7.5.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.4.1.html">Version 7.4.1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="changes-7.4.0.html">Version 7.4.0</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 7.4.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general">General</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#charts">Charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#studies">Studies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#drawings">Drawings</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.3.4.html">Version 7.3.4</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.3.3.html">Version 7.3.3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.3.2.html">Version 7.3.2</a></li>
@@ -174,13 +180,7 @@
 <li class="toctree-l2"><a class="reference internal" href="changes-5.2.1.html">Version 5.2.1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-5.2.0.html">Version 5.2.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-5.1.1.html">Version 5.1.1</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 5.1.0</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#charts">Charts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#drawing">Drawing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#trading">Trading</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#datafeed">Datafeed</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.1.0.html">Version 5.1.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-5.0.0.html">Version 5.0.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-4.9.5.html">Version 4.9.5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-4.9.4.html">Version 4.9.4</a></li>
@@ -261,13 +261,13 @@
         
           <li><a href="index.html">Changes</a> &raquo;</li>
         
-      <li>Version 5.1.0</li>
+      <li>Version 7.4.0</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/changes/changes-5.1.0.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/changes/changes-7.4.0.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -280,71 +280,40 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="version-5-1-0">
-<span id="version-5-1-0"></span><h1>Version 5.1.0<a class="headerlink" href="#version-5-1-0" title="Permalink to this headline">¶</a></h1>
-<p>Beantrader Latinum version 5.1 contains bug fixes and new features.</p>
+  <div class="section" id="version-7-4-0">
+<span id="version-7-4-0"></span><h1>Version 7.4.0<a class="headerlink" href="#version-7-4-0" title="Permalink to this headline">¶</a></h1>
+<p>Beantrader Latinum version 7.4 contains bug fixes and new features.</p>
 <p>The most important changes are listed in this document.</p>
+<div class="section" id="general">
+<span id="general"></span><h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Changed keyboard shortcut for Delete command in charts and Outliner,
+either Backspace or Delete key can now be used</p></li>
+</ul>
+</div>
 <div class="section" id="charts">
 <span id="charts"></span><h2>Charts<a class="headerlink" href="#charts" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Added Real Body chart type</p></li>
-<li><p>Added collection and playback of ticks that occur while waiting
-for historical data to load.</p></li>
-<li><p>Added edit attributes context menu action for text objects</p></li>
-<li><p>Enabled Hour intervals; H2, H3, H6, H8 in all editions</p></li>
-<li><p>Enabled Second intervals; s5, s10, s15, s30 in all editions</p></li>
+<li><p>Added <kbd>Shift</kbd>+<kbd>&lt;</kbd> and <kbd>Shift</kbd>+<kbd>&gt;</kbd>
+shortcuts to scroll the active chart one bar backwards or forwards</p></li>
+<li><p>Changed Stay in Drawing Mode disabled behaviour. The Selection tool
+(black arrow) or Hand tool (whichever was used last) is now activated
+instead of always the Selection Tool</p></li>
 </ul>
 </div>
-<div class="section" id="drawing">
-<span id="drawing"></span><h2>Drawing<a class="headerlink" href="#drawing" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="studies">
+<span id="studies"></span><h2>Studies<a class="headerlink" href="#studies" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Added Edit menu with Cut, Copy, Paste, Delete, Select All, and
-Duplicate commands.</p></li>
-<li><p>Added configurable levels to Andrews’ Pitchfork tool</p></li>
-<li><p>Added configurable levels to Fibonacci Circle tool</p></li>
-<li><p>Added extend options for neckline of Head and Shoulders tool</p></li>
-<li><p>Added Price Dimension tool, measures price change</p></li>
-<li><p>Added Date Dimension tool, measures date range</p></li>
-<li><p>Added Bring to Front and Send to Back arrangement actions to
-context menu</p></li>
-<li><p>Improved Selection tool, now capable of moving drawings and
-anchor points without needed to switch to the Move or Pen tool</p></li>
-<li><p>Improved editing experience, anchors are highlighted on
-mouse-over when Selection, Move, Eraser, or Pen tool is enabled</p></li>
-<li><p>Improved Arc tool editing</p></li>
-<li><p>Improved label positioning in pattern tools, labels are now
-offset from the picked point.</p></li>
-<li><p>Fixed issue changing properties of a drawing using the format
-toolbar while the pen tool is selected.</p></li>
-<li><p>Fixed hit-test for extended channel lines</p></li>
-<li><p>Fixed hit-test for extended arrow drawings</p></li>
-<li><p>Fixed Bring Forward and Send Backward arrangement algorithm</p></li>
-<li><p>Changed Arc tool curviness, a quadratic Bézier curve is now used
-instead of a cubic Bézier curve.</p></li>
-<li><p>Changed Arrow tool start point from Circle to None</p></li>
-<li><p>Removed the start and end point markers from extended Arrow,
-Channel, and Trend tools.</p></li>
+<li><p>Added True Strength Index (TSI) indicator</p></li>
 </ul>
 </div>
-<div class="section" id="trading">
-<span id="trading"></span><h2>Trading<a class="headerlink" href="#trading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="drawings">
+<span id="drawings"></span><h2>Drawings<a class="headerlink" href="#drawings" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>FXCM</p>
-<ul>
-<li><p>Enabled live account login in all editions</p></li>
-<li><p>Removed maximum balance limit for live accounts</p></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="section" id="datafeed">
-<span id="datafeed"></span><h2>Datafeed<a class="headerlink" href="#datafeed" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>FXCM</p>
-<ul>
-<li><p>Improved performance parsing price updates</p></li>
-</ul>
-</li>
+<li><p>Added Schiff and Modified Schiff Pitchfork variants</p></li>
+<li><p>Added Regression tool formula option, select from
+Regression Line only, Linear Regression Trend Channel,
+Raff Regression Channel, or Standard Deviation Channel</p></li>
 </ul>
 </div>
 </div>
@@ -357,10 +326,10 @@ Channel, and Trend tools.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="changes-5.0.0.html" class="btn btn-neutral float-right" title="Version 5.0.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="changes-7.3.4.html" class="btn btn-neutral float-right" title="Version 7.3.4" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="changes-5.1.1.html" class="btn btn-neutral" title="Version 5.1.1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="changes-7.4.1.html" class="btn btn-neutral" title="Version 7.4.1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
