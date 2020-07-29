@@ -1,0 +1,39 @@
+Version 7.6.0
+=============
+
+Beantrader Latinum version 7.6 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added Alpaca Paper connection. This provides paper trading using live
+     market data. Charts update per-minute for intraday intervals
+     and per-day for daily. Sidebar quotes update between one second to 64
+     seconds or longer depending on how many symbols you have subscribed.
+     Trade Feed is available. Order Book is not available.
+
+### Charts
+   * Add resize handle (aka size grip) to charts to allow charts to be
+     resized easier
+   * Fixed bugs mapping mouse coordinates to points on charts
+   * Increased the max number before E notation is used in Data Tip
+
+### Studies
+   * Changed text in Orders and Trades studies. Instead of using order IDs
+     a more helpful text is used
+   * Changed to hide N/A values for indicators that output arrows
+
+### Datafeed
+   * Fixed IEX previous close mode for daily candles
+
+### Order Book
+   * Added option to set custom table font, custom column widths, and hide
+     Sum columns
+   * Added option to use the Sum value for bars and to scale bars
+     including the other side of the book
+   * Added Auto Levels option, it display the max levels available that
+     will fit in the table without scrolling
+
+### Trade Feed
+   * Added option to set custom table font, custom column widths, and
+     hide the Time column

@@ -1,0 +1,14 @@
+Version 7.6.1
+=============
+
+Beantrader Latinum version 7.6.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed bug in Alpaca Paper connection. The bug would cause increased
+     CPU usage
+
+### Order Book
+   * Fixed bug when using Auto levels option. The bug would cause
+     increased CPU usage

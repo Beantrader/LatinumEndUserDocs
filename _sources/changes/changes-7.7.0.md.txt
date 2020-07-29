@@ -1,0 +1,26 @@
+Version 7.7.0
+=============
+
+Beantrader Latinum version 7.7 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added Spotware Open API connection. This provides market data only
+     (no trading functionality). Charts, quotes, and depth data update
+     several times per second. Depth of Market data is displayed in the
+     Order Book window. The connection is compatible with all trading
+     accounts of any cTrader supported brokers, including demo and live
+     accounts.
+
+### Charts
+   * Changed Session Breaks interval from daily to weekly for H3 to H12
+     charts
+
+### Studies
+   * Fixed calculating Pivot Points and Previous Close indicators when
+     data feed only provides closed candles
+
+### Trading
+   * FXCM
+      * Fixed order tickets to allow orders with amounts less than 1000
