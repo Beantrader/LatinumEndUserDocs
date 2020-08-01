@@ -28,6 +28,18 @@ Crypto Data Feeds
    :height: 32px
    :alt: Binance
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/471.png
+   :target: Binance-Jersey_
+   :width: 32px
+   :height: 32px
+   :alt: Binance Jersey
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/630.png
+   :target: Binance.US_
+   :width: 32px
+   :height: 32px
+   :alt: Binance.US
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/300.png
    :target: Bit-Z_
    :width: 32px
@@ -94,12 +106,6 @@ Crypto Data Feeds
    :height: 32px
    :alt: Crypto Facilities
 
-.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/344.png
-   :target: Ethfinex_
-   :width: 32px
-   :height: 32px
-   :alt: Ethfinex
-
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
    :target: Gate.io_
    :width: 32px
@@ -118,12 +124,6 @@ Crypto Data Feeds
    :height: 32px
    :alt: Gemini
 
-.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/408.png
-   :target: HADAX_
-   :width: 32px
-   :height: 32px
-   :alt: HADAX
-
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/414.png
    :target: HBUS_
    :width: 32px
@@ -135,12 +135,6 @@ Crypto Data Feeds
    :width: 32px
    :height: 32px
    :alt: HitBTC
-
-.. image:: images/icons-data-feed/huobiau.png
-   :target: Huobi-Australia_
-   :width: 32px
-   :height: 32px
-   :alt: Huobi Australia
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
    :target: Huobi.pro_
@@ -230,6 +224,8 @@ Crypto Data Feeds
 - `ACX <ACX_>`_
 - `Bibox <Bibox_>`_
 - `Binance <Binance_>`_
+- `Binance Jersey <Binance-Jersey_>`_
+- `Binance.US <Binance.US_>`_
 - `Bit-Z <Bit-Z_>`_
 - `Bitbank <Bitbank_>`_
 - `BitBay <BitBay_>`_
@@ -241,14 +237,11 @@ Crypto Data Feeds
 - `BTC Markets <BTC-Markets_>`_
 - `CEX.IO <CEX.IO_>`_
 - `Crypto Facilities <Crypto-Facilities_>`_
-- `Ethfinex <Ethfinex_>`_
 - `Gate.io <Gate.io_>`_
 - `GDAX <GDAX_>`_
 - `Gemini <Gemini_>`_
-- `HADAX <HADAX_>`_
 - `HBUS <HBUS_>`_
 - `HitBTC <HitBTC_>`_
-- `Huobi Australia <Huobi-Australia_>`_
 - `Huobi.pro <Huobi.pro_>`_
 - `Kraken <Kraken_>`_
 - `Kucoin <Kucoin_>`_
@@ -268,6 +261,12 @@ Crypto Data Feeds
 
 - `CoinCap.io <CoinCap.io_>`_
 - `CoinMetrics <CoinMetrics_>`_
+
+**Removed**
+
+- `Ethfinex <Ethfinex_>`_
+- `HADAX <HADAX_>`_
+- `Huobi Australia <Huobi-Australia_>`_
 
 ------------
 
@@ -330,6 +329,48 @@ Crypto Data Feeds
 ------------------
 
 `<https://coinmarketcap.com/exchanges/binance/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Binance-Jersey:
+.. |logo_471| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/471.png
+   :width: 32px
+   :height: 32px
+   :alt: Binance Jersey
+
+
+|logo_471| Binance Jersey
+-------------------------
+
+`<https://coinmarketcap.com/exchanges/binance-jersey/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Binance.US:
+.. |logo_630| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/630.png
+   :width: 32px
+   :height: 32px
+   :alt: Binance.US
+
+
+|logo_630| Binance.US
+---------------------
+
+`<https://coinmarketcap.com/exchanges/binance-us/>`_
 
 ✔ Price Charts
 
@@ -661,14 +702,7 @@ https://cryptofacilities.com
 
 `<https://coinmarketcap.com/exchanges/ethfinex/>`_
 
-✔ Price Charts
-
-✔ Quotes in Sidebar
-
-✔ Order Book
-
-✔ Trade Feed
-
+This feed was removed in Latinum v6.8.4
 
 .. _Gate.io:
 .. |logo_302| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
@@ -750,14 +784,7 @@ Also known as Coinbase Pro
 
 `<https://coinmarketcap.com/exchanges/hadax/>`_
 
-✔ Price Charts
-
-✔ Quotes in Sidebar
-
-✔ Order Book
-
-✔ Trade Feed
-
+This feed was removed in Latinum v6.8.4
 
 .. _HBUS:
 .. |logo_414| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/414.png
@@ -813,14 +840,7 @@ Also known as Coinbase Pro
 
 https://huobi.com.au/
 
-✔ Price Charts
-
-✔ Quotes in Sidebar
-
-✔ Order Book
-
-✔ Trade Feed
-
+This feed was removed in Latinum v6.8.4
 
 .. _Huobi.pro:
 .. |logo_102| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png

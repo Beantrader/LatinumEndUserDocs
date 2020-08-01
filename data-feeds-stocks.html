@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Stocks Data Feeds &mdash; Latinum User 6.8.2 documentation</title>
+  <title>Stocks Data Feeds &mdash; Latinum User 7.0.0 documentation</title>
   
 
   
@@ -186,11 +186,13 @@ and <em>Latinum Stocks for Mac</em>.</p>
 </div>
 <div class="section" id="logo-iex-png-iex">
 <span id="iex"></span><h2><a class="reference internal" href="_images/iex.png"><img alt="IEX" src="_images/iex.png" style="width: 32px; height: 32px;" /></a> IEX<a class="headerlink" href="#logo-iex-png-iex" title="Permalink to this headline">¶</a></h2>
-<p>IEX provides data for US stocks.</p>
-<p><a class="reference external" href="https://iextrading.com/">https://iextrading.com/</a></p>
+<p>IEX provides data for US and international stocks.</p>
+<p><a class="reference external" href="https://iexcloud.io/">https://iexcloud.io/</a></p>
 <p>✔ Price Charts</p>
 <blockquote>
-<div><p>Charts update every 500 milliseconds. This update interval will
+<div><p>Charts update every 500 milliseconds
+(when data is available, see note).
+This update interval will
 automatically increase if no trading activity is detected (up to 64 seconds)</p>
 </div></blockquote>
 <p>✔ Quotes in Sidebar</p>
@@ -198,8 +200,32 @@ automatically increase if no trading activity is detected (up to 64 seconds)</p>
 <p>✖ [No] Trade Feed</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Please use the <a class="reference external" href="https://stocks.iextrading.com/">IEX Stocks app</a>
-to find out if your favorite stocks are available.</p>
+<p>The current list of exchanges supported by the IEX data feed include
+Abu Dhabi Securities Exchange,
+Tel Aviv Stock Exchange,
+Bombay Stock Exchange (BSE Ltd.),
+Korea Exchange, Euronext Brussels,
+XETRA, Euronext Paris,
+London Stock Exchange,
+Euronext Dublin,
+Euronext Amsterdam,
+Euronext Lisbon,
+Toronto Stock Exchange,
+TSX Venture Exchange,
+Mexican Stock Exchange,
+NYSE American,
+Cboe BZX US Equities Exchange,
+IEX Markets,
+NASDAQ,
+New York Stock Exchange,
+US OTC,
+NASDAQ OMX PHLX,
+and NYSE Arca.
+US exchanges (excl. US OTC) support intraday and daily charts
+updated with sub-second quotes from IEX or 15 minute delayed quotes
+(if no trades have occurred on IEX),
+US OTC and international exchanges support End Of Day (EOD) daily charts and quotes.
+This list was valid on 2019-12-03.</p>
 </div>
 </div>
 </div>
@@ -246,7 +272,7 @@ to find out if your favorite stocks are available.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'6.8.2',
+            VERSION:'7.0.0',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',

@@ -15,13 +15,15 @@ Stocks Data Feeds
 |logo_iex.png| IEX
 ------------------
 
-IEX provides data for US stocks.
+IEX provides data for US and international stocks.
 
-`<https://iextrading.com/>`_
+`<https://iexcloud.io/>`_
 
 ✔ Price Charts
 
-   Charts update every 500 milliseconds. This update interval will
+   Charts update every 500 milliseconds
+   (when data is available, see note).
+   This update interval will
    automatically increase if no trading activity is detected (up to 64 seconds)
 
 
@@ -32,5 +34,29 @@ IEX provides data for US stocks.
 ✖ [No] Trade Feed
 
 .. note::
-   Please use the `IEX Stocks app <https://stocks.iextrading.com/>`_
-   to find out if your favorite stocks are available.
+   The current list of exchanges supported by the IEX data feed include
+   Abu Dhabi Securities Exchange,
+   Tel Aviv Stock Exchange,
+   Bombay Stock Exchange (BSE Ltd.),
+   Korea Exchange, Euronext Brussels,
+   XETRA, Euronext Paris,
+   London Stock Exchange,
+   Euronext Dublin,
+   Euronext Amsterdam,
+   Euronext Lisbon,
+   Toronto Stock Exchange,
+   TSX Venture Exchange,
+   Mexican Stock Exchange,
+   NYSE American,
+   Cboe BZX US Equities Exchange,
+   IEX Markets,
+   NASDAQ,
+   New York Stock Exchange,
+   US OTC,
+   NASDAQ OMX PHLX,
+   and NYSE Arca.
+   US exchanges (excl. US OTC) support intraday and daily charts
+   updated with sub-second quotes from IEX or 15 minute delayed quotes
+   (if no trades have occurred on IEX),
+   US OTC and international exchanges support End Of Day (EOD) daily charts and quotes.
+   This list was valid on 2019-12-03.
