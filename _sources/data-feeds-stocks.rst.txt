@@ -5,11 +5,43 @@ Stocks Data Feeds
    Stocks data feeds available only in *Latinum* (standard edition)
    and *Latinum Stocks for Mac*.
 
+.. note::
+   Forex data feeds in *Latinum* (standard edition)
+   may also contain useful non-forex data
+   (e.g. CFDs for shares, indices, and commodities).
+   It's up to you to research the compatible brokers
+   to see what markets they provide.
+   Most forex brokers offer free demo accounts.
+
+.. _ALPACA:
+.. |logo_alpaca.png| image:: images/icons-data-feed/alpaca.png
+   :width: 32px
+   :height: 32px
+   :alt: Alpaca
+
 .. _IEX:
 .. |logo_iex.png| image:: images/icons-data-feed/iex.png
    :width: 32px
    :height: 32px
    :alt: IEX
+
+
+|logo_alpaca.png| Alpaca
+------------------------
+
+Alpaca provides data for US stocks. Paper trading is free and available to all Alpaca users.
+
+`<https://alpaca.markets/>`_
+
+✔ Price Charts
+
+   Charts update every minute
+
+✔ Quotes in Sidebar
+
+✖ [No] Order Book
+
+✔ Trade Feed
 
 
 |logo_iex.png| IEX

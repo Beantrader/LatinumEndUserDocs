@@ -28,6 +28,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Binance
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/270.png
+   :target: Binance-Futures_
+   :width: 32px
+   :height: 32px
+   :alt: Binance Futures
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/471.png
    :target: Binance-Jersey_
    :width: 32px
@@ -76,6 +82,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Bithumb
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/597.png
+   :target: Bitpanda-Pro_
+   :width: 32px
+   :height: 32px
+   :alt: Bitpanda Pro
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/70.png
    :target: Bitstamp_
    :width: 32px
@@ -106,6 +118,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: Crypto Facilities
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/524.png
+   :target: FTX_
+   :width: 32px
+   :height: 32px
+   :alt: FTX
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
    :target: Gate.io_
    :width: 32px
@@ -124,17 +142,29 @@ Crypto Data Feeds
    :height: 32px
    :alt: Gemini
 
-.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/414.png
-   :target: HBUS_
-   :width: 32px
-   :height: 32px
-   :alt: HBUS
-
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
    :target: HitBTC_
    :width: 32px
    :height: 32px
    :alt: HitBTC
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/463.png
+   :target: Huobi-Korea_
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Korea
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/730.png
+   :target: Huobi-Russia_
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Russia
+
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/921.png
+   :target: Huobi-Thailand_
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Thailand
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
    :target: Huobi.pro_
@@ -184,6 +214,12 @@ Crypto Data Feeds
    :height: 32px
    :alt: OKEx
 
+.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/490.png
+   :target: OKEx-Korea_
+   :width: 32px
+   :height: 32px
+   :alt: OKEx Korea
+
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/16.png
    :target: Poloniex_
    :width: 32px
@@ -196,23 +232,11 @@ Crypto Data Feeds
    :height: 32px
    :alt: Qryptos
 
-.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/146.png
-   :target: QuadrigaCX_
-   :width: 32px
-   :height: 32px
-   :alt: QuadrigaCX
-
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
    :target: Quoine_
    :width: 32px
    :height: 32px
    :alt: Quoine
-
-.. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/2.png
-   :target: WEX_
-   :width: 32px
-   :height: 32px
-   :alt: WEX
 
 .. image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/326.png
    :target: ZB.com_
@@ -224,6 +248,7 @@ Crypto Data Feeds
 - `ACX <ACX_>`_
 - `Bibox <Bibox_>`_
 - `Binance <Binance_>`_
+- `Binance Futures <Binance-Futures_>`_
 - `Binance Jersey <Binance-Jersey_>`_
 - `Binance.US <Binance.US_>`_
 - `Bit-Z <Bit-Z_>`_
@@ -232,16 +257,20 @@ Crypto Data Feeds
 - `Bitfinex <Bitfinex_>`_
 - `bitFlyer <bitFlyer_>`_
 - `Bithumb <Bithumb_>`_
+- `Bitpanda Pro <Bitpanda-Pro_>`_
 - `Bitstamp <Bitstamp_>`_
 - `Bittrex <Bittrex_>`_
 - `BTC Markets <BTC-Markets_>`_
 - `CEX.IO <CEX.IO_>`_
 - `Crypto Facilities <Crypto-Facilities_>`_
+- `FTX <FTX_>`_
 - `Gate.io <Gate.io_>`_
 - `GDAX <GDAX_>`_
 - `Gemini <Gemini_>`_
-- `HBUS <HBUS_>`_
 - `HitBTC <HitBTC_>`_
+- `Huobi Korea <Huobi-Korea_>`_
+- `Huobi Russia <Huobi-Russia_>`_
+- `Huobi Thailand <Huobi-Thailand_>`_
 - `Huobi.pro <Huobi.pro_>`_
 - `Kraken <Kraken_>`_
 - `Kucoin <Kucoin_>`_
@@ -250,11 +279,10 @@ Crypto Data Feeds
 - `Luno <Luno_>`_
 - `OKCoin International <OKCoin-International_>`_
 - `OKEx <OKEx_>`_
+- `OKEx Korea <OKEx-Korea_>`_
 - `Poloniex <Poloniex_>`_
 - `Qryptos <Qryptos_>`_
-- `QuadrigaCX <QuadrigaCX_>`_
 - `Quoine <Quoine_>`_
-- `WEX <WEX_>`_
 - `ZB.com <ZB.com_>`_
 
 **Other**
@@ -266,7 +294,10 @@ Crypto Data Feeds
 
 - `Ethfinex <Ethfinex_>`_
 - `HADAX <HADAX_>`_
+- `HBUS <HBUS_>`_
 - `Huobi Australia <Huobi-Australia_>`_
+- `QuadrigaCX <QuadrigaCX_>`_
+- `WEX <WEX_>`_
 
 ------------
 
@@ -337,6 +368,30 @@ Crypto Data Feeds
 ✔ Order Book
 
 ✔ Trade Feed
+
+
+.. _Binance-Futures:
+.. |logo_270| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/270.png
+   :width: 32px
+   :height: 32px
+   :alt: Binance Futures
+
+
+|logo_270| Binance Futures
+--------------------------
+
+`<https://coinmarketcap.com/exchanges/binance/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
 
 
 .. _Binance-Jersey:
@@ -509,6 +564,30 @@ Crypto Data Feeds
 ------------------
 
 `<https://coinmarketcap.com/exchanges/bithumb/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
+.. _Bitpanda-Pro:
+.. |logo_597| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/597.png
+   :width: 32px
+   :height: 32px
+   :alt: Bitpanda Pro
+
+
+|logo_597| Bitpanda Pro
+-----------------------
+
+`<https://coinmarketcap.com/exchanges/bitpanda-pro/>`_
 
 ✔ Price Charts
 
@@ -704,6 +783,30 @@ https://cryptofacilities.com
 
 This feed was removed in Latinum v6.8.4
 
+.. _FTX:
+.. |logo_524| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/524.png
+   :width: 32px
+   :height: 32px
+   :alt: FTX
+
+
+|logo_524| FTX
+--------------
+
+`<https://coinmarketcap.com/exchanges/ftx/>`_
+
+✔ Price Charts
+
+   This feed doesn't use streaming prices, charts update every 10 seconds
+
+
+✖ [No] Quotes in Sidebar
+
+✖ [No] Order Book
+
+✖ [No] Trade Feed
+
+
 .. _Gate.io:
 .. |logo_302| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/302.png
    :width: 32px
@@ -798,14 +901,7 @@ This feed was removed in Latinum v6.8.4
 
 `<https://coinmarketcap.com/exchanges/hbus/>`_
 
-✔ Price Charts
-
-✔ Quotes in Sidebar
-
-✔ Order Book
-
-✔ Trade Feed
-
+This feed was removed in Latinum v7.3.2
 
 .. _HitBTC:
 .. |logo_42| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/42.png
@@ -841,6 +937,69 @@ This feed was removed in Latinum v6.8.4
 https://huobi.com.au/
 
 This feed was removed in Latinum v6.8.4
+
+.. _Huobi-Korea:
+.. |logo_463| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/463.png
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Korea
+
+
+|logo_463| Huobi Korea
+----------------------
+
+`<https://coinmarketcap.com/exchanges/huobi-korea/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Huobi-Russia:
+.. |logo_730| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/730.png
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Russia
+
+
+|logo_730| Huobi Russia
+-----------------------
+
+`<https://coinmarketcap.com/exchanges/huobi-russia/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
+.. _Huobi-Thailand:
+.. |logo_921| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/921.png
+   :width: 32px
+   :height: 32px
+   :alt: Huobi Thailand
+
+
+|logo_921| Huobi Thailand
+-------------------------
+
+`<https://coinmarketcap.com/exchanges/huobi-thailand/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
 
 .. _Huobi.pro:
 .. |logo_102| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/102.png
@@ -1025,6 +1184,27 @@ This feed was removed in Latinum v6.8.4
 ✔ Trade Feed
 
 
+.. _OKEx-Korea:
+.. |logo_490| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/490.png
+   :width: 32px
+   :height: 32px
+   :alt: OKEx Korea
+
+
+|logo_490| OKEx Korea
+---------------------
+
+`<https://coinmarketcap.com/exchanges/okex-korea/>`_
+
+✔ Price Charts
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+✔ Trade Feed
+
+
 .. _Poloniex:
 .. |logo_16| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/16.png
    :width: 32px
@@ -1082,17 +1262,7 @@ This feed was removed in Latinum v6.8.4
 
 `<https://coinmarketcap.com/exchanges/quadrigacx/>`_
 
-✔ Price Charts
-
-   This feed doesn't use streaming prices, charts update every 10 seconds
-
-
-✖ [No] Quotes in Sidebar
-
-✖ [No] Order Book
-
-✖ [No] Trade Feed
-
+This feed was removed in Latinum v7.3.2
 
 .. _Quoine:
 .. |logo_112| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/112.png
@@ -1130,14 +1300,7 @@ This feed was removed in Latinum v6.8.4
 
 `<https://coinmarketcap.com/exchanges/wex/>`_
 
-✔ Price Charts
-
-✔ Quotes in Sidebar
-
-✔ Order Book
-
-✔ Trade Feed
-
+This feed was removed in Latinum v7.3.2
 
 .. _ZB.com:
 .. |logo_326| image:: https://s2.coinmarketcap.com/static/img/exchanges/32x32/326.png

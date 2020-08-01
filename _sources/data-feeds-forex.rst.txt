@@ -4,11 +4,43 @@ Forex Data Feeds
 .. note::
    Forex data feeds available only in *Latinum* (standard edition).
 
+.. _CTRADER:
+.. |logo_ctrader.png| image:: images/icons-data-feed/ctrader.png
+   :width: 32px
+   :height: 32px
+   :alt: cTrader
+
 .. _FXCM:
 .. |logo_fxcm.gif| image:: images/icons-data-feed/fxcm.gif
    :width: 32px
    :height: 32px
    :alt: FXCM
+
+
+|logo_ctrader.png| cTrader
+--------------------------
+
+Compatible with Live and Demo cTrader trading accounts.
+
+Available symbols depend on the cTrader trading account connected.
+Only one cTrader trading account can be logged in at a time,
+this account is used for market data (no trading).
+
+`<https://ctrader.com/featured-brokers/>`_
+
+✔ Price Charts
+
+   Charts update multiple times per second
+
+
+✔ Quotes in Sidebar
+
+✔ Order Book
+
+   Depth of Market is displayed in the Order Book
+
+
+✖ [No] Trade Feed
 
 
 |logo_fxcm.gif| FXCM
