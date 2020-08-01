@@ -11,7 +11,8 @@ Stocks Data Feeds
    (e.g. CFDs for shares, indices, and commodities).
    It's up to you to research the compatible brokers
    to see what markets they provide.
-   Most forex brokers offer free demo accounts.
+   Most forex brokers offer free demo accounts
+   you can use for market data and paper trading.
 
 .. _ALPACA:
 .. |logo_alpaca.png| image:: images/icons-data-feed/alpaca.png
