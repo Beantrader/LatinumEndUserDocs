@@ -1,0 +1,9 @@
+Version 7.8.1
+=============
+
+Beantrader Latinum version 7.8.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * Fixed downloading most recent candle in the Cryptowatch data feed

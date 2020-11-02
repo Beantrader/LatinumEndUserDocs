@@ -1,0 +1,37 @@
+Version 7.8.0
+=============
+
+Beantrader Latinum version 7.8 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved multi-monitor support. Modal windows created by main windows
+     will not block input in other main windows
+   * Fixed several memory leaks
+
+### Charts
+   * Added scrolling without active Hand tool. This allows you to scroll
+     the chart using your mouse or touchpad without having to switch to
+     the Hand tool first
+   * Added horizontal wheel scrolling. Horizontal and vertical scrolling
+     both affect the time axis only
+   * Added option to show or hide Data Tip descriptive rows including
+     Date, Time, Price (at mouse cursor), Bar Number, and Bar Index
+   * Added Show Fractional Pip option. This is a per-chart setting that
+     is also saved in templates. The default is off to keep fractional
+     pips hidden
+   * Fixed Session Breaks interval for m4 to m30 charts. They were
+     displaying weekly instead of daily breaks
+
+### Studies
+   * Added Crossover Arrow EMA study. This plots an arrow on the first bar
+     after an EMA crossover
+
+### Datafeed
+   * IEX
+      * Reduced quote network requests for quotes used in the sidebar.
+        The new algorithm prioritizes symbols used in charts and alerts
+   * CTRADER
+      * Added auto-retry for REQUEST_FREQUENCY_EXCEEDED errors when
+        requesting chart data

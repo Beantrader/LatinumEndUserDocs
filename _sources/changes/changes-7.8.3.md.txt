@@ -1,0 +1,17 @@
+Version 7.8.3
+=============
+
+Beantrader Latinum version 7.8.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Reduced memory allocations improving overall efficiency
+   * Fixed saving main window settings when quitting with multiple main
+     windows open
+   * Fixed saving app settings when quitting with no main windows open
+
+### Studies
+   * Added Hull Moving Average (HMA). Access the indicator from the Custom
+     Studies menu
+   * Fixed crash in built-in Ichimoku indicator

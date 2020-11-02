@@ -1,0 +1,31 @@
+Version 7.9.0
+=============
+
+Beantrader Latinum version 7.9 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Improved Data Window with colors and grouping. Access the Data Window
+     from the Window menu
+   * Fix centring of dots over the value of the sample in Dot chart
+
+### Drawing
+   * Changed magnet to also snap horizontally
+
+### Studies
+   * Added Balance of Power (BOP) indicator
+
+### Trading
+   * Added color to FXCM order ticket Buy and Sell buttons
+   * Added cash balance (cash for trading) in Alpaca accounts table
+   * Changed FXCM order ticker to display time in force acronyms,
+     e.g. instead of _Immediate or Cancel_ the acronym _IOC_ is shown
+     instead
+
+### Datafeed
+   * Added option to save Alpaca API keys to Keychain
+   * Improved OKEx candle downloader to retry on Too Many Requests errors
+   * Fixed Alpaca login after logout
+   * Updated Spotware Open API (CTRADER) connection. Removed usage of
+     decommissioned API

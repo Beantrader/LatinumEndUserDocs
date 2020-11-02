@@ -1,0 +1,11 @@
+Version 7.8.2
+=============
+
+Beantrader Latinum version 7.8.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Reduced memory allocations in many areas improving overall
+     efficiency, most notably when calculating custom studies
+   * Fixed workspace export on macOS
