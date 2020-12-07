@@ -1,0 +1,200 @@
+Version 8.0.1
+=============
+
+Beantrader Latinum version 8.0.1 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Updated the IEX data feed adding many new international exchanges.
+     The list of new exchanges is included below [^1]. It is highly
+     recommended you use the new Exchange Blacklist setting in the IEX
+     Connection Settings window to disable all the exchanges you won't be
+     using, more on the new window below.
+
+### Datafeed
+   * Added Percent Change to Alpaca quotes
+   * Fixed Bitfinex WebSocket ping/pong and heartbeat interval
+   * TIINGO
+      * Fixed EOD values overwriting newer IEX values in the quotes table
+      * Fixed delay connecting Tiingo IEX WebSocket
+      * Fixed empty Tiingo percent change column
+   * IEX
+      * Added IEX Connection Settings window with options to control the
+        adjusted price method (between split-only and fully adjusted) and
+        an option to blacklist exchanges. Blacklisting exchanges reduces
+        the amount of memory the app consumes, makes app startup time
+        faster, reduces the amount of data downloaded, and speeds up
+        symbol searches. You can open the new settings window from
+        File > Broker > Connection Settings.
+      * Improved process for updating and storing IEX symbols
+
+[^1]: List of new exchanges IEX Cloud provide data for (valid on
+      2020-12-02, Expect changes):
+
+         * Baku Stock Exchange (MIC: BSEX)
+         * Stock Exchange Of Hong Kong Limited Shanghai Hong Kong Stock
+           Connect (MIC: SHSC)
+         * Caracas Stock Exchange (MIC: BVCA)
+         * Colombo Stock Exchange (MIC: XCOL)
+         * Bolsa De Madrid (MIC: XMAD)
+         * Dubai Financial Market (MIC: XDFM)
+         * Spotlight Stock Market (MIC: XSAT)
+         * Bm Fbovespa S A Bolsa De Valores Mercadorias E Futuros
+           (MIC: BVMF)
+         * Norwegian Over The Counter Market (MIC: NOTC)
+         * Bourse Regionale Des Valeurs Mobilieres (MIC: XBRV)
+         * Wiener Boerse Ag Dritter Markt Third Market (MIC: XWBO)
+         * Ghana Stock Exchange (MIC: XGHA)
+         * Malawi Stock Exchange (MIC: XMSW)
+         * Malta Stock Exchange (MIC: XMAL)
+         * Cambodia Securities Exchange (MIC: XCSX)
+         * Dhaka Stock Exchange Ltd (MIC: XDHA)
+         * Bahrain Bourse (MIC: XBAH)
+         * Bermuda Stock Exchange Ltd (MIC: XBDA)
+         * Kuwait Stock Exchange (MIC: XKUW)
+         * Bulgarian Stock Exchange (MIC: XBUL)
+         * Cape Verde Stock Exchange (MIC: XBVC)
+         * Boerse Stuttgart (MIC: XSTU)
+         * Stock Exchange Of Hong Kong Limited Shenzhen Hong Kong Stock
+           Connect (MIC: SZSC)
+         * Rwanda Stock Exchange (MIC: RSEX)
+         * Palestine Securities Exchange (MIC: XPAE)
+         * Botswana Stock Exchange (MIC: XBOT)
+         * National Stock Exchange Of India (MIC: XNSE)
+         * Shanghai Stock Exchange Shanghai Hong Kong Stock Connect
+           (MIC: XSSC)
+         * Aim Italia Mercato Alternativo Del Capitale (MIC: XMIL)
+         * Bahamas International Securities Exchange (MIC: XBAA)
+         * Hochiminh Stock Exchange (MIC: XSTC)
+         * Bolsa De Barcelona (MIC: XBAR)
+         * Bolsa De Valores De Bilbao (MIC: XBIL)
+         * Algiers Stock Exchange (MIC: XALG)
+         * Republican Stock Exchange (MIC: XSTE)
+         * Bolsa De Comercio De Buenos Aires (MIC: XBUE)
+         * Otc Grey Market (MIC: OTCM)
+         * Kyrgyz Stock Exchange (MIC: XKSE)
+         * Budapest Stock Exchange (MIC: XBUD)
+         * Nasdaq Copenhagen A S (MIC: XCSE)
+         * Ukrainian Exchange (MIC: UKEX)
+         * Bratislava Stock Exchange (MIC: XBRA)
+         * Asx All Markets (MIC: XASX)
+         * The International Stock Exchange (MIC: XCIE)
+         * Cayman Islands Stock Exchange (MIC: XCAY)
+         * Bolsa De Valores Nacional Sa (MIC: XGTG)
+         * Mongolian Stock Exchange (MIC: XULA)
+         * Spot Regulated Market Bvb (MIC: XBSE)
+         * Taipei Exchange (MIC: ROCO)
+         * Bolsa De Valores De Quito (MIC: XQUI)
+         * Portal (MIC: XPOR)
+         * Stock Exchange Of Thailand (MIC: XBKK)
+         * Korea Exchange Kosdaq (MIC: XKOS)
+         * Taiwan Stock Exchange (MIC: XTAI)
+         * Egyptian Exchange (MIC: XCAI)
+         * Nasdaq Riga As (MIC: XRIS)
+         * Nasdaq Stockholm Ab (MIC: XSTO)
+         * Korea New Exchange (MIC: XKON)
+         * Nasdaq Nms Global Market (MIC: XNMS)
+         * Nairobi Stock Exchange (MIC: XNAI)
+         * Bursa Malaysia (MIC: XKLS)
+         * Indonesia Stock Exchange (MIC: XIDX)
+         * Stock Exchange Perspectiva (MIC: SEPE)
+         * Shenzhen Stock Exchange (MIC: XSHE)
+         * Boerse Duesseldorf Freiverkehr (MIC: XDUS)
+         * Lusaka Stock Exchange (MIC: XLUS)
+         * Casablanca Stock Exchange (MIC: XCAS)
+         * Montenegro Stock Exchange (MIC: XMNX)
+         * Bolsa De Valores De Panama S A (MIC: XPTY)
+         * Saudi Stock Exchange (MIC: XSAU)
+         * Singapore Exchange (MIC: XSES)
+         * Euronext Euronext London (MIC: XLDN)
+         * Douala Stock Exchange (MIC: XDSX)
+         * Nasdaq Iceland Hf (MIC: XICE)
+         * Libyan Stock Market (MIC: XLSM)
+         * Bx Swiss Ag (MIC: XBRN)
+         * Boerse Berlin (MIC: XBER)
+         * Cyprus Stock Exchange (MIC: XCYS)
+         * Uganda Securities Exchange (MIC: XUGA)
+         * Boerse Frankfurt Freiverkehr (MIC: XFRA)
+         * The Nigerian Stock Exchange (MIC: XNSA)
+         * Trinidad And Tobago Stock Exchange (MIC: XTRN)
+         * Boerse Hannover Freiverkehr (MIC: XHAN)
+         * Belgrade Stock Exchange (MIC: XBEL)
+         * Borsa Istanbul (MIC: XIST)
+         * Nasdaq Tallinn As (MIC: XTAL)
+         * Georgia Stock Exchange (MIC: XGSE)
+         * Lao Securities Exchange (MIC: XLAO)
+         * Moscow Exchange All Markets (MIC: MISX)
+         * Amman Stock Exchange (MIC: XAMM)
+         * Ab Nasdaq Vilnius (MIC: XLIT)
+         * Nasdaq Omx Armenia (MIC: XARM)
+         * Qatar Exchange (MIC: DSMD)
+         * Athens Stock Exchange (MIC: ASEX)
+         * Bolsa De Valencia (MIC: XVAL)
+         * Namibian Stock Exchange (MIC: XNAM)
+         * Banja Luka Stock Exchange (MIC: XBLB)
+         * Nasdaq Dubai (MIC: DIFX)
+         * The Pakistan Stock Exchange Limited (MIC: XKAR)
+         * Bolsa Nacional De Valores S A (MIC: XBNV)
+         * Nordic Growth Market (MIC: XNGM)
+         * Moscow Exchange Derivatives Market (MIC: RTSX)
+         * Zagreb Stock Exchange (MIC: XZAG)
+         * Ljubljana Stock Exchange Official Market (MIC: XLJU)
+         * Astana International Exchange Ltd (MIC: AIXK)
+         * Bolsa Boliviana De Valores S A (MIC: XBOL)
+         * Canadian National Stock Exchange (MIC: XCNQ)
+         * Sarajevo Stock Exchange (MIC: XSSE)
+         * Bolsa De Valores De Guayaquil (MIC: XGUA)
+         * Macedonian Stock Exchange (MIC: XMAE)
+         * Nepal Stock Exchange (MIC: XNEP)
+         * Jamaica Stock Exchange (MIC: XJAM)
+         * Stock Exchange Of Mauritius Ltd (MIC: XMAU)
+         * Luxembourg Stock Exchange (MIC: XLUX)
+         * Iraq Stock Exchange (MIC: XIQS)
+         * Bolsa De Valores De Lima (MIC: XLIM)
+         * Six Swiss Exchange (MIC: XSWX)
+         * Bolsa De Valores De Colombia (MIC: XBOG)
+         * Osaka Exchange (MIC: XOSE)
+         * Hanseatische Wertpapierboerse Hamburg (MIC: XHAM)
+         * New Zealand Exchange Ltd (MIC: XNZE)
+         * Damascus Securities Exchange (MIC: XDSE)
+         * Japan Exchange Group (MIC: XJPX)
+         * Muscat Securities Market (MIC: XMUS)
+         * Nyse National Inc (MIC: XCIS)
+         * Philippine Stock Exchange Inc (MIC: XPHS)
+         * Oslo Bors (MIC: XOSL)
+         * Shanghai Stock Exchange (MIC: XSHG)
+         * Bolsa De Valores De Montevideo (MIC: XMNT)
+         * Bourse De Tunis (MIC: XTUN)
+         * Barbados Stock Exchange (MIC: XBAB)
+         * Bourse De Beyrouth Beirut Stock Exchange (MIC: XBEY)
+         * Metropolitan Stock Exchange Of India Limited (MIC: MCXX)
+         * Finra (MIC: FINR)
+         * Prague Stock Exchange (MIC: XPRA)
+         * Tehran Stock Exchange (MIC: XTEH)
+         * Hanoi Stock Exchange (MIC: HSTC)
+         * Dar Es Salaam Stock Exchange (MIC: XDAR)
+         * Aquis Stock Exchange (MIC: NEXX)
+         * National Stock Exchange Of Australia Limited (MIC: XNEC)
+         * Warsaw Stock Exchange Equities Main Market (MIC: XWAR)
+         * Kazakhstan Stock Exchange (MIC: XKAZ)
+         * South Pacific Stock Exchange (MIC: XSPS)
+         * Bolsa De Valores Y Productos De Asuncion Sa (MIC: XVPA)
+         * Merj Exchange Limited (MIC: TRPX)
+         * Pfts Stock Exchange (MIC: PFTS)
+         * Nasdaq Helsinki Ltd (MIC: XHEL)
+         * Hong Kong Exchanges And Clearing Ltd (MIC: XHKG)
+         * Shenzhen Stock Exchange Shenzhen Hong Kong Stock Connect
+           (MIC: XSEC)
+         * Chittagong Stock Exchange Ltd (MIC: XCHG)
+         * Moldova Stock Exchange (MIC: XMOL)
+         * Swaziland Stock Exchange (MIC: XSWA)
+         * Belarus Currency And Stock Exchange (MIC: BCSE)
+         * El Salvador Stock Exchange (MIC: XSVA)
+         * Sydney Stock Exchange Limited (MIC: APXL)
+         * Neo Exchange Neo L Market By Order (MIC: NEOE)
+         * Boerse Muenchen (MIC: XMUN)
+         * Zimbabwe Stock Exchange (MIC: XZIM)
+
+      All international exchanges support end of day (EOD) daily charts
+      and quotes

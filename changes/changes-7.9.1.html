@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Version 6.8.3 &mdash; Latinum User 7.0.0 documentation</title>
+  <title>Version 7.9.1 &mdash; Latinum User 7.0.0 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Version 6.8.2" href="changes-6.8.2.html" />
-    <link rel="prev" title="Version 6.8.4" href="changes-6.8.4.html" /> 
+    <link rel="next" title="Version 7.9.0" href="changes-7.9.0.html" />
+    <link rel="prev" title="Version 8.0.0" href="changes-8.0.0.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -105,7 +105,10 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Changes</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="changes-8.0.1.html">Version 8.0.1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-8.0.0.html">Version 8.0.0</a></li>
-<li class="toctree-l2"><a class="reference internal" href="changes-7.9.1.html">Version 7.9.1</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 7.9.1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#datafeed">Datafeed</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.9.0.html">Version 7.9.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.8.3.html">Version 7.8.3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.8.2.html">Version 7.8.2</a></li>
@@ -133,11 +136,7 @@
 <li class="toctree-l2"><a class="reference internal" href="changes-7.1.0.html">Version 7.1.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-7.0.0.html">Version 7.0.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-6.8.4.html">Version 6.8.4</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 6.8.3</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#datafeed">Datafeed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quotes-sidebar">Quotes Sidebar</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.3.html">Version 6.8.3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-6.8.2.html">Version 6.8.2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-6.8.1.html">Version 6.8.1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="changes-6.8.0.html">Version 6.8.0</a></li>
@@ -270,13 +269,13 @@
         
           <li><a href="index.html">Changes</a> &raquo;</li>
         
-      <li>Version 6.8.3</li>
+      <li>Version 7.9.1</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/changes/changes-6.8.3.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/changes/changes-7.9.1.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -289,25 +288,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="version-6-8-3">
-<span id="version-6-8-3"></span><h1>Version 6.8.3<a class="headerlink" href="#version-6-8-3" title="Permalink to this headline">¶</a></h1>
-<p>Beantrader Latinum version 6.8.3 is a bugfix release.</p>
+  <div class="section" id="version-7-9-1">
+<span id="version-7-9-1"></span><h1>Version 7.9.1<a class="headerlink" href="#version-7-9-1" title="Permalink to this headline">¶</a></h1>
+<p>Beantrader Latinum version 7.9.1 is a bugfix release.</p>
 <p>The most important changes are listed in this document.</p>
 <div class="section" id="datafeed">
 <span id="datafeed"></span><h2>Datafeed<a class="headerlink" href="#datafeed" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Added Binance US (BINANCEUS) data feed, this feed offers USD pairs</p></li>
-<li><p>Added Binance Jersey (BINANCEJE) data feed, this feed offers EUR
-and GBP pairs</p></li>
-<li><p>Fixed OKEx and OKCoin data feeds</p></li>
-<li><p>Updated Binance and BTC Markets data feed</p></li>
-</ul>
-</div>
-<div class="section" id="quotes-sidebar">
-<span id="quotes-sidebar"></span><h2>Quotes Sidebar<a class="headerlink" href="#quotes-sidebar" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Added option to hide the mini order ticker, this allows you to
-shrink the width of the sidebar even more</p></li>
+<li><p>Fixed potential delay processing crypto data received over WebSocket</p></li>
+<li><p>Fixed handling Alpaca market data request errors</p></li>
 </ul>
 </div>
 </div>
@@ -320,10 +309,10 @@ shrink the width of the sidebar even more</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="changes-6.8.2.html" class="btn btn-neutral float-right" title="Version 6.8.2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="changes-7.9.0.html" class="btn btn-neutral float-right" title="Version 7.9.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="changes-6.8.4.html" class="btn btn-neutral" title="Version 6.8.4" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="changes-8.0.0.html" class="btn btn-neutral" title="Version 8.0.0" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Version 8.0.1 &mdash; Latinum User 7.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Version 8.0.0" href="changes-8.0.0.html" />
+    <link rel="prev" title="Changes" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../videos.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data-feeds-supported.html">Supported Data Feeds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../symbols-symbol-lists.html">Symbol Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../app-options-window.html">App Options window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chart-toolbar.html">Chart Toolbar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chart-properties-window.html">Chart Properties window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../charts-chart-types.html">Chart Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../study-attributes-window.html">Study Attributes window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../study-zigzag.html">ZigZag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../studies-bill-williams.html">Bill Williams Indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../order-book-window.html">Order Book window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trade-feed-window.html">Trade Feed window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exporting-data.html">Exporting Data</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Changes</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Version 8.0.1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general">General</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#datafeed">Datafeed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes-8.0.0.html">Version 8.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.9.1.html">Version 7.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.9.0.html">Version 7.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.8.3.html">Version 7.8.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.8.2.html">Version 7.8.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.8.1.html">Version 7.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.8.0.html">Version 7.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.7.0.html">Version 7.7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.6.1.html">Version 7.6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.6.0.html">Version 7.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.5.0.html">Version 7.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.4.1.html">Version 7.4.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.4.0.html">Version 7.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.3.4.html">Version 7.3.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.3.3.html">Version 7.3.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.3.2.html">Version 7.3.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.3.1.html">Version 7.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.3.0.html">Version 7.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.2.4.html">Version 7.2.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.2.3.html">Version 7.2.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.2.2.html">Version 7.2.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.2.1.html">Version 7.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.2.0.html">Version 7.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.1.3.html">Version 7.1.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.1.2.html">Version 7.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.1.1.html">Version 7.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.1.0.html">Version 7.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-7.0.0.html">Version 7.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.4.html">Version 6.8.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.3.html">Version 6.8.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.2.html">Version 6.8.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.1.html">Version 6.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.8.0.html">Version 6.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.7.0.html">Version 6.7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.6.3.html">Version 6.6.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.6.2.html">Version 6.6.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.6.1.html">Version 6.6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.6.0.html">Version 6.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.5.3.html">Version 6.5.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.5.2.html">Version 6.5.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.5.1.html">Version 6.5.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.5.0.html">Version 6.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.4.2.html">Version 6.4.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.4.1.html">Version 6.4.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.4.0.html">Version 6.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.3.1.html">Version 6.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.3.0.html">Version 6.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.2.1.html">Version 6.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.2.0.html">Version 6.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.1.2.html">Version 6.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.1.1.html">Version 6.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.1.0.html">Version 6.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.16.html">Version 6.0.16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.15.html">Version 6.0.15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.14.html">Version 6.0.14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.13.html">Version 6.0.13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.12.html">Version 6.0.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.11.html">Version 6.0.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.10.html">Version 6.0.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.9.html">Version 6.0.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.8.html">Version 6.0.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.7.html">Version 6.0.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.6.html">Version 6.0.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.5.html">Version 6.0.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.4.html">Version 6.0.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.2.html">Version 6.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.1.html">Version 6.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-6.0.0.html">Version 6.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.8.0.html">Version 5.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.6.1.html">Version 5.6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.6.0.html">Version 5.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.8.html">Version 5.2.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.7.html">Version 5.2.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.6.html">Version 5.2.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.5.html">Version 5.2.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.4.html">Version 5.2.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.3.html">Version 5.2.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.2.html">Version 5.2.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.1.html">Version 5.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.2.0.html">Version 5.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.1.1.html">Version 5.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.1.0.html">Version 5.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-5.0.0.html">Version 5.0.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.5.html">Version 4.9.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.4.html">Version 4.9.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.3.html">Version 4.9.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.2.html">Version 4.9.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.1.html">Version 4.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-4.9.0.html">Version 4.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.12.html">Version 3.8.12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.11.html">Version 3.8.11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.10.html">Version 3.8.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.9.html">Version 3.8.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.8.html">Version 3.8.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.7.html">Version 3.8.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.6.html">Version 3.8.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.5.html">Version 3.8.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.4.html">Version 3.8.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.3.html">Version 3.8.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.2.html">Version 3.8.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.1.html">Version 3.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.8.0.html">Version 3.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.5.1.html">Version 3.5.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.5.0.html">Version 3.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.3.1.html">Version 3.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.3.0.html">Version 3.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.1.2.html">Version 3.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.1.1.html">Version 3.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-3.1.0.html">Version 3.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-2.9.2.html">Version 2.9.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-2.9.1.html">Version 2.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-2.9.0.html">Version 2.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes-2.8.0.html">Version 2.8.0</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Changes</a> &raquo;</li>
+        
+      <li>Version 8.0.1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/changes/changes-8.0.1.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="version-8-0-1">
+<span id="version-8-0-1"></span><h1>Version 8.0.1<a class="headerlink" href="#version-8-0-1" title="Permalink to this headline">¶</a></h1>
+<p>Beantrader Latinum version 8.0.1 is a bugfix release.</p>
+<p>The most important changes are listed in this document.</p>
+<div class="section" id="general">
+<span id="general"></span><h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Updated the IEX data feed adding many new international exchanges.
+The list of new exchanges is included below [^1]. It is highly
+recommended you use the new Exchange Blacklist setting in the IEX
+Connection Settings window to disable all the exchanges you won’t be
+using, more on the new window below.</p></li>
+</ul>
+</div>
+<div class="section" id="datafeed">
+<span id="datafeed"></span><h2>Datafeed<a class="headerlink" href="#datafeed" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Added Percent Change to Alpaca quotes</p></li>
+<li><p>Fixed Bitfinex WebSocket ping/pong and heartbeat interval</p></li>
+<li><p>TIINGO</p>
+<ul>
+<li><p>Fixed EOD values overwriting newer IEX values in the quotes table</p></li>
+<li><p>Fixed delay connecting Tiingo IEX WebSocket</p></li>
+<li><p>Fixed empty Tiingo percent change column</p></li>
+</ul>
+</li>
+<li><p>IEX</p>
+<ul>
+<li><p>Added IEX Connection Settings window with options to control the
+adjusted price method (between split-only and fully adjusted) and
+an option to blacklist exchanges. Blacklisting exchanges reduces
+the amount of memory the app consumes, makes app startup time
+faster, reduces the amount of data downloaded, and speeds up
+symbol searches. You can open the new settings window from
+File &gt; Broker &gt; Connection Settings.</p></li>
+<li><p>Improved process for updating and storing IEX symbols</p></li>
+</ul>
+</li>
+</ul>
+<p>[^1]: List of new exchanges IEX Cloud provide data for (valid on
+2020-12-02, Expect changes):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>     <span class="o">*</span> <span class="n">Baku</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">BSEX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Limited</span> <span class="n">Shanghai</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Stock</span>
+       <span class="n">Connect</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">SHSC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Caracas</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">BVCA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Colombo</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCOL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Madrid</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMAD</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Dubai</span> <span class="n">Financial</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDFM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Spotlight</span> <span class="n">Stock</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSAT</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bm</span> <span class="n">Fbovespa</span> <span class="n">S</span> <span class="n">A</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">Mercadorias</span> <span class="n">E</span> <span class="n">Futuros</span>
+       <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">BVMF</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Norwegian</span> <span class="n">Over</span> <span class="n">The</span> <span class="n">Counter</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">NOTC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bourse</span> <span class="n">Regionale</span> <span class="n">Des</span> <span class="n">Valeurs</span> <span class="n">Mobilieres</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBRV</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Wiener</span> <span class="n">Boerse</span> <span class="n">Ag</span> <span class="n">Dritter</span> <span class="n">Markt</span> <span class="n">Third</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XWBO</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Ghana</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XGHA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Malawi</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMSW</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Malta</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMAL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Cambodia</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCSX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Dhaka</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDHA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bahrain</span> <span class="n">Bourse</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBAH</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bermuda</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBDA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Kuwait</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKUW</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bulgarian</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBUL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Cape</span> <span class="n">Verde</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBVC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Stuttgart</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSTU</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Limited</span> <span class="n">Shenzhen</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Stock</span>
+       <span class="n">Connect</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">SZSC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Rwanda</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">RSEX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Palestine</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XPAE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Botswana</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBOT</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">National</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">India</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Shanghai</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Shanghai</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Stock</span> <span class="n">Connect</span>
+       <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSSC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Aim</span> <span class="n">Italia</span> <span class="n">Mercato</span> <span class="n">Alternativo</span> <span class="n">Del</span> <span class="n">Capitale</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMIL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bahamas</span> <span class="n">International</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBAA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Hochiminh</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSTC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Barcelona</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBAR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Bilbao</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBIL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Algiers</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XALG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Republican</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSTE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Comercio</span> <span class="n">De</span> <span class="n">Buenos</span> <span class="n">Aires</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBUE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Otc</span> <span class="n">Grey</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">OTCM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Kyrgyz</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Budapest</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBUD</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Copenhagen</span> <span class="n">A</span> <span class="n">S</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Ukrainian</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">UKEX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bratislava</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBRA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Asx</span> <span class="n">All</span> <span class="n">Markets</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XASX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">The</span> <span class="n">International</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCIE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Cayman</span> <span class="n">Islands</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCAY</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">Nacional</span> <span class="n">Sa</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XGTG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Mongolian</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XULA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Spot</span> <span class="n">Regulated</span> <span class="n">Market</span> <span class="n">Bvb</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Taipei</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">ROCO</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Quito</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XQUI</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Portal</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XPOR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">Thailand</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBKK</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Korea</span> <span class="n">Exchange</span> <span class="n">Kosdaq</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKOS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Taiwan</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XTAI</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Egyptian</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCAI</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Riga</span> <span class="n">As</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XRIS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Stockholm</span> <span class="n">Ab</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSTO</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Korea</span> <span class="n">New</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKON</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Nms</span> <span class="n">Global</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNMS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nairobi</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNAI</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bursa</span> <span class="n">Malaysia</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKLS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Indonesia</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XIDX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Perspectiva</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">SEPE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Shenzhen</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSHE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Duesseldorf</span> <span class="n">Freiverkehr</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDUS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Lusaka</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLUS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Casablanca</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCAS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Montenegro</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMNX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Panama</span> <span class="n">S</span> <span class="n">A</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XPTY</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Saudi</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSAU</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Singapore</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSES</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Euronext</span> <span class="n">Euronext</span> <span class="n">London</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLDN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Douala</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDSX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Iceland</span> <span class="n">Hf</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XICE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Libyan</span> <span class="n">Stock</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLSM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bx</span> <span class="n">Swiss</span> <span class="n">Ag</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBRN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Berlin</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBER</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Cyprus</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCYS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Uganda</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XUGA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Frankfurt</span> <span class="n">Freiverkehr</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XFRA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">The</span> <span class="n">Nigerian</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNSA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Trinidad</span> <span class="n">And</span> <span class="n">Tobago</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XTRN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Hannover</span> <span class="n">Freiverkehr</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XHAN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Belgrade</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBEL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Borsa</span> <span class="n">Istanbul</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XIST</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Tallinn</span> <span class="n">As</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XTAL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Georgia</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XGSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Lao</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLAO</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Moscow</span> <span class="n">Exchange</span> <span class="n">All</span> <span class="n">Markets</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">MISX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Amman</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XAMM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Ab</span> <span class="n">Nasdaq</span> <span class="n">Vilnius</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLIT</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Omx</span> <span class="n">Armenia</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XARM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Qatar</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">DSMD</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Athens</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">ASEX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valencia</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XVAL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Namibian</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNAM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Banja</span> <span class="n">Luka</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBLB</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Dubai</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">DIFX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">The</span> <span class="n">Pakistan</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Limited</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKAR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">Nacional</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">S</span> <span class="n">A</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBNV</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nordic</span> <span class="n">Growth</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNGM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Moscow</span> <span class="n">Exchange</span> <span class="n">Derivatives</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">RTSX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Zagreb</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XZAG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Ljubljana</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Official</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLJU</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Astana</span> <span class="n">International</span> <span class="n">Exchange</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">AIXK</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">Boliviana</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">S</span> <span class="n">A</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBOL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Canadian</span> <span class="n">National</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCNQ</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Sarajevo</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Guayaquil</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XGUA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Macedonian</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMAE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nepal</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNEP</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Jamaica</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XJAM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">Mauritius</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMAU</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Luxembourg</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLUX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Iraq</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XIQS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Lima</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XLIM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Six</span> <span class="n">Swiss</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSWX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Colombia</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBOG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Osaka</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XOSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Hanseatische</span> <span class="n">Wertpapierboerse</span> <span class="n">Hamburg</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XHAM</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">New</span> <span class="n">Zealand</span> <span class="n">Exchange</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNZE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Damascus</span> <span class="n">Securities</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Japan</span> <span class="n">Exchange</span> <span class="n">Group</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XJPX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Muscat</span> <span class="n">Securities</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMUS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nyse</span> <span class="n">National</span> <span class="n">Inc</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCIS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Philippine</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Inc</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XPHS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Oslo</span> <span class="n">Bors</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XOSL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Shanghai</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSHG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">De</span> <span class="n">Montevideo</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMNT</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bourse</span> <span class="n">De</span> <span class="n">Tunis</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XTUN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Barbados</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBAB</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bourse</span> <span class="n">De</span> <span class="n">Beyrouth</span> <span class="n">Beirut</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XBEY</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Metropolitan</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">India</span> <span class="n">Limited</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">MCXX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Finra</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">FINR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Prague</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XPRA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Tehran</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XTEH</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Hanoi</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">HSTC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Dar</span> <span class="n">Es</span> <span class="n">Salaam</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XDAR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Aquis</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">NEXX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">National</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Of</span> <span class="n">Australia</span> <span class="n">Limited</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XNEC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Warsaw</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Equities</span> <span class="n">Main</span> <span class="n">Market</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XWAR</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Kazakhstan</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XKAZ</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">South</span> <span class="n">Pacific</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSPS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Bolsa</span> <span class="n">De</span> <span class="n">Valores</span> <span class="n">Y</span> <span class="n">Productos</span> <span class="n">De</span> <span class="n">Asuncion</span> <span class="n">Sa</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XVPA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Merj</span> <span class="n">Exchange</span> <span class="n">Limited</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">TRPX</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Pfts</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">PFTS</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Nasdaq</span> <span class="n">Helsinki</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XHEL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Exchanges</span> <span class="n">And</span> <span class="n">Clearing</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XHKG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Shenzhen</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Shenzhen</span> <span class="n">Hong</span> <span class="n">Kong</span> <span class="n">Stock</span> <span class="n">Connect</span>
+       <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSEC</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Chittagong</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Ltd</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XCHG</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Moldova</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMOL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Swaziland</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSWA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Belarus</span> <span class="n">Currency</span> <span class="n">And</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">BCSE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">El</span> <span class="n">Salvador</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XSVA</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Sydney</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="n">Limited</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">APXL</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Neo</span> <span class="n">Exchange</span> <span class="n">Neo</span> <span class="n">L</span> <span class="n">Market</span> <span class="n">By</span> <span class="n">Order</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">NEOE</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Boerse</span> <span class="n">Muenchen</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XMUN</span><span class="p">)</span>
+     <span class="o">*</span> <span class="n">Zimbabwe</span> <span class="n">Stock</span> <span class="n">Exchange</span> <span class="p">(</span><span class="n">MIC</span><span class="p">:</span> <span class="n">XZIM</span><span class="p">)</span>
+
+  <span class="n">All</span> <span class="n">international</span> <span class="n">exchanges</span> <span class="n">support</span> <span class="n">end</span> <span class="n">of</span> <span class="n">day</span> <span class="p">(</span><span class="n">EOD</span><span class="p">)</span> <span class="n">daily</span> <span class="n">charts</span>
+  <span class="ow">and</span> <span class="n">quotes</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="changes-8.0.0.html" class="btn btn-neutral float-right" title="Version 8.0.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Changes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'7.0.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+      <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-26974913-4"></script>
+      <script type="text/javascript" src="../_static/js/ga.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

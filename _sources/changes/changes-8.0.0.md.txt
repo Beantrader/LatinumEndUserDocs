@@ -1,0 +1,29 @@
+Version 8.0.0
+=============
+
+Beantrader Latinum version 8.0 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### General
+   * Added Tiingo connection. Tiingo provides 50+ years of EOD history
+     going back to 1962. It covers 65,000+ tickers (US Equities, ETFs,
+     Mutual Funds, and Chinese A-Shares). Tiingo also provides access to
+     IEX historical intraday prices, real-time top of book quote and last
+     sale information delivered with minimal latency.
+   * Improved stability and security
+   * Improved appearance on high DPI displays
+
+### Datafeed
+   * Fixed potential deadlock in Alpaca and many of the crypto feeds
+   * Fixed quitting app while still connected to FXCM
+
+### Workspaces
+   * Fixed auto-resizing issue that resulted in unused space on the right
+     edge of the workspace area
+
+Platform Specific
+-----------------
+
+### Mac
+   * Raised minimum macOS version required to High Sierra (10.13)
