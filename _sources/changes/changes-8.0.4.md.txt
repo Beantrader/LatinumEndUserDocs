@@ -1,0 +1,12 @@
+Version 8.0.4
+=============
+
+Beantrader Latinum version 8.0.4 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Fixed bug in minimum font size calculation
+
+### Studies
+   * Fixed application hang caused by SessionBox on non-intraday intervals

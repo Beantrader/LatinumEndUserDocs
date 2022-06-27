@@ -5,6 +5,14 @@ Changes
    :maxdepth: 2
    :caption: Contents:
 
+   changes-9.6.0
+   changes-8.5.1
+   changes-8.5.0
+   changes-8.3.0
+   changes-8.0.5
+   changes-8.0.4
+   changes-8.0.3
+   changes-8.0.2
    changes-8.0.1
    changes-8.0.0
    changes-7.9.1

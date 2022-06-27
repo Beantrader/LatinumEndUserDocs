@@ -1,0 +1,39 @@
+Version 9.6.0
+=============
+
+Beantrader Latinum version 9.6 contains bug fixes and new features.
+
+### Charts
+   * Added panning capability to Selection tool
+   * Added mouse and keyboard shortcuts to expand/compress price (i.e. vertical zoom) and to pan price axis (i.e vertical scroll):
+     * <kbd>Alt/Option</kbd>+<kbd>mouse wheel</kbd> to zoom in/out
+     * <kbd>Alt/Option</kbd>+<kbd>=</kbd> or <kbd>Alt/Option</kbd>+<kbd>+</kbd> to zoom in
+     * <kbd>Alt/Option</kbd>+<kbd>-</kbd> to zoom out
+     * <kbd>Shift</kbd>+<kbd>mouse wheel</kbd> to scroll vertically
+   * Added a full height "crop-guard" to the Zoom tool, making it easier to use. Undo Zoom using <kbd>Alt/Option</kbd>+<kbd>click</kbd>, or <kbd>\[</kbd>. Redo Zoom with <kbd>\]</kbd>.
+   * Fixed scrolling direction of <kbd>PgUp</kbd>/<kbd>PgDown</kbd> keys
+   * Removed slope and added change amount in scale units to the Measure tool display
+
+### Studies
+   * Added MA Multiplier, MA Multipliers studies
+   * Added Colorize Histogram option to MACD and MACD-Hist studies. It is off by default
+
+### Datafeed
+   * Added support for Bitstamp v2 OHLC data API. It provides BTC/USD candle data going back to 2011
+   * Added support for Gate.io v4 Market candlesticks API. It provides candle data for more symbols
+   * Added MEXC, FTX US, Crypto.com, Bybit Spot (BYBITSPOT), and Bybit Futures (BYBIT) chart data feeds. These data feeds update every 10 seconds.
+   * Added Bid/Ask data to HUOBI symbols in Quotes Sidebar
+   * Improved KuCoin data feed resulting in faster chart updates, ability to set price alerts, and access to trade feed and order book data
+   * Migrated to OKX V5 API for OKEX data feed. Candles are now UTC aligned. OKEx rebranded to OKX. The data feed ID (OKEX) remains unchanged
+   * Migrated to Alpaca Market Data API V2
+   * Fixed cTrader log in
+   * Fixed BitBay data feed. BitBay has rebranded to Zonda. The data feed ID (BITBAY) remains unchanged
+   * Fixed Huobi Indonesia data feed
+   * Fixed time zone used to resample KuCoin and OKCoin candles
+   * Removed Bit-Z, Huobi Argentina, Huobi Thailand, and Quoine data feeds
+
+Platform Specific
+-----------------
+
+### Mac
+   * Raised minimum macOS version required to Mojave (10.14)

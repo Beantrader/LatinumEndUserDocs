@@ -1,0 +1,16 @@
+Version 8.0.2
+=============
+
+Beantrader Latinum version 8.0.2 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Datafeed
+   * ALPACA
+      * Fixed last price not updating in the quotes sidebar
+      * Fixed saving of Use Data WebSocket option shown in the login
+        window. The default value is to use it.
+   * TIINGO
+      * Added Use IEX WebSocket option to the login window. The default
+        value is to disable it. To change the option value, log out and
+        log back in checking or unchecking the option on the login window.

@@ -1,0 +1,29 @@
+Version 8.3.0
+=============
+
+Beantrader Latinum version 8.3 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added Chart Symbol and Reload buttons that are displayed over the
+     chart on data loading errors
+   * Added saving of active tab when using Show Studies Tabbed option
+   * Added Log Scale option for studies
+   * Fixed axis mouse scaling for semi-log plots
+   * Fixed mouse panning for semi-log plots
+
+### Studies
+   * Added Reactivate context menu item for lines drawn by the price alert
+     study
+   * Added Volume-Price Trend (VPT) indicator
+   * Added color parameter type for custom studies. This allows users to
+     override colors used in studies that programmatically color values
+     depending on a specific condition. The text input must be an SVG
+     color keyword name or hex color code
+
+### Datafeed
+   * Added CoinGecko data feed. It provides price, market cap, and 24h
+     volume data for over 6000 assets in 60 currencies. Always up-to-date
+     CoinGecko symbols can be found in the new Symbol Builder tool
+     accessible from the More Symbols button on the Search Search window

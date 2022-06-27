@@ -1,0 +1,30 @@
+Version 8.5.0
+=============
+
+Beantrader Latinum version 8.5 contains bug fixes and new features.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added abbreviations for billions (B) and trillions (T) in scale
+     labels. This change makes it easier to read large indicator values,
+     like volume for instruments that trade at fractions of a penny.
+     Previously the largest abbreviation used was millions (M)
+
+### Drawing
+   * Added Deselect button to the format bar. This change makes it easier
+     to deselect new drawings when the Selection tool
+     (aka Black Arrow tool) is not active
+   * Added spinbox for fill color opacity to the format bar. This change
+     makes it easier to change the opacity of a shape without having to
+     open the color picker window
+
+### Studies
+   * Added Moving Average Cloud (MaCloud) study. Inspired by the
+     Bull Market Support Band described by Benjamin Cowen
+
+### Datafeed
+   * Updated the FXCM data feed (to ForexConnect 1.6.4). This fixes
+     signing in to demo accounts
+   * Removed Huobi Russia, Binance Jersey, ACX, OKEx Korea, and
+     Crypto Facilities data feeds

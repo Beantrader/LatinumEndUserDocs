@@ -1,0 +1,24 @@
+Version 8.0.5
+=============
+
+Beantrader Latinum version 8.0.5 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### General
+   * Improved general efficiency
+
+### Drawing
+   * Increased anchor point and handle size making drawings easier to edit
+
+### Studies
+   * Fixed some memory leaks
+
+### Datafeed
+   * Fixed network timeout issue when updating IEX symbols
+   * Fixed WebSocket continuous reconnection issue after a network timeout
+
+### Workspaces
+   * Added ability to group workspace menu entries into sub-menus.
+     When a workspace name begins with an open parenthesis any text up to
+     the close parenthesis will be used to group the workspaces.

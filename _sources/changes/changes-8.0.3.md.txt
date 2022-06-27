@@ -1,0 +1,25 @@
+Version 8.0.3
+=============
+
+Beantrader Latinum version 8.0.3 is a bugfix release.
+
+The most important changes are listed in this document.
+
+### Charts
+   * Added option to customize each charts bar spacing. The option is
+     available from the charts' toolbar
+   * Fixed delay in autoscaling when scrolling with a mouse
+
+### Drawing
+   * Increased click error tolerance of stop loss, take profit, and alert
+     lines drawn on the chart making them easier to move.
+
+### Studies
+   * Added SessionBox built-in study. This study draws semi-transparent
+     rectangles enclosing the price action that occurred during a trading
+     session. Preset trading schedules for Forex and US stocks included.
+
+### Datafeed
+   * Fixed auto-reconnect in Spotware Open API (CTRADER) connection
+   * Increased delay auto-reconnecting to the Poloniex WebSocket when it
+     is consistently failing
