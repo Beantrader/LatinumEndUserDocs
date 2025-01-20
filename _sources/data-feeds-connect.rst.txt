@@ -1,0 +1,9 @@
+Connect Data Feeds
+==================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   connect-alpaca-paper
+   connect-tiingo

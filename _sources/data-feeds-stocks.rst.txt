@@ -26,6 +26,12 @@ Stocks Data Feeds
    :height: 32px
    :alt: IEX
 
+.. _TIINGO:
+.. |logo_tiingo.svg| image:: images/icons-data-feed/tiingo.svg
+   :width: 32px
+   :height: 32px
+   :alt: Tiingo
+
 
 |logo_alpaca.png| Alpaca
 ------------------------
@@ -48,48 +54,22 @@ Alpaca provides data for US stocks. Paper trading is free and available to all A
 |logo_iex.png| IEX
 ------------------
 
-IEX provides data for US and international stocks.
+The IEX Cloud company is defunct. The IEX Stocks data feed has not worked since August 31, 2024
 
-`<https://iexcloud.io/>`_
+
+|logo_tiingo.svg| Tiingo
+------------------------
+
+Tiingo provides data for US & Chinese markets.
+
+`<https://www.tiingo.com/>`_
 
 ✔ Price Charts
 
-   Charts update every 500 milliseconds
-   (when data is available, see note).
-   This update interval will
-   automatically increase if no trading activity is detected (up to 64 seconds)
+   Charts update EOD
 
-
-✔ Quotes in Sidebar
+✖ [No] Quotes in Sidebar
 
 ✖ [No] Order Book
 
 ✖ [No] Trade Feed
-
-.. note::
-   The current list of exchanges supported by the IEX data feed include
-   Abu Dhabi Securities Exchange,
-   Tel Aviv Stock Exchange,
-   Bombay Stock Exchange (BSE Ltd.),
-   Korea Exchange, Euronext Brussels,
-   XETRA, Euronext Paris,
-   London Stock Exchange,
-   Euronext Dublin,
-   Euronext Amsterdam,
-   Euronext Lisbon,
-   Toronto Stock Exchange,
-   TSX Venture Exchange,
-   Mexican Stock Exchange,
-   NYSE American,
-   Cboe BZX US Equities Exchange,
-   IEX Markets,
-   NASDAQ,
-   New York Stock Exchange,
-   US OTC,
-   NASDAQ OMX PHLX,
-   and NYSE Arca.
-   US exchanges (excl. US OTC) support intraday and daily charts
-   updated with sub-second quotes from IEX or 15 minute delayed quotes
-   (if no trades have occurred on IEX),
-   US OTC and international exchanges support End Of Day (EOD) daily charts and quotes.
-   This list was valid on 2019-12-03.

@@ -1,0 +1,265 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Connect to Alpaca Markets for Paper Trading and Market Data &mdash; Latinum User 7.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Connect to Tiingo for Market Data" href="connect-tiingo.html" />
+    <link rel="prev" title="Connect Data Feeds" href="data-feeds-connect.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Latinum User
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="videos.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-feeds-supported.html">Supported Data Feeds</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="data-feeds-connect.html">Connect Data Feeds</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Connect to Alpaca Markets for Paper Trading and Market Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="connect-tiingo.html">Connect to Tiingo for Market Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="symbols-symbol-lists.html">Symbol Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-menu-bar-menu-items.html">Main Menu Bar Menu Items</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workspace-basics.html">Workspace Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-options-window.html">App Options window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-toolbar.html">Chart Toolbar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-settings.html">Charts Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chart-properties-window.html">Chart Properties window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-chart-types.html">Chart Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="candlestick-trend-chart-type.html">Candlestick Trend Chart Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="charts-zooming-and-panning.html">Zooming and Panning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies.html">Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-attributes-window.html">Study Attributes window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-volumebyprice.html">Volume by Price</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-zigzag.html">ZigZag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="studies-bill-williams.html">Bill Williams Indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trading.html">Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="order-book-window.html">Order Book window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trade-feed-window.html">Trade Feed window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="broker-selection-window.html">Broker Selection window</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exporting-data.html">Exporting Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes/index.html">Changes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Latinum User</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="data-feeds-connect.html">Connect Data Feeds</a> &raquo;</li>
+        
+      <li>Connect to Alpaca Markets for Paper Trading and Market Data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/connect-alpaca-paper.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="connect-to-alpaca-markets-for-paper-trading-and-market-data">
+<h1>Connect to Alpaca Markets for Paper Trading and Market Data<a class="headerlink" href="#connect-to-alpaca-markets-for-paper-trading-and-market-data" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Stocks data feeds available only in <em>Latinum</em> (standard edition)
+and <em>Latinum Stocks for Mac</em>.</p>
+</div>
+<p>An Alpaca Markets Trading API account is required. Please visit <a class="reference external" href="https://alpaca.markets/">alpaca.markets</a> and sign up for one. Paper Trading accounts are free and don’t require identity documents.</p>
+<p>Visit your <a class="reference external" href="https://app.alpaca.markets/brokerage/dashboard/overview">Alpaca dashboard</a> and look for the <strong>API Keys</strong> section in the right sidebar. Click on <strong>Generate New Keys</strong>. Save the new Key ID and Secret Key somewhere where you can copy them into Latinum. If you forget your keys, you can regenerate them.</p>
+<p>Please read the <a class="reference external" href="https://docs.alpaca.markets/docs/getting-started-with-alpaca-market-data#generate-api-keys">Alpaca documentation</a> for updated instructions if those provided here are incorrect.</p>
+<p>Open Latinum. The <a class="reference internal" href="broker-selection-window.html#broker-selection-window"><span class="std std-ref">Broker Selection</span></a> window will be displayed. This window is sometimes called the Connection Selection window. Select <strong>Alpaca Paper</strong> and click <strong>OK</strong>.</p>
+<p>The Alpaca Login window will be displayed. Paste in the Key ID and Secret Key you generated earlier. Click on <strong>OK</strong>.</p>
+<img alt="_images/login-alpaca-paper-dialog.png" class="align-center" src="_images/login-alpaca-paper-dialog.png" />
+<p>The Alpaca data feed will now be available in Latinum. To connect using different options, navigate to <strong>File</strong> -&gt; <strong>Logout</strong> and restart Latinum.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="connect-tiingo.html" class="btn btn-neutral float-right" title="Connect to Tiingo for Market Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="data-feeds-connect.html" class="btn btn-neutral" title="Connect Data Feeds" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Seamus Boyle.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'7.0.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/language_data.js"></script>
+      <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-26974913-4"></script>
+      <script type="text/javascript" src="_static/js/ga.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

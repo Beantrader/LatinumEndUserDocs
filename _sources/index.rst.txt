@@ -12,6 +12,7 @@ Welcome to Latinum User's documentation!
 
    videos
    data-feeds-supported
+   data-feeds-connect
    symbols-symbol-lists
    main-menu-bar-menu-items
    workspace-basics
@@ -30,5 +31,6 @@ Welcome to Latinum User's documentation!
    trading
    order-book-window
    trade-feed-window
+   broker-selection-window
    exporting-data
    changes/index
