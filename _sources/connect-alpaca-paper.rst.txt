@@ -1,9 +1,11 @@
-Connect to Alpaca Markets for Paper Trading and Market Data
-===========================================================
+Connect to Alpaca Paper
+=======================
 
 .. note::
    Stocks data feeds available only in *Latinum* (standard edition)
    and *Latinum Stocks for Mac*.
+
+Connect to Alpaca Markets for paper trading and market data.
 
 Sign up to Alpaca and Generate Keys
 -----------------------------------

@@ -1,9 +1,11 @@
-Connect to Tiingo for Market Data
-=================================
+Connect to Tiingo
+=================
 
 .. note::
    Stocks data feeds available only in *Latinum* (standard edition)
    and *Latinum Stocks for Mac*.
+
+Connect to Tiingo for market data.
 
 Sign up to Tiingo and Find API Token
 ------------------------------------
