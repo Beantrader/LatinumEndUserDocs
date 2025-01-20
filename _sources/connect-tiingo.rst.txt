@@ -5,11 +5,17 @@ Connect to Tiingo for Market Data
    Stocks data feeds available only in *Latinum* (standard edition)
    and *Latinum Stocks for Mac*.
 
+Sign up to Tiingo and Find API Token
+------------------------------------
+
 A Tiingo account is required. Please visit `Tiingo <https://www.tiingo.com/>`_ and sign up for one. Tiingo accounts are free and don't require identity documents.
 
 Visit the `API Token section <https://www.tiingo.com/account/api/token>`_ of your account dashboard. Save the API Token somewhere where you can copy it into Latinum.
 
 Please read the `Tiingo documentation <https://www.tiingo.com/documentation/general/connecting>`_ for updated instructions if those provided here are incorrect.
+
+Configure Latinum
+-----------------
 
 Open Latinum. The :ref:`Broker Selection <broker-selection-window>` window will be displayed. This window is sometimes called the Connection Selection window. Select **Tiingo** and click **OK**.
 

@@ -5,11 +5,17 @@ Connect to Alpaca Markets for Paper Trading and Market Data
    Stocks data feeds available only in *Latinum* (standard edition)
    and *Latinum Stocks for Mac*.
 
+Sign up to Alpaca and Generate Keys
+-----------------------------------
+
 An Alpaca Markets Trading API account is required. Please visit `alpaca.markets <https://alpaca.markets/>`_ and sign up for one. Paper Trading accounts are free and don't require identity documents.
 
 Visit your `Alpaca dashboard <https://app.alpaca.markets/brokerage/dashboard/overview>`_ and look for the **API Keys** section in the right sidebar. Click on **Generate New Keys**. Save the new Key ID and Secret Key somewhere where you can copy them into Latinum. If you forget your keys, you can regenerate them.
 
 Please read the `Alpaca documentation <https://docs.alpaca.markets/docs/getting-started-with-alpaca-market-data#generate-api-keys>`_ for updated instructions if those provided here are incorrect.
+
+Configure Latinum
+-----------------
 
 Open Latinum. The :ref:`Broker Selection <broker-selection-window>` window will be displayed. This window is sometimes called the Connection Selection window. Select **Alpaca Paper** and click **OK**.
 
